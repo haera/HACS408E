@@ -26,26 +26,43 @@ Course description here.
 
 | Week | Topic | Description | Lab |
 | --- | --- | --- | --- |
-| Week 1 | Assembly introduction | Something here | Lab here |
-| Week 2 | Topic | Description | Lab |
-| Week 3 | Topic | Description | Lab |
-| Week 4 | Topic | Description | Lab |
-| Week 5 | Topic | Description | Lab |
-| Week 6 | Topic | Description | Lab |
-| Week 7 | Topic | Description | Lab |
-| Week 8 | Topic | Description | Lab |
-| Week 9 | Topic | Description | Lab |
-| Week 10 | Topic | Description | Lab |
-| Week 11 | Topic | Description | Lab |
-| Week 12 | Topic | Description | Lab |
-| Week 13 | Topic | Description | Lab |
-| Week 14 | Topic | Description | Lab |
-| Week 15 | Topic | Description | Lab |
-| Week 16 | Topic | Description | Lab |
+| Week 1 | Assembly introduction | Basic overview of x86/x64 assembly, calling conventions, etc | TBD |
+| Week 2 | Static analysis I | Description | TBD |
+| Week 3 | Static analysis II | Description | TBD |
+| Week 4 | Dyanamic analysis | Description | CMU binary bomb |
+| Week 5 | Ghidra | Description | TBD |
+| Week 6 | Vulnerability Analysis I | Description | TBD |
+| Week 7 | Vulnerability Analysis II | Description | TBD |
+| Week 8 | Protocols | Description | TBD |
+| Week 9 | Cryptanalysis | Description | TBD |
+| Week 10 | Windows | Description | TBD |
+| Week 11 | Malware I | Description | TBD |
+| Week 12 | Rootkits | Description | TBD |
+| Week 13 | Firmware | Description | TBD |
+| Week 14 | TBD | Description | TBD |
+| Week 15 | TBD | Description | TBD |
+
+**Miscellaneous topics**: Implementing reverse engineering tools, symbolic execution, non-compiled code
 
 ---
 
-### Miscellaneous Ideas
+## Projects
+
+- Malware (with delay that should be removed)
+
+## Policies
+
+### Homework
+
+- Due each week before class
+
+### Grading
+
+- Drop lowest homework
+
+---
+
+## Miscellaneous Ideas
 
 - Reverse the [Feisti and TDL3](https://github.com/bootkitsbook/rootkits) rootkits from *Rootkits and Bootkits* book
 - Malware from Practical Malware Analysis or newer malware book
