@@ -24,6 +24,10 @@ Course description here.
 
 ## Topics
 
+| Week | Topic | Description | Lab |
+| --- | --- | --- | --- |
+| Week 1 | Assembly introduction | Something here | Lab here |
+
 ---
 
 ### Miscellaneous Ideas
