@@ -27,6 +27,21 @@ Course description here.
 | Week | Topic | Description | Lab |
 | --- | --- | --- | --- |
 | Week 1 | Assembly introduction | Something here | Lab here |
+| Week 2 | Topic | Description | Lab |
+| Week 3 | Topic | Description | Lab |
+| Week 4 | Topic | Description | Lab |
+| Week 5 | Topic | Description | Lab |
+| Week 6 | Topic | Description | Lab |
+| Week 7 | Topic | Description | Lab |
+| Week 8 | Topic | Description | Lab |
+| Week 9 | Topic | Description | Lab |
+| Week 10 | Topic | Description | Lab |
+| Week 11 | Topic | Description | Lab |
+| Week 12 | Topic | Description | Lab |
+| Week 13 | Topic | Description | Lab |
+| Week 14 | Topic | Description | Lab |
+| Week 15 | Topic | Description | Lab |
+| Week 16 | Topic | Description | Lab |
 
 ---
 
