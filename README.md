@@ -26,21 +26,21 @@ Course description here.
 
 | Week | Topic | Description | Lab |
 | --- | --- | --- | --- |
-| Week 1 | Assembly introduction | Basic overview of x86/x64 assembly, calling conventions, etc | TBD |
-| Week 2 | Static analysis I | Description | TBD |
-| Week 3 | Static analysis II | Description | TBD |
-| Week 4 | Dyanamic analysis | Description | CMU binary bomb |
-| Week 5 | Ghidra | Description | TBD |
-| Week 6 | Vulnerability Analysis I | Description | TBD |
-| Week 7 | Vulnerability Analysis II | Description | TBD |
-| Week 8 | Protocols | Description | TBD |
-| Week 9 | Cryptanalysis | Description | TBD |
-| Week 10 | Windows | Description | TBD |
-| Week 11 | Malware I | Description | TBD |
-| Week 12 | Rootkits | Description | TBD |
-| Week 13 | Firmware | Description | TBD |
-| Week 14 | TBD | Description | TBD |
-| Week 15 | TBD | Description | TBD |
+| 1 | Assembly introduction | Basic overview of x86/x64 assembly, calling conventions, etc | TBD |
+| 2 | Static analysis I | Description | TBD |
+| 3 | Static analysis II | Description | TBD |
+| 4 | Dyanamic analysis | Description | CMU binary bomb |
+| 5 | Ghidra | Description | TBD |
+| 6 | Vulnerability Analysis I | Description | TBD |
+| 7 | Vulnerability Analysis II | Description | TBD |
+| 8 | Protocols | Description | TBD |
+| 9 | Cryptanalysis | Description | TBD |
+| 10 | Windows | Description | TBD |
+| 11 | Malware I | Description | TBD |
+| 12 | Rootkits | Description | TBD |
+| 13 | Firmware | Description | TBD |
+| 14 | TBD | Description | TBD |
+| 15 | TBD | Description | TBD |
 
 **Miscellaneous topics**: Implementing reverse engineering tools, symbolic execution, non-compiled code
 
