@@ -29,7 +29,7 @@ Course description here.
 | 1 | Assembly introduction | Basic overview of x86/x64 assembly, calling conventions, etc | TBD |
 | 2 | Static analysis I | Description | TBD |
 | 3 | Static analysis II | Description | TBD |
-| 4 | Dyanamic analysis | GDB, binaryninja debugger | binary bomb (like CMU one) |
+| 4 | Dynamic analysis | GDB, binaryninja debugger | binary bomb (like CMU one) |
 | 5 | Ghidra | struct recovery, collaboration | TBD |
 | 6 | Vulnerability Analysis I | Description | TBD |
 | 7 | Vulnerability Analysis II | Description | TBD |
@@ -42,7 +42,7 @@ Course description here.
 | 14 | Final Project I | Description | TBD |
 | 15 | Final Project II | Description | TBD |
 
-**Miscellaneous topics**: Implementing reverse engineering tools, symbolic execution, non-compiled code
+**Miscellaneous topics**: Implementing reverse engineering tools, symbolic execution, non-compiled code, IOT devices
 
 ---
 
@@ -65,6 +65,6 @@ Course description here.
 ## Miscellaneous Ideas
 
 - Reverse the [Feisti and TDL3](https://github.com/bootkitsbook/rootkits) rootkits from *Rootkits and Bootkits* book
-- Malware from Practical Malware Analysis or newer malware book
+- Malware from Practical Malware Analysis or Mastering Malware Analysis
 - Trigger malware kill switch by registering domain
 - Find some leaked cyberweapon to reverse engineer
