@@ -19,6 +19,7 @@ Course description here.
 - **Protocols**: [Attacking Network Protocols](https://www.amazon.com/Attacking-Network-Protocols-Analysis-Exploitation/dp/1593277504/)
 - **Binary Analysis**: [Practical Binary Analysis](https://www.amazon.com/Practical-Binary-Analysis-Instrumentation-Disassembly/dp/1593279124/)
 - **IOT**: [Practical IOT Hacking](https://nostarch.com/practical-iot-hacking), [The IoT Hacker’s Handbook](https://link.springer.com/book/10.1007/978-1-4842-4300-8)
+- **Hardware**: [Hardware Hacker's Handbook](https://nostarch.com/hardwarehacking)
 - **Miscellaneous**: [Introduction to Cyber-Warfare](https://www.amazon.com/Introduction-Cyber-Warfare-Multidisciplinary-Paulo-Shakarian/dp/0124078141), [The Ghidra Book](https://www.amazon.com/Ghidra-Book-Definitive-Guide/dp/1718501021)
 
 ---
@@ -34,16 +35,16 @@ Course description here.
 | 5 | Ghidra | struct recovery, collaboration | TBD |
 | 6 | Vulnerability Analysis I | Description | TBD |
 | 7 | Vulnerability Analysis II | Description | TBD |
-| 8 | Cryptanalysis | Description | TBD |
+| 8 | Protocols | Description | TBD |
 | 9 | Windows | Description | TBD |
-| 10 | Protocols | Description | TBD |
-| 11 | Malware | Description | TBD |
-| 12 | Rootkits | Description | TBD |
-| 13 | Firmware | Description | TBD |
+| 10 | Malware | Description | TBD |
+| 11 | Rootkits | Description | TBD |
+| 12 | Firmware | Description | TBD |
+| 13 | Hardware | Description | TBD |
 | 14 | Final Project I | Description | TBD |
 | 15 | Final Project II | Description | TBD |
 
-**Miscellaneous topics**: Implementing reverse engineering tools, symbolic execution, non-compiled code, IOT devices
+**Miscellaneous topics**: Cryptanalysis, implementing reverse engineering tools, symbolic execution, non-compiled code, IOT devices
 
 ---
 
