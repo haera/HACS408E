@@ -52,6 +52,10 @@ Course description here.
 
 - TBD
 
+### Final Project
+
+- Codebreaker challenges
+
 ## Policies
 
 ### Homework
