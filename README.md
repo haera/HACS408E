@@ -67,6 +67,7 @@ Course description here.
 ## Miscellaneous Ideas
 
 - Reverse the [Feisti and TDL3](https://github.com/bootkitsbook/rootkits) rootkits from *Rootkits and Bootkits* book
+- Utilize Pwn Island 3? Potentially some performance issues.
 - Malware from Practical Malware Analysis or Mastering Malware Analysis
 - Trigger malware kill switch by registering domain
 - Find some leaked cyberweapon to reverse engineer
