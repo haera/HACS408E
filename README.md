@@ -2,6 +2,11 @@
 
 Course description here.
 
+### Todo
+
+- Make course website (syllabus with hugo hosted on github pages)
+- HTML slides hosted on website created with [reveal.js](https://revealjs.com)
+
 ---
 
 ### Requried Texts
