@@ -29,26 +29,26 @@ Course description here.
 | 1 | Assembly introduction | Basic overview of x86/x64 assembly, calling conventions, etc | TBD |
 | 2 | Static analysis I | Description | TBD |
 | 3 | Static analysis II | Description | TBD |
-| 4 | Dyanamic analysis | Description | CMU binary bomb |
-| 5 | Ghidra | Description | TBD |
+| 4 | Dyanamic analysis | GDB, binaryninja debugger | binary bomb (like CMU one) |
+| 5 | Ghidra | struct recovery, collaboration | TBD |
 | 6 | Vulnerability Analysis I | Description | TBD |
 | 7 | Vulnerability Analysis II | Description | TBD |
-| 8 | Protocols | Description | TBD |
-| 9 | Cryptanalysis | Description | TBD |
-| 10 | Windows | Description | TBD |
-| 11 | Malware I | Description | TBD |
+| 8 | Cryptanalysis | Description | TBD |
+| 9 | Windows | Description | TBD |
+| 10 | Protocols | Description | TBD |
+| 11 | Malware | Description | TBD |
 | 12 | Rootkits | Description | TBD |
 | 13 | Firmware | Description | TBD |
-| 14 | TBD | Description | TBD |
-| 15 | TBD | Description | TBD |
+| 14 | Final Project I | Description | TBD |
+| 15 | Final Project II | Description | TBD |
 
 **Miscellaneous topics**: Implementing reverse engineering tools, symbolic execution, non-compiled code
 
 ---
 
-## Projects
+## Labs
 
-- Malware (with delay that should be removed)
+- TBD
 
 ## Policies
 
