@@ -6,6 +6,7 @@ Course description here.
 
 - Make course website (syllabus with hugo hosted on github pages)
 - HTML slides hosted on website created with [reveal.js](https://revealjs.com)
+- Cheat sheets for various tools
 
 ---
 
