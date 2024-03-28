@@ -1,11 +1,12 @@
 # HACS408E: Reverse Engineering
 
-Course description here.
+**Couse Description**: *This course introduces students to the tools and techniques required to analyze the security properties of various systems. Topics covered include assembly language, executable file formats, operating system internals, and the static/dynamic analysis of compiled binaries. Students will apply these concepts to real-world scenarios like malware analysis and vulnerability analysis with interactive labs, at-home assignments, and a final project.*
 
 ### Todo
 
 - Make course website (syllabus with hugo hosted on github pages)
-- HTML slides hosted on website created with [reveal.js](https://revealjs.com)
+  - Each lecture has HTML slides created with [reveal.js](https://revealjs.com)
+  - Each lecture has lecture notes
 - Cheat sheets for various tools
 
 ---
