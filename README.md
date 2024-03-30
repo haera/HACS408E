@@ -8,6 +8,7 @@
   - Each lecture has HTML slides created with [reveal.js](https://revealjs.com)
   - Each lecture has lecture notes
 - Cheat sheets for various tools
+- Sift through [vx underground malware code](https://github.com/vxunderground/MalwareSourceCode)
 
 ---
 
