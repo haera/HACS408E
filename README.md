@@ -47,8 +47,8 @@
 | 6 | Vulnerability Analysis I | Description | TBD |
 | 7 | Vulnerability Analysis II | Description | TBD |
 | 8 | Protocols | Description | TBD |
-| 9 | Windows | Description | TBD |
-| 10 | Malware | Description | TBD |
+| 9 | Malware I | Windows internals, basic malware | TBD |
+| 10 | Malware II | Description | TBD |
 | 11 | Rootkits | Description | TBD |
 | 12 | Firmware | Description | TBD |
 | 13 | Hardware | Description | TBD |
