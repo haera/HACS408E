@@ -7,6 +7,7 @@
 - Make course website (syllabus with hugo hosted on github pages)
   - Each lecture has HTML slides created with [reveal.js](https://revealjs.com)
   - Each lecture has lecture notes
+- Bootable USB sticks with locked-down Windows
 - Cheat sheets for various tools
 
 ---
