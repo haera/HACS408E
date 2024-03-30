@@ -8,7 +8,6 @@
   - Each lecture has HTML slides created with [reveal.js](https://revealjs.com)
   - Each lecture has lecture notes
 - Cheat sheets for various tools
-- Sift through [vx underground malware code](https://github.com/vxunderground/MalwareSourceCode)
 
 ---
 
@@ -29,6 +28,10 @@
 - **IOT**: [Practical IOT Hacking](https://nostarch.com/practical-iot-hacking), [The IoT Hacker’s Handbook](https://link.springer.com/book/10.1007/978-1-4842-4300-8)
 - **Hardware**: [Hardware Hacker's Handbook](https://nostarch.com/hardwarehacking)
 - **Miscellaneous**: [Introduction to Cyber-Warfare](https://www.amazon.com/Introduction-Cyber-Warfare-Multidisciplinary-Paulo-Shakarian/dp/0124078141), [The Ghidra Book](https://www.amazon.com/Ghidra-Book-Definitive-Guide/dp/1718501021)
+
+### Other Resources
+- [MalDev academy](https://maldevacademy.com/)
+- [Vx underground malware code](https://github.com/vxunderground/MalwareSourceCode)
 
 ---
 
