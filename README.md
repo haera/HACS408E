@@ -16,6 +16,13 @@
 
 - TBD. Likely none.
 
+### System Requirements
+
+- Most labs and exercises are assumed to be done on unix like systems.
+- Maybe windows vm required?
+- Newer Macbooks will be running on arm... Should we make arm versions of the
+  assembly lab + homework?
+
 ### Reference Texts
 
 - **General**: [Practical Reverse Engineering](https://www.amazon.com/Practical-Reverse-Engineering-Reversing-Obfuscation/dp/1118787315), [Secrets of Reverse Engineering](https://www.amazon.com/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817/), [x86 Software Reverse Engineering](https://www.amazon.com/dp/1394199880/)
@@ -33,6 +40,8 @@
 ### Other Resources
 - [MalDev academy](https://maldevacademy.com/)
 - [Vx underground malware code](https://github.com/vxunderground/MalwareSourceCode)
+- [pwn.college](https://pwn.college/program-security/reverse-engineering)
+- [Compiler Explorer](https://godbolt.org/) | [Decompiler Explorer](https://dogbolt.org)
 
 ---
 
@@ -62,7 +71,17 @@
 
 ## Labs
 
-- TBD
+### Lab 1 - Assembly Language
+
+Write a function in assembly to compute the GCD of two arguments passed in
+to the function. Give a C harness to the students to use for testing with a
+blank `.s` file to put their assembly code.
+
+Requirements:
+ - C harness
+ - Makefile to properly build and link assembly code
+
+Homework:
 
 ### Final Project
 
