@@ -81,6 +81,10 @@ Requirements:
  - C harness
  - Makefile to properly build and link assembly code
 
+### Lab X - Cryptography
+
+Give them a crypt implementation and specification to compare. Break the crypto in order to decrypt the communications.
+
 Homework:
 
 ### Final Project
