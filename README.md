@@ -93,6 +93,14 @@ Homework:
 
 ## Policies
 
+### Each Week
+
+- Distribute slides
+- Distribute lecture notes
+- Distribute in-class lab, lab guides, and lab solutions
+- Distribute list of 20 questions, quiz will be 5 of them
+- Assign a short-ish homework lab
+
 ### Homework
 
 - Due each week before class
