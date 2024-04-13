@@ -110,3 +110,4 @@ Homework:
 - Malware from Practical Malware Analysis or Mastering Malware Analysis
 - Trigger malware kill switch by registering domain
 - Find some leaked cyberweapon to reverse engineer
+- Analyze the backdoor in xz binaries?
