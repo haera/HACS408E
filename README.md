@@ -54,16 +54,13 @@
 | 3 | Static analysis II | Description | TBD |
 | 4 | Dynamic analysis | GDB, binaryninja debugger | binary bomb (like CMU one) |
 | 5 | Ghidra | struct recovery, collaboration | TBD |
-| 6 | Vulnerability Analysis I | Description | TBD |
-| 7 | Vulnerability Analysis II | Description | TBD |
-| 8 | Protocols | Description | TBD |
-| 9 | Malware I | Windows internals, basic malware | TBD |
-| 10 | Malware II | Description | TBD |
-| 11 | Rootkits | Description | TBD |
-| 12 | Firmware | Description | TBD |
-| 13 | Hardware | Description | TBD |
-| 14 | Final Project I | Description | TBD |
-| 15 | Final Project II | Description | TBD |
+| 6 | Vulnerability Analysis | Description | TBD |
+| 7 | Protocols | Description | TBD |
+| 8 | Malware I | Windows internals, basic malware | TBD |
+| 9 | Malware II and Rootkits | Description | TBD |
+| 10 | Firmware | Description | TBD |
+| 11 | Hardware | Description | TBD |
+| 12 | Final Project I | Description | TBD |
 
 **Miscellaneous topics**: Cryptanalysis, implementing reverse engineering tools, symbolic execution, non-compiled code, IOT devices
 
