@@ -19,4 +19,4 @@
 
 ### Homework
 
-Implement a small assembly program.
+Implement a small assembly program (fizzbizz?).
