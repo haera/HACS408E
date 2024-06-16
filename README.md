@@ -50,17 +50,17 @@
 | Week | Topic | Description | Lab |
 | --- | --- | --- | --- |
 | 1 | Assembly introduction | Basic overview of x86/x64 assembly, calling conventions, etc | TBD |
-| 2 | Static analysis I | Triage, binary formats, calling conventions, basic disassembly | TBD |
-| 3 | Static analysis II | Description | TBD |
-| 4 | Dynamic analysis | GDB, binaryninja debugger | binary bomb (like CMU one) |
-| 5 | Ghidra | struct recovery, collaboration | TBD |
-| 6 | Vulnerability Analysis | Description | TBD |
-| 7 | Protocols | Description | TBD |
-| 8 | Malware I | Windows internals, basic malware | TBD |
-| 9 | Malware II and Rootkits | Description | TBD |
-| 10 | Firmware | Description | TBD |
-| 11 | Hardware | Description | TBD |
-| 12 | Final Project I | Description | TBD |
+| 2 | Static analysis | Triage, binary formats, calling conventions, basic disassembly | TBD |
+| 3 | Dynamic analysis | GDB, binaryninja debugger | binary bomb (like CMU one) |
+| 4 | Ghidra | struct recovery, collaboration | TBD |
+| 5 | Vulnerability Analysis | Description | TBD |
+| 6 | Protocols | Description | TBD |
+| 7 | Malware | Windows internals, basic malware | TBD |
+| 8 | Rootkits | Description | TBD |
+| 9 | Firmware | Description | TBD |
+| 10 | Hardware | Description | TBD |
+| 11 | Final Project I | Description | TBD |
+| 11 | Final Project II | Description | TBD |
 
 **Miscellaneous topics**: Cryptanalysis, implementing reverse engineering tools, symbolic execution, non-compiled code, IOT devices
 
