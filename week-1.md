@@ -16,3 +16,7 @@
 
 - **Lecture**: Memory load/store, function (calling conventions, returning)
 - **Lab**: 
+
+### Homework
+
+Implement a small assembly program.
