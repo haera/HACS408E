@@ -9,11 +9,10 @@
 
 ### Part 2
 
-- **Lecture**: Assembly introduction
+- **Lecture**: Assembly introduction (basic instructions, control flow (if/while/for), registers)
 - **Lab**: 
 
 ### Part 3
 
-- **Lecture**: Calling conventions, etc
+- **Lecture**: Memory load/store, function (calling conventions, returning)
 - **Lab**: 
-
