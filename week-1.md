@@ -9,5 +9,11 @@
 
 ### Part 2
 
+- **Lecture**: Assembly introduction
+- **Lab**: 
+
 ### Part 3
+
+- **Lecture**: Calling conventions, etc
+- **Lab**: 
 
