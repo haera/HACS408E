@@ -60,7 +60,7 @@
 | 9 | Firmware | Description | TBD |
 | 10 | Hardware | Description | TBD |
 | 11 | Final Project I | Description | TBD |
-| 11 | Final Project II | Description | TBD |
+| 12 | Final Project II | Description | TBD |
 
 **Miscellaneous topics**: Cryptanalysis, implementing reverse engineering tools, symbolic execution, non-compiled code, IOT devices
 
