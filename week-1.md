@@ -1,6 +1,13 @@
 # Week 1: Assembly Introduction
 
-### Setup
+### Part 1: Introductions and Setup
 
-- [Setup Kali Linux VM](https://www.kali.org/docs/virtualization/install-vmware-silicon-host/)
-- Install BinaryNinja?
+- **Lecture**: Introductory remarks, syllabus, etc
+- **Lab**: Environment setup
+  - [Setup Kali Linux VM](https://www.kali.org/docs/virtualization/install-vmware-silicon-host/)
+  - Install BinaryNinja?
+
+### Part 2
+
+### Part 3
+
