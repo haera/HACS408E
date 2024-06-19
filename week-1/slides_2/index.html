@@ -1,39 +1,48 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <title>reveal.js</title>
+    <title>Week 1 - Part 2</title>
 
-        <link rel="stylesheet" href="css/reveal.css">
-        <link rel="stylesheet" href="css/theme/default.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/default.css">
 
-        <!-- Theme used for syntax highlighted code -->
-        <link rel="stylesheet" href="css/theme/code.css">
-    </head>
-    <body>
-        <div class="reveal">
-            <div class="slides">
-                <section>Slide 1</section>
-                <section>Slide 2</section>
-            </div>
-        </div>
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="css/theme/code.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h2 class="r-fit-text">HACS408E:</h2>
+          <h3 class="r-fit-text">
+              <span class="fragment" style="white-space: nowrap;">Week 1</span>
+              <span class="fragment" style="white-space: nowrap;"> - Part 2</span>
+          </h3>
+        </section>
+        <section
+          data-markdown="intro_assembly_language.md"
+          />
+      </div>
+    </div>
 
-        <script src="js/reveal.js"></script>
-        <script src="js/notes.js"></script>
-        <script src="js/markdown.js"></script>
-        <script src="js/highlight.js"></script>
-        <script>
-            // More info about initialization & config:
-            // - https://revealjs.com/initialization/
-            // - https://revealjs.com/config/
-            Reveal.initialize({
-                hash: true,
+    <script src="js/reveal.js"></script>
+    <script src="js/notes.js"></script>
+    <script src="js/markdown.js"></script>
+    <script src="js/highlight.js"></script>
+    <script src="js/x86asmatt.min.js"></script>
+    <script>
+      Reveal.initialize({
+          controls: false,
+          progress: false,
+          slideNumber: "c/t",
+          hashOneBased: true,
+          hash: true,
 
-                // Learn about plugins: https://revealjs.com/plugins/
-                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-            });
-        </script>
-    </body>
+          plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+      });
+    </script>
+  </body>
 </html>
