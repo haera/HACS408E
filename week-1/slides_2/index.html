@@ -1,24 +1,39 @@
 <!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<head>
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
-	</head>
+        <title>reveal.js</title>
 
-	<body>
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/default.css">
 
-		<div class="reveal">
-			<div class="slides">
-				<section><h2>Slide 1</h2></section>
-				<section><h2>Slide 2</h2></section>
-			</div>
-		</div>
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="css/theme/code.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>Slide 1</section>
+                <section>Slide 2</section>
+            </div>
+        </div>
 
-		<script src="js/reveal.js"></script>
-		<script>
-			Reveal.initialize();
-		</script>
+        <script src="js/reveal.js"></script>
+        <script src="js/notes.js"></script>
+        <script src="js/markdown.js"></script>
+        <script src="js/highlight.js"></script>
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
 
-	</body>
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+            });
+        </script>
+    </body>
 </html>
