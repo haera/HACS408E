@@ -19,20 +19,21 @@ Date: TODO
 
 ---
 
-### Main Components:​
+### Main Components:
 
-* Central Processing Unit (CPU)​
-  <!-- ​.element: class="fragment" -->
-  * Registers​
-    <!-- ​.element: class="fragment" -->
-  * Arithmetic & Logic Unit (ALU)​
-    <!-- ​.element: class="fragment" -->
-* Main Memory (RAM)​
-  <!-- ​.element: class="fragment" -->
-* Input/Output Devices (Peripherals)​
-  <!-- ​.element: class="fragment highlight-red" -->
-* Data Bus (Lines in Graphic)​
-  <!-- ​.element: class="fragment highlight-red" -->
+<!-- NOTE: Fall back to HTML here for fragment.-->
+<ul>
+  <li class="fragment" data-fragment-index="0">Central Processing Unit</li>
+  <ul>
+    <li class="fragment" data-fragment-index="1">Registers (Fast Memory)</li>
+    <li class="fragment" data-fragment-index="2">Arithmetic & Logic Unit (ALU)</li>
+  </ul>
+  <li class="fragment" data-fragment-index="3">Main Memory (RAM)</li>
+  <span class="fragment strike semi-fade-out" data-fragment-index="6">
+  <li class="fragment" data-fragment-index="4">Input/Output Devices (Peripherals)</li>
+  <li class="fragment" data-fragment-index="5">Data Bus</li>
+  </span>
+</ul>
 
 ---
 
