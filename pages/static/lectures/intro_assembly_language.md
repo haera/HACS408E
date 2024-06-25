@@ -103,7 +103,15 @@ prefixed by a '0'.
 
 ---
 
-Intel Syntax
+<table style="min-width: var(--slide-width)">
+<thead>
+<tr>
+<th>Intel</th>
+<th>AT&T</th>
+</tr>
+</thead>
+<tr>
+<td>
 
 ```x86asm [1:]
 mov     eax,1
@@ -111,7 +119,8 @@ mov     ebx,0ffh
 int     80h
 ```
 
-AT&T Syntax
+</td>
+<td>
 
 ```x86asmatt [1:]
 movl    $1,%eax
@@ -119,32 +128,48 @@ movl    $0xff,%ebx
 int     $0x80
 ```
 
+</td>
+</tr>
+<table>
+
 ---
 
 ### Direction of Operands:
 
-The direction of the operands in Intel syntax is opposite from that of AT&T
-syntax. In Intel syntax the first operand is the destination, and the second
-operand is the source whereas in AT&T syntax the first operand is the source and
-the second operand is the destination. The advantage of AT&T syntax in this
-situation is obvious. We read from left to right, we write from left to right,
-so this way is only natural.
+- Intel: `dst <-- src`
+
+- AT&T: `src --> dst`
 
 ---
 
-Intel Syntax
+<table style="min-width: var(--slide-width)">
+<thead>
+<tr>
+<th>Intel</th>
+<th>AT&T</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
 ```x86asm [1:]
 ; instr   dest,source
   mov     eax ,[ecx]
 ```
 
-AT&T Syntax
+</td>
+<td>
 
 ```x86asmatt [1:]
 # instr   source,dest
   movl    (%ecx),%eax
 ```
+
+</td>
+</tr>
+</tbody>
+<table>
 
 ---
 
@@ -156,19 +181,33 @@ and ')'.
 
 ---
 
-Intel Syntax
+<table style="min-width: var(--slide-width)">
+<thead>
+<tr>
+<th>Intel</th>
+<th>AT&T</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
 ```x86asm [1:]
 mov     eax,[ebx]
 mov     eax,[ebx+3]
 ```
-
-AT&T Syntax
+</td>
+<td>
 
 ```x86asmatt [1:]
 movl    (%ebx),%eax
 movl    3(%ebx),%eax
 ```
+
+</td>
+</tr>
+</tbody>
+<table>
 
 ---
 
@@ -181,24 +220,39 @@ memory operands, i.e. byte ptr, word ptr, dword ptr. "dword" of course
 corresponding to "long". This is similar to type casting in C but it doesnt seem
 to be necessary since the size of registers used is the assumed datatype.
 
+---
 
-Intel Syntax
+<table style="min-width: var(--slide-width)">
+<thead>
+<tr>
+<th>Intel</th>
+<th>AT&T</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
-```x86asm [1:]
-mov     al,bl
-mov     ax,bx
-mov     eax,ebx
-mov     eax, dword ptr [ebx]
-```
+  ```x86asm [1:]
+  mov     al,bl
+  mov     ax,bx
+  mov     eax,ebx
+  mov     eax, dword ptr [ebx]
+  ```
 
-AT&T Syntax
+</td>
+<td>
 
-```x86asmatt [1:]
-movb    %bl,%al
-movw    %bx,%ax
-movl    %ebx,%eax
-movl    (%ebx),%eax
-```
+  ```x86asmatt [1:]
+  movb    %bl,%al
+  movw    %bx,%ax
+  movl    %ebx,%eax
+  movl    (%ebx),%eax
+  ```
+</td>
+</tr>
+</tbody>
+<table>
 
 ---
 
