@@ -1,3 +1,11 @@
+<h2 class="r-fit-text">HACS408E:</h2>
+<h3 class="r-fit-text">
+  <span class="fragment" style="white-space: nowrap;">Week 1</span>
+  <span class="fragment" style="white-space: nowrap;">- Part 2</span>
+</h3>
+
+---
+
 ### Introduction To Assembly Langauge Programming:
 
 Date: TODO
@@ -95,9 +103,9 @@ prefixed by a '0'.
 
 ---
 
-Intex Syntax
+Intel Syntax
 
-```nasm
+```x86asm
 mov     eax,1
 mov     ebx,0ffh
 int     80h
@@ -124,18 +132,18 @@ so this way is only natural.
 
 ---
 
-Intex Syntax
+Intel Syntax
 
-```as
-instr   dest,source
-mov     eax,[ecx]
+```x86asm
+;;instr   dest,source
+  mov     eax ,[ecx]
 ```
 
 AT&T Syntax
 
-```
-instr   source,dest
-movl    (%ecx),%eax
+```x86asmatt
+;;instr   source,dest
+  movl    (%ecx),%eax
 ```
 
 ---
@@ -148,16 +156,16 @@ and ')'.
 
 ---
 
-Intex Syntax
+Intel Syntax
 
-```nasm
+```x86asm
 mov     eax,[ebx]
 mov     eax,[ebx+3]
 ```
 
 AT&T Syntax
 
-```as
+```x86asmatt
 movl    (%ebx),%eax
 movl    3(%ebx),%eax
 ```
@@ -176,7 +184,7 @@ to be necessary since the size of registers used is the assumed datatype.
 
 Intel Syntax
 
-```nasm
+```x86asm
 mov     al,bl
 mov     ax,bx
 mov     eax,ebx
@@ -185,7 +193,7 @@ mov     eax, dword ptr [ebx]
 
 AT&T Syntax
 
-```as
+```x86asmatt
 movb    %bl,%al
 movw    %bx,%ax
 movl    %ebx,%eax
