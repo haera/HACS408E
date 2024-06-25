@@ -10,6 +10,8 @@
   import "reveal.js/css/theme/source/night.scss";
   import "reveal.js/plugin/highlight/monokai.css";
 
+  import x86asmatt from "../js/x86asmatt.js";
+
   onMount(() => {
     let deck = new Reveal({
       controls: false,
@@ -20,8 +22,7 @@
 
       highlight: {
         beforeHighlight: (hljs) => {
-          // FIXME: x86 AT&T Syntax Highlighting
-          //hljs.registerLanguage("x86asmatt", x86asmatt);
+          hljs.registerLanguage("x86asmatt", x86asmatt);
         },
       },
       plugins: [Markdown, Highlight, Notes],

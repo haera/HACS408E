@@ -105,7 +105,7 @@ prefixed by a '0'.
 
 Intel Syntax
 
-```x86asm
+```x86asm [1:]
 mov     eax,1
 mov     ebx,0ffh
 int     80h
@@ -113,7 +113,7 @@ int     80h
 
 AT&T Syntax
 
-```x86asmatt
+```x86asmatt [1:]
 movl    $1,%eax
 movl    $0xff,%ebx
 int     $0x80
@@ -134,15 +134,15 @@ so this way is only natural.
 
 Intel Syntax
 
-```x86asm
-;;instr   dest,source
+```x86asm [1:]
+; instr   dest,source
   mov     eax ,[ecx]
 ```
 
 AT&T Syntax
 
-```x86asmatt
-;;instr   source,dest
+```x86asmatt [1:]
+# instr   source,dest
   movl    (%ecx),%eax
 ```
 
@@ -158,14 +158,14 @@ and ')'.
 
 Intel Syntax
 
-```x86asm
+```x86asm [1:]
 mov     eax,[ebx]
 mov     eax,[ebx+3]
 ```
 
 AT&T Syntax
 
-```x86asmatt
+```x86asmatt [1:]
 movl    (%ebx),%eax
 movl    3(%ebx),%eax
 ```
@@ -184,7 +184,7 @@ to be necessary since the size of registers used is the assumed datatype.
 
 Intel Syntax
 
-```x86asm
+```x86asm [1:]
 mov     al,bl
 mov     ax,bx
 mov     eax,ebx
@@ -193,7 +193,7 @@ mov     eax, dword ptr [ebx]
 
 AT&T Syntax
 
-```x86asmatt
+```x86asmatt [1:]
 movb    %bl,%al
 movw    %bx,%ax
 movl    %ebx,%eax
