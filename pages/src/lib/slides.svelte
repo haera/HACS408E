@@ -1,4 +1,6 @@
 <script>
+  export let markdown_source;
+
   import { onMount } from "svelte";
 
   import Reveal from "reveal.js";
@@ -33,6 +35,6 @@
 
 <div class="reveal">
   <div class="slides">
-    <section data-markdown="/lectures/intro_assembly_language.md" />
+    <section data-markdown={markdown_source} />
   </div>
 </div>
