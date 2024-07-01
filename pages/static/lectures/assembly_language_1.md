@@ -64,42 +64,96 @@ Date: TODO
 * It contains a small amount of very fast memory (registers).
   <!-- ​.element: class="fragment" -->
 
-[Intro to Computer Organization​](https://nostarch.com/introcomporg) by No Starch Press
-<!-- .element: class="fragment" -->
-
 ---
 
 ### Random Access Memory (RAM)​:
 <!-- .element: class="r-fit-text" -->
 
-Provides storage that is readily accessible to the CPU and I/O devices for the
-instructions to the CPU and the data they manipulate.​
+Provides storage that is readily accessible to the CPU and I/O devices.​
 <!-- ​.element: class="fragment" style="text-align: start" -->
 
 ### Input/Output Devices (Peripherals)​:
 <!-- .element: class="r-fit-text" -->
 
-Provides storage that is readily accessible to the CPU and I/O devices for the
-instructions to the CPU and the data they manipulate.​
+Communicates with the outside world and with mass storage devices.
 <!-- ​.element: class="fragment" style="text-align: start" -->
 
 ---
 
-### Assembly Language Syntax
+<img data-src='/images/amd64_register_set.png' />
 
-Intel vs. AT&T
+---
 
-([reference](https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm))
+<img data-src='https://patshaughnessy.net/assets/2016/11/26/register.png' width=800px />
+---
+
+## Assembly Language Syntax
+
+---
+
+<div>
+
+C Code:
+<!-- .element: style="text-align: start" -->
+
+```c
+int hacs408e() {
+    return 408;
+}
+```
+
+</div>
+<!-- .element: class="fragment" -->
+
+<table style="min-width: var(--slide-width)" class="fragment">
+<thead>
+<tr>
+<th>Intel</th>
+<th>AT&T</th>
+</tr>
+</thead>
+<tr>
+<td>
+
+```x86asm [1:]
+hacs408e():
+        mov     eax, 408
+        ret
+```
+
+</td>
+<td>
+
+```x86asmatt [1:]
+hacs408e():
+        movl    $408, %eax
+        ret
+```
+
+</td>
+</tr>
+<table>
 
 ---
 
 ### Prefixes:
 
-In Intel syntax there are no register prefixes or `immed` prefixes. In AT&T
-however registers are prefixed with a '%' and immed's are prefixed with a
-'$'. Intel syntax hexadecimal or binary immed data are suffixed with 'h' and 'b'
-respectively. Also if the first hexadecimal digit is a letter then the value is
-prefixed by a '0'.
+* AT&T:
+  <!--​.element: class="fragment" -->
+  * Registers are prefixed with '%'
+    <!--​.element: class="fragment" -->
+  * Numbers are prefixed with a '$'
+    <!--​.element: class="fragment" -->
+  * Intel does not use prefixes
+    <!--​.element: class="fragment" -->
+* Intel:
+  <!--​.element: class="fragment" -->
+  * Hexadecimal data is suffixed with 'h'
+    <!--​.element: class="fragment" -->
+  * Binary values are suffixed with 'b'
+    <!--​.element: class="fragment" -->
+  * AT&T does not use suffixes
+    <!--​.element: class="fragment" -->
 
 ---
 
@@ -136,9 +190,34 @@ int     $0x80
 
 ### Direction of Operands:
 
-- Intel: `dst <-- src`
+<table style="min-width: var(--slide-width)">
+<thead>
+<tr>
+<th>Intel</th>
+<th>AT&T</th>
+</tr>
+</thead>
+<tr>
+<td>
 
-- AT&T: `src --> dst`
+```x86asm
+dest <-- source
+```
+* Left most operand
+<!--​.element: class="fragment" -->
+
+</td>
+<td>
+
+```x86asmatt
+source --> dest
+```
+* Right most operand
+<!--​.element: class="fragment" -->
+
+</td>
+</tr>
+<table>
 
 ---
 
@@ -155,7 +234,7 @@ int     $0x80
 
 ```x86asm [1:]
 ; instr   dest,source
-  mov     eax ,[ecx]
+  mov     eax ,ecx
 ```
 
 </td>
@@ -163,7 +242,7 @@ int     $0x80
 
 ```x86asmatt [1:]
 # instr   source,dest
-  movl    (%ecx),%eax
+  movl    %ecx,%eax
 ```
 
 </td>
@@ -175,9 +254,10 @@ int     $0x80
 
 ### Memory Operands:
 
-Memory operands as seen above are different also. In Intel syntax the base
-register is enclosed in '[' and ']' whereas in AT&T syntax it is enclosed in '('
-and ')'.
+* In Intel syntax the base register is enclosed in '[' and ']'
+  <!--​.element: class="fragment" -->
+* AT&T syntax it is enclosed in '(' and ')'.
+  <!--​.element: class="fragment" -->
 
 ---
 
@@ -211,14 +291,26 @@ movl    3(%ebx),%eax
 
 ---
 
-### Suffixes.
+### Suffixes:
 
-As you may have noticed, the AT&T syntax mnemonics have a suffix. The
-significance of this suffix is that of operand size. 'l' is for long, 'w' is for
-word, and 'b' is for byte. Intel syntax has similar directives for use with
-memory operands, i.e. byte ptr, word ptr, dword ptr. "dword" of course
-corresponding to "long". This is similar to type casting in C but it doesnt seem
-to be necessary since the size of registers used is the assumed datatype.
+* Some AT&T instructions have a suffix
+  <!--​.element: class="fragment" -->
+* They are used to denote operand size
+  <!--​.element: class="fragment" -->
+  * 'l' is for long (4 bytes)
+    <!--​.element: class="fragment" -->
+  * 'w' is for word (2 bytes)
+    <!--​.element: class="fragment" -->
+  * 'b' is for byte (1 byte)
+    <!--​.element: class="fragment" -->
+* Intel only uses these labels for memory operands
+  <!--​.element: class="fragment" -->
+  * 'dword ptr' for long
+    <!--​.element: class="fragment" -->
+  * 'word ptr' for word
+    <!--​.element: class="fragment" -->
+  * 'byte ptr' for byte
+    <!--​.element: class="fragment" -->
 
 ---
 
@@ -233,22 +325,23 @@ to be necessary since the size of registers used is the assumed datatype.
 <tr>
 <td>
 
-  ```x86asm [1:]
-  mov     al,bl
-  mov     ax,bx
-  mov     eax,ebx
-  mov     eax, dword ptr [ebx]
-  ```
+```x86asm [1:]
+mov     al,bl
+mov     ax,bx
+mov     eax,ebx
+mov     eax, dword ptr [ebx]
+```
 
 </td>
 <td>
 
-  ```x86asmatt [1:]
-  movb    %bl,%al
-  movw    %bx,%ax
-  movl    %ebx,%eax
-  movl    (%ebx),%eax
-  ```
+```x86asmatt [1:]
+movb    %bl,%al
+movw    %bx,%ax
+movl    %ebx,%eax
+movl    (%ebx),%eax
+```
+
 </td>
 </tr>
 </tbody>
@@ -256,8 +349,12 @@ to be necessary since the size of registers used is the assumed datatype.
 
 ---
 
-### Lab Manual:
+### References
 
+* [Intro to Computer Organization](https://nostarch.com/introcomporg) by No Starch Press
+* [Intel vs. AT&T](https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm)
+* [Learn X86 Assembly](https://patshaughnessy.net/2016/11/26/learning-to-read-x86-assembly-language)
 * [GNU `as` i386/x64 Manual](https://sourceware.org/binutils/docs/as/i386_002dDependent.html)
 * https://cs.lmu.edu/~ray/notes/gasexamples/
 * https://armasm.com/docs/getting-to-hello-world/basics/
+* Amd64 Programmers Manual
