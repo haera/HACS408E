@@ -1,0 +1,121 @@
+% A (minimal) template for problem sets and solutions using the exam document class
+\documentclass[answers]{exam}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+%% \union - Example: \union{j \in J}{A_j}
+\newcommand{\union}[2]{\underset{#1}\bigcup #2}
+%% \inter - like \union, but with \bigcap
+\newcommand{\inter}[2]{\underset{#1}\bigcap #2}
+\usepackage{graphicx}
+\graphicspath{ {./} }
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,
+urlcolor=cyan,
+}
+%%%% Useful stuff %%%%
+%%% Insert URL
+% \href{URL}{DISPLAY TEXT}
+%%% Insert image, scale=0.5 => 1/2 image original size
+% \includegraphics[scale=0.5]{IMAGE}
+%%% Bold text
+% \textbf{TEXT}
+%%% Code or console output
+%\begin{verbatim}
+% TEXT HERE
+%\end{verbatim}
+\begin{document}
+%% Title
+\begin{center}
+\Large HACS408E: Homework 1: Static Analysis \\
+Name: %name here
+\end{center}
+%Part 1
+\section*{Survey}
+The \texttt{BINARY_NAME} binary is an executable that will NOT harm your
+computer if ran. Be as detailed as possible in your answers, the more the merrier!
+(Use complete sentences).
+%%%%%%%%%%%%%%%%%%%%%
+\begin{questions}
+\question{
+What type of file is this?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+Is it a console or a GUI Program?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+Is the checksum valid?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+What OS ABI is defined in this executable?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+Does the executable have any dynamic libraries loaded, if so what are they?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+What section does the entry point fall in? Is this unusual, why, and if so,
+when in the real world would this be the case?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+What can be determined from the strings?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+What function does the main return call come from?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+What section header number and name are you able to write to?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+Is this file packed? If so, which packer was used?
+}
+\begin{solution}
+\end{solution}
+%%%%%%%%%%%%%%%%%%%%%%%
+\question{
+What compiler do you think was used to build this executable?
+}
+\begin{solution}
+\end{solution}
+\end{questions}
+\section*{Analysis}
+Your objective is to find a way for the binary to execute the function that
+prints the "You made it!" message. Use any Reverse Engineering tool(s) of your
+choice. Feel free to turn off ASLR, note this in the write up. Write your solution
+below in detail and explain how and why your solution achieves the objective.
+\begin{solution}
+\end{solution}
+\end{document}
+
