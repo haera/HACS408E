@@ -355,6 +355,6 @@ movl    (%ebx),%eax
 * [Intel vs. AT&T](https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm)
 * [Learn X86 Assembly](https://patshaughnessy.net/2016/11/26/learning-to-read-x86-assembly-language)
 * [GNU `as` i386/x64 Manual](https://sourceware.org/binutils/docs/as/i386_002dDependent.html)
-* https://cs.lmu.edu/~ray/notes/gasexamples/
+* [GNU Assembler Examples](https://cs.lmu.edu/~ray/notes/gasexamples/)
 * https://armasm.com/docs/getting-to-hello-world/basics/
 * Amd64 Programmers Manual
