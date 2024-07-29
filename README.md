@@ -1,6 +1,12 @@
 # HACS408E: Reverse Engineering
 
-**Couse Description**: *This course introduces students to the tools and techniques required to analyze the security properties of various systems. Topics covered include assembly language, executable file formats, operating system internals, and the static/dynamic analysis of compiled binaries. Students will apply these concepts to real-world scenarios like malware analysis and vulnerability analysis with interactive labs, at-home assignments, and a final project.*
+**Couse Description**: _This course introduces students to the tools and
+techniques required to analyze the security properties of various systems.
+Topics covered include assembly language, executable file formats, operating
+system internals, and the static/dynamic analysis of compiled binaries. Students
+will apply these concepts to real-world scenarios like malware analysis and
+vulnerability analysis with interactive labs, at-home assignments, and a final
+project._
 
 ### Todo
 
@@ -25,44 +31,66 @@
 
 ### Reference Texts
 
-- **General**: [Practical Reverse Engineering](https://www.amazon.com/Practical-Reverse-Engineering-Reversing-Obfuscation/dp/1118787315), [Secrets of Reverse Engineering](https://www.amazon.com/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817/), [x86 Software Reverse Engineering](https://www.amazon.com/dp/1394199880/)
-- **Malware Analysis**: [Practical Malware Analysis](https://www.amazon.com/Practical-Malware-Analysis-Hands-Dissecting/dp/1593272901/), [Mastering Malware Analysis](https://www.amazon.com/Mastering-Malware-Analysis-practical-cybercrime)
-- **Firmware**: [Rootkits and Bootkits](https://www.amazon.com/Rootkits-Bootkits-Reversing-Malware-Generation/dp/1593277164)
-- **Exploitation**: [Hacking: The Art of Exploitation](https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441/), [Shellcoders Handbook](https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X)
-- **Windows**: [Windows Internals 1](https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189/), [Windows Internals 2](https://www.amazon.com/Windows-Internals-Part-2-7th/dp/0135462401/), [Rootkit Arsenal](https://www.amazon.com/Rootkit-Arsenal-Escape-Evasion-Corners/dp/144962636X/)
-- **Cryptography**: [Serious Cryptography](https://www.amazon.com/Serious-Cryptography-Practical-Introduction-Encryption/dp/1593278268), [Real-World Cryptography](https://www.amazon.com/dp/1617296716/)
-- **Protocols**: [Attacking Network Protocols](https://www.amazon.com/Attacking-Network-Protocols-Analysis-Exploitation/dp/1593277504/)
-- **Binary Analysis**: [Practical Binary Analysis](https://www.amazon.com/Practical-Binary-Analysis-Instrumentation-Disassembly/dp/1593279124/)
-- **IOT**: [Practical IOT Hacking](https://nostarch.com/practical-iot-hacking), [The IoT Hacker’s Handbook](https://link.springer.com/book/10.1007/978-1-4842-4300-8)
-- **Hardware**: [Hardware Hacker's Handbook](https://nostarch.com/hardwarehacking)
-- **Miscellaneous**: [Introduction to Cyber-Warfare](https://www.amazon.com/Introduction-Cyber-Warfare-Multidisciplinary-Paulo-Shakarian/dp/0124078141), [The Ghidra Book](https://www.amazon.com/Ghidra-Book-Definitive-Guide/dp/1718501021)
+- **General**:
+  [Practical Reverse Engineering](https://www.amazon.com/Practical-Reverse-Engineering-Reversing-Obfuscation/dp/1118787315),
+  [Secrets of Reverse Engineering](https://www.amazon.com/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817/),
+  [x86 Software Reverse Engineering](https://www.amazon.com/dp/1394199880/)
+- **Malware Analysis**:
+  [Practical Malware Analysis](https://www.amazon.com/Practical-Malware-Analysis-Hands-Dissecting/dp/1593272901/),
+  [Mastering Malware Analysis](https://www.amazon.com/Mastering-Malware-Analysis-practical-cybercrime)
+- **Firmware**:
+  [Rootkits and Bootkits](https://www.amazon.com/Rootkits-Bootkits-Reversing-Malware-Generation/dp/1593277164)
+- **Exploitation**:
+  [Hacking: The Art of Exploitation](https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441/),
+  [Shellcoders Handbook](https://www.amazon.com/Shellcoders-Handbook-Discovering-Exploiting-Security/dp/047008023X)
+- **Windows**:
+  [Windows Internals 1](https://www.amazon.com/Windows-Internals-Part-architecture-management/dp/0735684189/),
+  [Windows Internals 2](https://www.amazon.com/Windows-Internals-Part-2-7th/dp/0135462401/),
+  [Rootkit Arsenal](https://www.amazon.com/Rootkit-Arsenal-Escape-Evasion-Corners/dp/144962636X/)
+- **Cryptography**:
+  [Serious Cryptography](https://www.amazon.com/Serious-Cryptography-Practical-Introduction-Encryption/dp/1593278268),
+  [Real-World Cryptography](https://www.amazon.com/dp/1617296716/)
+- **Protocols**:
+  [Attacking Network Protocols](https://www.amazon.com/Attacking-Network-Protocols-Analysis-Exploitation/dp/1593277504/)
+- **Binary Analysis**:
+  [Practical Binary Analysis](https://www.amazon.com/Practical-Binary-Analysis-Instrumentation-Disassembly/dp/1593279124/)
+- **IOT**: [Practical IOT Hacking](https://nostarch.com/practical-iot-hacking),
+  [The IoT Hacker’s Handbook](https://link.springer.com/book/10.1007/978-1-4842-4300-8)
+- **Hardware**:
+  [Hardware Hacker's Handbook](https://nostarch.com/hardwarehacking)
+- **Miscellaneous**:
+  [Introduction to Cyber-Warfare](https://www.amazon.com/Introduction-Cyber-Warfare-Multidisciplinary-Paulo-Shakarian/dp/0124078141),
+  [The Ghidra Book](https://www.amazon.com/Ghidra-Book-Definitive-Guide/dp/1718501021)
 
 ### Other Resources
+
 - [MalDev academy](https://maldevacademy.com/)
 - [Vx underground malware code](https://github.com/vxunderground/MalwareSourceCode)
 - [pwn.college](https://pwn.college/program-security/reverse-engineering)
-- [Compiler Explorer](https://godbolt.org/) | [Decompiler Explorer](https://dogbolt.org)
+- [Compiler Explorer](https://godbolt.org/) |
+  [Decompiler Explorer](https://dogbolt.org)
 
 ---
 
 ## Topics
 
-| Week | Topic | Description | Lab |
-| --- | --- | --- | --- |
-| 1 | Assembly introduction | Basic overview of x86/x64 assembly, calling conventions, etc | TBD |
-| 2 | Static analysis | Triage, binary formats, calling conventions, basic disassembly | TBD |
-| 3 | Dynamic analysis | GDB, binaryninja debugger | binary bomb (like CMU one) |
-| 4 | Ghidra | struct recovery, collaboration | TBD |
-| 5 | Vulnerability Analysis | Description | TBD |
-| 6 | Protocols | Description | TBD |
-| 7 | Malware | Windows internals, basic malware | TBD |
-| 8 | Rootkits | Description | TBD |
-| 9 | Firmware | Description | TBD |
-| 10 | Hardware | Description | TBD |
-| 11 | Final Project I | Description | TBD |
-| 12 | Final Project II | Description | TBD |
+| Week | Topic                  | Description                                                    | Lab                        |
+| ---- | ---------------------- | -------------------------------------------------------------- | -------------------------- |
+| 1    | Assembly introduction  | Basic overview of x86/x64 assembly, calling conventions, etc   | TBD                        |
+| 2    | Static analysis        | Triage, binary formats, calling conventions, basic disassembly | TBD                        |
+| 3    | Dynamic analysis       | GDB, binaryninja debugger                                      | binary bomb (like CMU one) |
+| 4    | Ghidra                 | struct recovery, collaboration                                 | TBD                        |
+| 5    | Vulnerability Analysis | Description                                                    | TBD                        |
+| 6    | Protocols              | Description                                                    | TBD                        |
+| 7    | Malware                | Windows internals, basic malware                               | TBD                        |
+| 8    | Rootkits               | Description                                                    | TBD                        |
+| 9    | Firmware               | Description                                                    | TBD                        |
+| 10   | Hardware               | Description                                                    | TBD                        |
+| 11   | Final Project I        | Description                                                    | TBD                        |
+| 12   | Final Project II       | Description                                                    | TBD                        |
 
-**Miscellaneous topics**: Cryptanalysis, implementing reverse engineering tools, symbolic execution, non-compiled code, IOT devices
+**Miscellaneous topics**: Cryptanalysis, implementing reverse engineering tools,
+symbolic execution, non-compiled code, IOT devices
 
 ---
 
@@ -70,17 +98,19 @@
 
 ### Lab 1 - Assembly Language
 
-Write a function in assembly to compute the GCD of two arguments passed in
-to the function. Give a C harness to the students to use for testing with a
-blank `.s` file to put their assembly code.
+Write a function in assembly to compute the GCD of two arguments passed in to
+the function. Give a C harness to the students to use for testing with a blank
+`.s` file to put their assembly code.
 
 Requirements:
- - C harness
- - Makefile to properly build and link assembly code
+
+- C harness
+- Makefile to properly build and link assembly code
 
 ### Lab X - Cryptography
 
-Give them a crypt implementation and specification to compare. Break the crypto in order to decrypt the communications.
+Give them a crypt implementation and specification to compare. Break the crypto
+in order to decrypt the communications.
 
 Homework:
 
@@ -110,9 +140,123 @@ Homework:
 
 ## Miscellaneous Ideas
 
-- Reverse the [Feisti and TDL3](https://github.com/bootkitsbook/rootkits) rootkits from *Rootkits and Bootkits* book
+- Reverse the [Feisti and TDL3](https://github.com/bootkitsbook/rootkits)
+  rootkits from _Rootkits and Bootkits_ book
 - Utilize Pwn Island 3? Potentially some performance issues.
 - Malware from Practical Malware Analysis or Mastering Malware Analysis
 - Trigger malware kill switch by registering domain
 - Find some leaked cyberweapon to reverse engineer
 - Analyze the backdoor in xz binaries?
+
+---
+
+## Tracking Content
+
+Extra Lecture Ideas:
+
+- Android Apk Analysis, Jadx
+- Frida Dynamic Analysis Framework
+- Intel Pin / Dynamorio DBI
+- Fuzzing + AFL
+
+|        Date | Week |           Section           | Module                                                    |            Lecture            | Labs |         Homework         |
+| ----------: | ---: | :-------------------------: | :-------------------------------------------------------- | :---------------------------: | :--: | :----------------------: |
+| 28 Aug 2024 |    1 |          Assembly           | Class Introduction                                        |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | Assembly 1                                                |              [X]              | [ ]  |                          |
+|             |      |                             | Assembly 2                                                |              [ ]              |      |                          |
+| 04 Sep 2024 |    2 |       Static Analysis       | Intro - What is a compiled program?                       |              [ ]              | [ ]  |           [X]            |
+|             |      |                             | File Formats                                              |              [ ]              | [ ]  |                          |
+|             |      |                             | `strings`, `objdump`, `readelf`                           |              [ ]              |      |                          |
+| 11 Sep 2024 |    3 |  Static Analysis - Ghidra   | Intro                                                     |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | Ghidra                                                    |              [ ]              | [ ]  |                          |
+|             |      |                             | Binary Ninja                                              |              [ ]              |      |                          |
+| 18 Sep 2024 |    4 |      Dynamic Analysis       | Intro - Information during a running program              |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | `strace`, `ltrace`                                        |              [ ]              | [ ]  |                          |
+|             |      |                             | `gdb`                                                     |              [ ]              |      |                          |
+| 25 Sep 2024 |    5 |  Software Vulnerabilities   | Intro - Bug Classification + Types of Vulns               |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | Buffer Overflows + Memory Corruption                      |              [ ]              | [ ]  |                          |
+|             |      |                             | Source Code Auditing                                      |              [ ]              |      |                          |
+| 02 Oct 2024 |    6 |         Networking          | Intro - networking basics, network mapping, port sniffing |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | What is a PCAP + tcpdump                                  |              [ ]              | [ ]  |                          |
+|             |      |                             | Wireshark                                                 |              [ ]              |      |                          |
+| 09 Oct 2024 |    7 |           Malware           | Malware Analysis - Intro                                  |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | Anti-Reversing Techniques?                                |              [ ]              | [ ]  |                          |
+|             |      |                             | Setting up a 'safe' analysis environment.                 |              [ ]              |      |                          |
+| 16 Oct 2024 |    8 | Advanced Malware - Rootkits | Intro - What is a rootkit?                                |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             |                                                           |              [ ]              | [ ]  |                          |
+|             |      |                             |                                                           |              [ ]              |      |                          |
+| 23 Oct 2024 |    9 |          Firmware           | Intro - What is firmware? Embedded Systems...             |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | `binwalk`, filesystems                                    |              [ ]              | [ ]  |                          |
+|             |      |                             | QEMU + `chroot` Jail                                      |              [ ]              |      |                          |
+| 30 Oct 2024 |   10 |          Hardware           | Intro - Fundamentals                                      |              [ ]              | [ ]  |          None?           |
+|             |      |                             | JTAG + Read Flash Chips                                   |              [ ]              | [ ]  |                          |
+|             |      |                             | ???                                                       |              [ ]              |      |                          |
+| 06 Nov 2024 |   11 |                             |                                                           |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             |                                                           |              [ ]              | [ ]  |                          |
+|             |      |                             |                                                           |              [ ]              |      |                          |
+| 13 Nov 2024 |   12 |                             |                                                           |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             |                                                           |              [ ]              | [ ]  |                          |
+|             |      |                             |                                                           |              [ ]              |      |                          |
+| 20 Nov 2024 |   13 |                             |                                                           |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             |                                                           |              [ ]              | [ ]  |                          |
+|             |      |                             |                                                           |              [ ]              |      |                          |
+| 27 Nov 2024 |   14 |                             | No Class - Thanksgiving Break (Start Final Project?)      |                               |      |                          |
+|             |      |                             |                                                           |                               |      | Extra Credit Assignment? |
+|             |      |                             |                                                           |                               |      |                          |
+| 04 Dec 2024 |   15 |                             | Final Project - ???                                       | [Work Period w/ Instructors?] |      |                          |
+|             |      |                             |                                                           |              [ ]              |      |                          |
+|             |      |                             |                                                           |              [ ]              |      |                          |
+| 11 Dec 2024 |   16 |                             | No Class - Finals Week                                    |                               |      |                          |
+
+---
+
+# Week 1: Assembly Introduction
+
+### Part 1: Introductions and Setup
+
+- **Lecture**: Introductory remarks, syllabus, etc (15 Minutes?)
+  - poll about programming experience?
+- **Lab**: Environment setup (30 Minutes?)
+  - [Setup Kali Linux VM](https://www.kali.org/docs/virtualization/install-vmware-silicon-host/)
+  - Install BinaryNinja?
+
+### Part 2
+
+- **Lecture**: Assembly introduction (basic instructions, control flow
+  (if/while/for), registers), Memory load/store (30 Minutes)
+  ```c
+  int foo(int x) {
+      int y = 0;
+      while (x > 0) {
+          y = y + x;
+          x--;
+      }
+      return y;
+  }
+  ```
+  In godbolt w/ `-O1`
+  ```assembly
+  foo(int):
+          test    edi, edi
+          jle     .L4
+          mov     eax, 0
+  .L3:
+          add     eax, edi
+          sub     edi, 1
+          jne     .L3
+          ret
+  .L4:
+          mov     eax, 0
+          ret
+  ```
+- **Lab**: Install assembler, compile + run hello world in assembly (30 Minutes)
+
+### Part 3
+
+- **Lecture**: Function (calling conventions, returning), How to call external
+  functions, syscalls? (30 Minutes)
+- **Lab**: call (30 Minutes)
+
+### Homework
+
+Implement a small assembly program (fizzbizz?).
