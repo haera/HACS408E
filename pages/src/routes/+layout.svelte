@@ -1,4 +1,4 @@
-<nav>
+<nav style="height: 8dvh; border: solid;">
   <ul class="horizontal">
     <li><a href="/">HACS408E</a></li>
     <li><a href="/lectures">Lectures</a></li>

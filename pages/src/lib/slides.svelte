@@ -8,10 +8,6 @@
   import Highlight from "reveal.js/plugin/highlight/highlight";
   import Notes from "reveal.js/plugin/notes/notes";
 
-  import "reveal.js/css/reveal.scss";
-  import "reveal.js/css/theme/source/night.scss";
-  import "reveal.js/plugin/highlight/monokai.css";
-
   import x86asmatt from "../js/x86asmatt.js";
 
   onMount(() => {
@@ -21,7 +17,6 @@
       slideNumber: "c/t",
       hashOneBased: true,
       hash: true,
-
       highlight: {
         beforeHighlight: (hljs) => {
           hljs.registerLanguage("x86asmatt", x86asmatt);
@@ -29,7 +24,7 @@
       },
       plugins: [Markdown, Highlight, Notes],
     });
-    deck.initialize();
+    deck.initialize({ embedded: true });
   });
 </script>
 
@@ -38,3 +33,13 @@
     <section data-markdown={markdown_source} />
   </div>
 </div>
+
+<style>
+  @import "reveal.js/css/reveal.scss";
+  @import "reveal.js/css/theme/source/night.scss";
+  @import "reveal.js/plugin/highlight/monokai.css";
+
+  .reveal {
+    height: 90dvh;
+  } 
+</style>
