@@ -1,3 +1,10 @@
+---
+title: assembly-lecture
+type: reveal-md
+hidden: true
+prev: docs/lectures
+---
+
 <h2 class="r-fit-text">HACS408E:</h2>
 <h3 class="r-fit-text">
   <span class="fragment" style="white-space: nowrap;">Week 1</span>
@@ -15,10 +22,15 @@ Date: TODO
 ### Learning Goals:
 
 1. Develop a simple mental model of a computer.
+
 <!-- ​.element: class="fragment" -->
+
 1. Understand how to read/write assembly language syntax.​
+
 <!-- ​.element: class="fragment" -->
+
 1. Learn some X86 assembly language statements.
+
 <!-- ​.element: class="fragment" -->
 
 ---
@@ -54,28 +66,32 @@ Date: TODO
 
 ### Central Processing Unit (CPU):
 
-* Controls the flow of data to and from memory and I/O devices.
+- Controls the flow of data to and from memory and I/O devices.
   <!-- ​.element: class="fragment" -->
-* The CPU performs arithmetic and logical operations on the data. ​
+- The CPU performs arithmetic and logical operations on the data. ​
   <!-- ​.element: class="fragment" -->
-* The CPU can decide the order of operations based on the results
-  of arithmetic and logic operations.
+- The CPU can decide the order of operations based on the results of arithmetic
+  and logic operations.
   <!-- ​.element: class="fragment" -->
-* It contains a small amount of very fast memory (registers).
+- It contains a small amount of very fast memory (registers).
   <!-- ​.element: class="fragment" -->
 
 ---
 
 ### Random Access Memory (RAM)​:
+
 <!-- .element: class="r-fit-text" -->
 
 Provides storage that is readily accessible to the CPU and I/O devices.​
+
 <!-- ​.element: class="fragment" style="text-align: start" -->
 
 ### Input/Output Devices (Peripherals)​:
+
 <!-- .element: class="r-fit-text" -->
 
 Communicates with the outside world and with mass storage devices.
+
 <!-- ​.element: class="fragment" style="text-align: start" -->
 
 ---
@@ -94,6 +110,7 @@ Communicates with the outside world and with mass storage devices.
 <div>
 
 C Code:
+
 <!-- .element: style="text-align: start" -->
 
 ```c
@@ -138,21 +155,21 @@ hacs408e():
 
 ### Prefixes:
 
-* AT&T:
+- AT&T:
   <!--​.element: class="fragment" -->
-  * Registers are prefixed with '%'
+  - Registers are prefixed with '%'
     <!--​.element: class="fragment" -->
-  * Numbers are prefixed with a '$'
+  - Numbers are prefixed with a '$'
     <!--​.element: class="fragment" -->
-  * Intel does not use prefixes
+  - Intel does not use prefixes
     <!--​.element: class="fragment" -->
-* Intel:
+- Intel:
   <!--​.element: class="fragment" -->
-  * Hexadecimal data is suffixed with 'h'
+  - Hexadecimal data is suffixed with 'h'
     <!--​.element: class="fragment" -->
-  * Binary values are suffixed with 'b'
+  - Binary values are suffixed with 'b'
     <!--​.element: class="fragment" -->
-  * AT&T does not use suffixes
+  - AT&T does not use suffixes
     <!--​.element: class="fragment" -->
 
 ---
@@ -203,7 +220,9 @@ int     $0x80
 ```x86asm
 dest <-- source
 ```
-* Left most operand
+
+- Left most operand
+
 <!--​.element: class="fragment" -->
 
 </td>
@@ -212,7 +231,9 @@ dest <-- source
 ```x86asmatt
 source --> dest
 ```
-* Right most operand
+
+- Right most operand
+
 <!--​.element: class="fragment" -->
 
 </td>
@@ -254,9 +275,9 @@ source --> dest
 
 ### Memory Operands:
 
-* In Intel syntax the base register is enclosed in '[' and ']'
+- In Intel syntax the base register is enclosed in '[' and ']'
   <!--​.element: class="fragment" -->
-* AT&T syntax it is enclosed in '(' and ')'.
+- AT&T syntax it is enclosed in '(' and ')'.
   <!--​.element: class="fragment" -->
 
 ---
@@ -276,6 +297,7 @@ source --> dest
 mov     eax,[ebx]
 mov     eax,[ebx+3]
 ```
+
 </td>
 <td>
 
@@ -293,23 +315,23 @@ movl    3(%ebx),%eax
 
 ### Suffixes:
 
-* Some AT&T instructions have a suffix
+- Some AT&T instructions have a suffix
   <!--​.element: class="fragment" -->
-* They are used to denote operand size
+- They are used to denote operand size
   <!--​.element: class="fragment" -->
-  * 'l' is for long (4 bytes)
+  - 'l' is for long (4 bytes)
     <!--​.element: class="fragment" -->
-  * 'w' is for word (2 bytes)
+  - 'w' is for word (2 bytes)
     <!--​.element: class="fragment" -->
-  * 'b' is for byte (1 byte)
+  - 'b' is for byte (1 byte)
     <!--​.element: class="fragment" -->
-* Intel only uses these labels for memory operands
+- Intel only uses these labels for memory operands
   <!--​.element: class="fragment" -->
-  * 'dword ptr' for long
+  - 'dword ptr' for long
     <!--​.element: class="fragment" -->
-  * 'word ptr' for word
+  - 'word ptr' for word
     <!--​.element: class="fragment" -->
-  * 'byte ptr' for byte
+  - 'byte ptr' for byte
     <!--​.element: class="fragment" -->
 
 ---
@@ -351,10 +373,11 @@ movl    (%ebx),%eax
 
 ### References
 
-* [Intro to Computer Organization](https://nostarch.com/introcomporg) by No Starch Press
-* [Intel vs. AT&T](https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm)
-* [Learn X86 Assembly](https://patshaughnessy.net/2016/11/26/learning-to-read-x86-assembly-language)
-* [GNU `as` i386/x64 Manual](https://sourceware.org/binutils/docs/as/i386_002dDependent.html)
-* [GNU Assembler Examples](https://cs.lmu.edu/~ray/notes/gasexamples/)
-* https://armasm.com/docs/getting-to-hello-world/basics/
-* Amd64 Programmers Manual
+- [Intro to Computer Organization](https://nostarch.com/introcomporg) by No
+  Starch Press
+- [Intel vs. AT&T](https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm)
+- [Learn X86 Assembly](https://patshaughnessy.net/2016/11/26/learning-to-read-x86-assembly-language)
+- [GNU `as` i386/x64 Manual](https://sourceware.org/binutils/docs/as/i386_002dDependent.html)
+- [GNU Assembler Examples](https://cs.lmu.edu/~ray/notes/gasexamples/)
+- https://armasm.com/docs/getting-to-hello-world/basics/
+- Amd64 Programmers Manual
