@@ -174,15 +174,16 @@ Extra Lecture Ideas:
 |             |      |                             | GDB + UMD binary bomb                                     |              [ ]              | [ ]  |                          |
 |             |      |                             | Binaryninja debugger + binary bomb                        |              [ ]              |      |                          |
 |             |      |                             | Homework: Finish the binary bomb                          |              [ ]              |      |                          |
-| 18 Sep 2024 |    4 |      Ghidra                 | Intro - Information during a running program              |              [ ]              | [ ]  |           [ ]            |
-|             |      |                             | `strace`, `ltrace`                                        |              [ ]              | [ ]  |                          |
-|             |      |                             | `gdb`                                                     |              [ ]              |      |                          |
-| 25 Sep 2024 |    5 |  Vulnerability Analysis     | Intro - Bug Classification + Types of Vulns               |              [ ]              | [ ]  |           [ ]            |
-|             |      |                             | Buffer Overflows + Memory Corruption                      |              [ ]              | [ ]  |                          |
-|             |      |                             | Source Code Auditing                                      |              [ ]              |      |                          |
-| 02 Oct 2024 |    6 |         Cryptanalysis       | Intro - networking basics, network mapping, port sniffing |              [ ]              | [ ]  |           [ ]            |
-|             |      |                             | What is a PCAP + tcpdump                                  |              [ ]              | [ ]  |                          |
-|             |      |                             | Wireshark                                                 |              [ ]              |      |                          |
+| 18 Sep 2024 |    4 |      Ghidra                 | Get familiar with the interface, basic RE lab             |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | struct identification and reversing                       |              [ ]              | [ ]  |                          |
+|             |      |                             | C++ lab (vtables, etc)                                    |              [ ]              |      |                          |
+| 25 Sep 2024 |    5 |  Vulnerability Analysis     | basic strcpy buffer overflow, overwrite var on the stack  |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | same lab except overwrite return address jmp shellcode    |              [ ]              | [ ]  |                          |
+|             |      |                             | DEP and ASLR bypass                                       |              [ ]              |      |                          |
+|             |      |                             | Homework: Exploit with DEP and ASLR bypass                |              [ ]              |      |                          |
+| 02 Oct 2024 |    6 |         Cryptanalysis       | Write script that generates valid licenses to a checker   |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | Reverse engineer weak key generation and generate a key   |              [ ]              | [ ]  |                          |
+|             |      |                             | Toy heartbleed protocol                                   |              [ ]              |      |                          |
 | 09 Oct 2024 |    7 |           Networking        | Malware Analysis - Intro                                  |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             | Anti-Reversing Techniques?                                |              [ ]              | [ ]  |                          |
 |             |      |                             | Setting up a 'safe' analysis environment.                 |              [ ]              |      |                          |
