@@ -182,11 +182,13 @@ Extra Lecture Ideas:
 |             |      |                             | DEP and ASLR bypass                                       |              [ ]              |      |                          |
 |             |      |                             | Homework: Exploit with DEP and ASLR bypass                |              [ ]              |      |                          |
 | 02 Oct 2024 |    6 |         Cryptanalysis       | Write script that generates valid licenses to a checker   |              [ ]              | [ ]  |           [ ]            |
-|             |      |                             | Reverse engineer weak key generation and generate a key   |              [ ]              | [ ]  |                          |
-|             |      |                             | Toy heartbleed protocol                                   |              [ ]              |      |                          |
-| 09 Oct 2024 |    7 |           Networking        | Malware Analysis - Intro                                  |              [ ]              | [ ]  |           [ ]            |
-|             |      |                             | Anti-Reversing Techniques?                                |              [ ]              | [ ]  |                          |
-|             |      |                             | Setting up a 'safe' analysis environment.                 |              [ ]              |      |                          |
+|             |      |                             | Toy heartbleed protocol                                   |              [ ]              | [ ]  |                          |
+|             |      |                             | ???                                                       |              [ ]              |      |                          |
+|             |      |                             | Homework: Reverse engineer weak key, brute force          |              [ ]              |      |                          |
+| 09 Oct 2024 |    7 |           Networking        | Wireshark basics on pcap                                  |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | Capture and RE a client/server key exchange               |              [ ]              | [ ]  |                          |
+|             |      |                             | Implement masquerade client with session key              |              [ ]              |      |                          |
+|             |      |                             | Homework: Give them C&C malware pcap                      |              [ ]              |      |                          |
 | 16 Oct 2024 |    8 | Malware                     | Intro - What is a rootkit?                                |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             |                                                           |              [ ]              | [ ]  |                          |
 |             |      |                             |                                                           |              [ ]              |      |                          |
