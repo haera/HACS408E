@@ -76,21 +76,22 @@ project._
 
 | Week | Topic                  | Description                                                    | Lab                        |
 | ---- | ---------------------- | -------------------------------------------------------------- | -------------------------- |
-| 1    | Assembly introduction  | Basic overview of x86/x64 assembly, calling conventions, etc   | TBD                        |
+| 1    | C and assembly intro   | Basic overview of x86/x64 assembly, calling conventions, etc   | TBD                        |
 | 2    | Static analysis        | Triage, binary formats, calling conventions, basic disassembly | TBD                        |
 | 3    | Dynamic analysis       | GDB, binaryninja debugger                                      | binary bomb (like CMU one) |
 | 4    | Ghidra                 | struct recovery, collaboration                                 | TBD                        |
 | 5    | Vulnerability Analysis | Description                                                    | TBD                        |
-| 6    | Protocols              | Description                                                    | TBD                        |
-| 7    | Malware                | Windows internals, basic malware                               | TBD                        |
-| 8    | Rootkits               | Description                                                    | TBD                        |
-| 9    | Firmware               | Description                                                    | TBD                        |
-| 10   | Hardware               | Description                                                    | TBD                        |
-| 11   | Final Project I        | Description                                                    | TBD                        |
-| 12   | Final Project II       | Description                                                    | TBD                        |
+| 6    | Cryptanalysis          | Description                                                    | TBD                        |
+| 7    | Protocols              | Description                                                    | TBD                        |
+| 8    | Malware                | Windows internals, basic malware                               | TBD                        |
+| 9    | Rootkits               | Description                                                    | TBD                        |
+| 10   | Firmware               | Description                                                    | TBD                        |
+| 11   | Hardware               | Description                                                    | TBD                        |
+| 12   | Mobile                 | Description                                                    | TBD                        |
+| 13   | Final Project I        | Description                                                    | TBD                        |
+| 14   | Final Project II       | Description                                                    | TBD                        |
 
-**Miscellaneous topics**: Cryptanalysis, implementing reverse engineering tools,
-symbolic execution, non-compiled code, IOT devices
+**Miscellaneous topics**: fuzzing, implementing reverse engineering tools, symbolic execution, non-compiled code
 
 ---
 
@@ -161,28 +162,30 @@ Extra Lecture Ideas:
 
 |        Date | Week |           Section           | Module                                                    |            Lecture            | Labs |         Homework         |
 | ----------: | ---: | :-------------------------: | :-------------------------------------------------------- | :---------------------------: | :--: | :----------------------: |
-| 28 Aug 2024 |    1 |          Assembly           | Class Introduction                                        |              [ ]              | [ ]  |           [ ]            |
-|             |      |                             | Assembly 1                                                |              [X]              | [ ]  |                          |
-|             |      |                             | Assembly 2                                                |              [ ]              |      |                          |
-| 04 Sep 2024 |    2 |       Static Analysis       | Intro - What is a compiled program?                       |              [ ]              | [ ]  |           [X]            |
-|             |      |                             | File Formats                                              |              [ ]              | [ ]  |                          |
-|             |      |                             | `strings`, `objdump`, `readelf`                           |              [ ]              |      |                          |
-| 11 Sep 2024 |    3 |  Static Analysis - Ghidra   | Intro                                                     |              [ ]              | [ ]  |           [ ]            |
+| 28 Aug 2024 |    1 |          C and Assembly     | Environment setup                                         |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | C review (read encrypted file, xor decrypt flag)          |              [X]              | [ ]  |                          |
+|             |      |                             | Incremental assembly assignments                          |              [ ]              |      |                          |
+|             |      |                             | Homework: Re-implement C review in assembly               |                               |      |                          |
+| 04 Sep 2024 |    2 |       Static Analysis       | Give them 4-5 binaries to traige strings, readelf         |              [ ]              | [ ]  |           [X]            |
+|             |      |                             | Intro RE lab 1                                            |              [ ]              | [ ]  |                          |
+|             |      |                             | Intro RE lab 2                                            |              [ ]              |      |                          |
+|             |      |                             | Homework: CTF-style RE lab                                |              [ ]              |      |                          |
+| 11 Sep 2024 |    3 |  Dynamic Analysis           | Intro                                                     |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             | Ghidra                                                    |              [ ]              | [ ]  |                          |
 |             |      |                             | Binary Ninja                                              |              [ ]              |      |                          |
-| 18 Sep 2024 |    4 |      Dynamic Analysis       | Intro - Information during a running program              |              [ ]              | [ ]  |           [ ]            |
+| 18 Sep 2024 |    4 |      Ghidra                 | Intro - Information during a running program              |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             | `strace`, `ltrace`                                        |              [ ]              | [ ]  |                          |
 |             |      |                             | `gdb`                                                     |              [ ]              |      |                          |
-| 25 Sep 2024 |    5 |  Software Vulnerabilities   | Intro - Bug Classification + Types of Vulns               |              [ ]              | [ ]  |           [ ]            |
+| 25 Sep 2024 |    5 |  Vulnerability Analysis     | Intro - Bug Classification + Types of Vulns               |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             | Buffer Overflows + Memory Corruption                      |              [ ]              | [ ]  |                          |
 |             |      |                             | Source Code Auditing                                      |              [ ]              |      |                          |
-| 02 Oct 2024 |    6 |         Networking          | Intro - networking basics, network mapping, port sniffing |              [ ]              | [ ]  |           [ ]            |
+| 02 Oct 2024 |    6 |         Cryptanalysis       | Intro - networking basics, network mapping, port sniffing |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             | What is a PCAP + tcpdump                                  |              [ ]              | [ ]  |                          |
 |             |      |                             | Wireshark                                                 |              [ ]              |      |                          |
-| 09 Oct 2024 |    7 |           Malware           | Malware Analysis - Intro                                  |              [ ]              | [ ]  |           [ ]            |
+| 09 Oct 2024 |    7 |           Networking        | Malware Analysis - Intro                                  |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             | Anti-Reversing Techniques?                                |              [ ]              | [ ]  |                          |
 |             |      |                             | Setting up a 'safe' analysis environment.                 |              [ ]              |      |                          |
-| 16 Oct 2024 |    8 | Advanced Malware - Rootkits | Intro - What is a rootkit?                                |              [ ]              | [ ]  |           [ ]            |
+| 16 Oct 2024 |    8 | Malware                     | Intro - What is a rootkit?                                |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             |                                                           |              [ ]              | [ ]  |                          |
 |             |      |                             |                                                           |              [ ]              |      |                          |
 | 23 Oct 2024 |    9 |          Firmware           | Intro - What is firmware? Embedded Systems...             |              [ ]              | [ ]  |           [ ]            |
