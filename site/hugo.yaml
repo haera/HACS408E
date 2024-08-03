@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: HACS408E
 
 # import hextra as module
 module:
@@ -21,7 +21,7 @@ menu:
     - name: Syllabus
       pageRef: /syllabus
       weight: 1
-    - name: Lectures
+    - name: Schedule
       pageRef: /docs
       weight: 2
     - name: Resources
@@ -36,14 +36,19 @@ menu:
         type: search
     - name: GitHub
       weight: 6
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/0xchase/HACS408E"
       params:
         icon: github
 
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/aces.jpeg
+      link: /
+      width: 24
+      height: 20
 
   footer:
     displayCopyright: false
