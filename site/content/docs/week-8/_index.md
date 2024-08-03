@@ -1,8 +1,8 @@
 ---
-title: "Week 02: Static Analysis"
+title: "Week 08: Malware"
 type: docs
-prev: docs/week-1
-next: docs/week-3
+prev: docs/week-7
+next: docs/week-9
 sidebar:
   open: false
 ---

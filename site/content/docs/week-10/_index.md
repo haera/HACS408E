@@ -1,8 +1,8 @@
 ---
-title: "Week 02: Static Analysis"
+title: "Week 10: Firmware"
 type: docs
-prev: docs/week-1
-next: docs/week-3
+prev: docs/week-9
+next: docs/week-11
 sidebar:
   open: false
 ---

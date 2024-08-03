@@ -1,8 +1,8 @@
 ---
-title: "Week 02: Static Analysis"
+title: "Week 12: Mobile"
 type: docs
-prev: docs/week-1
-next: docs/week-3
+prev: docs/week-11
+next: docs/final-project
 sidebar:
   open: false
 ---

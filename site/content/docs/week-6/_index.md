@@ -1,8 +1,8 @@
 ---
-title: "Week 02: Static Analysis"
+title: "Week 06: Cryptanalysis"
 type: docs
-prev: docs/week-1
-next: docs/week-3
+prev: docs/week-5
+next: docs/week-7
 sidebar:
   open: false
 ---

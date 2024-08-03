@@ -1,8 +1,8 @@
 ---
-title: "Week 02: Static Analysis"
+title: "Week 03: Dynamic Analysis"
 type: docs
-prev: docs/week-1
-next: docs/week-3
+prev: docs/week-2
+next: docs/week-4
 sidebar:
   open: false
 ---

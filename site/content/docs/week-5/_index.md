@@ -1,5 +1,5 @@
 ---
-title: "Week 02: Static Analysis"
+title: "Week 05: Vuln Analysis"
 type: docs
 prev: docs/week-1
 next: docs/week-3
