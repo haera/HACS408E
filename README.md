@@ -170,9 +170,10 @@ Extra Lecture Ideas:
 |             |      |                             | Intro RE lab 1                                            |              [ ]              | [ ]  |                          |
 |             |      |                             | Intro RE lab 2                                            |              [ ]              |      |                          |
 |             |      |                             | Homework: CTF-style RE lab                                |              [ ]              |      |                          |
-| 11 Sep 2024 |    3 |  Dynamic Analysis           | Intro                                                     |              [ ]              | [ ]  |           [ ]            |
-|             |      |                             | Ghidra                                                    |              [ ]              | [ ]  |                          |
-|             |      |                             | Binary Ninja                                              |              [ ]              |      |                          |
+| 11 Sep 2024 |    3 |  Dynamic Analysis           | GDB walkthrough + GDB binary bomb                         |              [ ]              | [ ]  |           [ ]            |
+|             |      |                             | GDB + UMD binary bomb                                     |              [ ]              | [ ]  |                          |
+|             |      |                             | Binaryninja debugger + binary bomb                        |              [ ]              |      |                          |
+|             |      |                             | Homework: Finish the binary bomb                          |              [ ]              |      |                          |
 | 18 Sep 2024 |    4 |      Ghidra                 | Intro - Information during a running program              |              [ ]              | [ ]  |           [ ]            |
 |             |      |                             | `strace`, `ltrace`                                        |              [ ]              | [ ]  |                          |
 |             |      |                             | `gdb`                                                     |              [ ]              |      |                          |
