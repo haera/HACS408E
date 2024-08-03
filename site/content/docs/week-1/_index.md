@@ -1,5 +1,5 @@
 ---
-title: Week 1
+title: "Week 1: C and Assembly"
 type: docs
 prev: docs/first-page
 next: docs/folder/leaf

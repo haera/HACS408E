@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: C Programming"
+title: "Lab 1: XOR a file"
 type: docs
 next: docs/week-1/lab-2
 ---
