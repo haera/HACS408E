@@ -7,3 +7,6 @@
 [submodule "site/themes/hugo-book"]
 	path = site/themes/hugo-book
 	url = https://github.com/alex-shpak/hugo-book
+[submodule "site/themes/hextra"]
+	path = site/themes/hextra
+	url = https://github.com/imfing/hextra
