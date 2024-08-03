@@ -8,3 +8,9 @@ _region_.tex
 
 # Generic
 *.log
+
+site/public/
+site/resources/_gen/
+site/assets/jsconfig.json
+site/hugo_stats.json
+site/.hugo_build.lock
