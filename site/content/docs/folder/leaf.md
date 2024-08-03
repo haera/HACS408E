@@ -1,5 +1,5 @@
 ---
-title: Leaf Page
+title: Lab 1
 type: docs
 prev: docs/folder/
 ---
