@@ -3,7 +3,7 @@ title: Documentation
 next: first-page
 ---
 
-This is a demo of the theme's documentation layout.
+This is the lectures landing page which should have a schedule that maps the dates to each week.
 
 ## Hello, World!
 

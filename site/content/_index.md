@@ -1,17 +1,17 @@
 ---
-title: My Site
+title: "HACS408E: Applied Reverse Engineering"
 toc: false
 ---
 
-This is the landing page.
+## Course Description
+
+This course introduces students to the tools and techniques required to analyze the security properties of various systems. Topics covered include assembly language, executable file formats, operating system internals, and the static/dynamic analysis of compiled binaries. Students will apply these concepts to real-world scenarios like malware analysis and vulnerability analysis with interactive labs, at-home assignments, and a final project.
+
+
 
 ## Explore
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+  {{< card link="syllabus" title="Syllabus" icon="book-open" >}}
+  {{< card link="docs" title="Lectures" icon="user" >}}
 {{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).
