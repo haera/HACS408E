@@ -22,16 +22,11 @@ Date: TODO
 ### Learning Goals:
 
 1. Develop a simple mental model of a computer.
-
-<!-- ​.element: class="fragment" -->
-
+   <!-- ​.element: class="fragment" -->
 1. Understand how to read/write assembly language syntax.​
-
-<!-- ​.element: class="fragment" -->
-
+   <!-- ​.element: class="fragment" -->
 1. Learn some X86 assembly language statements.
-
-<!-- ​.element: class="fragment" -->
+   <!-- ​.element: class="fragment" -->
 
 ---
 
@@ -57,8 +52,10 @@ Date: TODO
 
 ---
 
-<!-- .slide: data-background="#ffffff" -->
-<img data-src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Computer_architecture_block_diagram.png/667px-Computer_architecture_block_diagram.png />
+<img 
+  style="background: #ffffff; height: 50dvh;" 
+  data-src=https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Computer_architecture_block_diagram.png/667px-Computer_architecture_block_diagram.png 
+/>
 
 [Image Source](https://en.wikipedia.org/wiki/Computer_architecture)
 
@@ -379,5 +376,6 @@ movl    (%ebx),%eax
 - [Learn X86 Assembly](https://patshaughnessy.net/2016/11/26/learning-to-read-x86-assembly-language)
 - [GNU `as` i386/x64 Manual](https://sourceware.org/binutils/docs/as/i386_002dDependent.html)
 - [GNU Assembler Examples](https://cs.lmu.edu/~ray/notes/gasexamples/)
-- https://armasm.com/docs/getting-to-hello-world/basics/
-- Amd64 Programmers Manual
+- [ARM Assembly By Example](https://armasm.com/docs/getting-to-hello-world/basics/)
+- [Amd64 Programmers Manual (Vol. 1)](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24592.pdf)
+- [Intel Programmers Manuals (Vol. 2)](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
