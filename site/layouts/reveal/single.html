@@ -1,5 +1,8 @@
-{{/* Custom Template for Reveal.js Slides */}}
-{{/* [x] russfeld */}}
+<!-- Based on https://github.com/ksu-cs-textbooks/hugo-theme-relearn -->
+
+<!-- Reference: https://blog.nathanv.me/posts/hugo-resources/ -->
+{{ $x86asmatt := resources.Get "highlightjs-x86asmatt/dist/x86asmatt.es.min.js" }}
+
 <!doctype html>
 <html>
 	<head>
@@ -19,14 +22,25 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+			{{ if eq .File.Ext "md" }}
+		    <section data-markdown>
+		      <textarea data-template>
+			      {{ .RawContent }}
+		     </textarea>
+		    </section>
+			{{ else }}
 				{{ .Content }}
+			{{ end }}
 			</div>
 		</div>
 
 		<script src="{{"reveal/dist/reveal.js" | relURL}}"></script>
 		<script src="{{"reveal/plugin/markdown/markdown.js" | relURL}}"></script>
 		<script src="{{"reveal/plugin/highlight/highlight.js" | relURL}}"></script>
-		<script>
+		<script type="module">
+
+			import x86asmatt from "{{ $x86asmatt.RelPermalink }}";
+			
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
@@ -39,11 +53,14 @@
 				width: 1440,
 				height: 1080,
 				highlight: {
+					beforeHighlight: (hljs) => {
+						hljs.registerLanguage("x86asmatt", x86asmatt);
+					},
 					escapeHTML: false
 				},
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight]
+				plugins: [ RevealMarkdown, RevealHighlight ]
 			});
 
 			window.addEventListener("mousedown", handleClick, false);

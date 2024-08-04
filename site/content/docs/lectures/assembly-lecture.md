@@ -1,6 +1,6 @@
 ---
 title: assembly-lecture
-type: reveal-md
+type: reveal
 hidden: true
 prev: docs/lectures
 ---

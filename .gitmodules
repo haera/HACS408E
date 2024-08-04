@@ -10,3 +10,6 @@
 [submodule "site/themes/hextra"]
 	path = site/themes/hextra
 	url = https://github.com/imfing/hextra
+[submodule "site/assets/highlightjs-x86asmatt"]
+	path = site/assets/highlightjs-x86asmatt
+	url = https://github.com/gondow/highlightjs-x86asmatt.git
