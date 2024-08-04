@@ -3,6 +3,20 @@
 <!-- Reference: https://blog.nathanv.me/posts/hugo-resources/ -->
 {{ $x86asmatt := resources.Get "highlightjs-x86asmatt/dist/x86asmatt.es.min.js" }}
 
+<!-- reveal.js -->
+{{ $reset_css := resources.Get "reveal/dist/reset.css" }}
+{{ $reveal_css   := resources.Get "reveal/dist/reveal.css" }}
+{{ $reveal_theme := resources.Get "reveal/dist/theme/night.css" }}
+{{ $reveal := resources.Get "reveal/dist/reveal.esm.js" }}
+
+<!-- Reveal Plugins -->
+{{ $plugin_highlight := resources.Get "reveal/plugin/highlight/highlight.esm.js" }}
+{{ $plugin_markdown := resources.Get "reveal/plugin/markdown/markdown.esm.js" }}
+{{ $plugin_notes := resources.Get "reveal/plugin/notes/notes.esm.js" }}
+
+{{ $highlight_theme := resources.Get "reveal/plugin/highlight/monokai.css" }}
+
+<!-- Template: -->
 <!doctype html>
 <html>
 	<head>
@@ -11,13 +25,10 @@
 
 		<title>{{ .Title }}</title>
 
-		<link rel="stylesheet" href="{{"reveal/dist/reset.css" | relURL }}">
-		<link rel="stylesheet" href="{{"reveal/dist/reveal.css" | relURL }}">
-		<link rel="stylesheet" href="{{"reveal/dist/theme/black.css" | relURL }}">
-		<link rel="stylesheet" href="{{"css/reveal-theme.css" | relURL }}">
-
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="{{"reveal/plugin/highlight/monokai.css" | relURL }}">
+		<link rel="stylesheet" href="{{ $reset_css.RelPermalink  }}">
+		<link rel="stylesheet" href="{{ $reveal_css.RelPermalink  }}">
+		<link rel="stylesheet" href="{{ $reveal_theme.RelPermalink  }}">
+		<link rel="stylesheet" href="{{ $highlight_theme.RelPermalink }}">
 	</head>
 	<body>
 		<div class="reveal">
@@ -33,23 +44,20 @@
 			{{ end }}
 			</div>
 		</div>
-
-		<script src="{{"reveal/dist/reveal.js" | relURL}}"></script>
-		<script src="{{"reveal/plugin/markdown/markdown.js" | relURL}}"></script>
-		<script src="{{"reveal/plugin/highlight/highlight.js" | relURL}}"></script>
 		<script type="module">
-
+			import Reveal from "{{ $reveal.RelPermalink }}";
+			import RevealMarkdown from "{{ $plugin_markdown.RelPermalink }}";
+			import RevealHighlight from "{{ $plugin_highlight.RelPermalink }}";
+			import RevealNotes from "{{ $plugin_notes.RelPermalink }}";
 			import x86asmatt from "{{ $x86asmatt.RelPermalink }}";
 			
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				hashOneBased: true,
 				controls: false,
-				controlsTutorial:false,
+				controlsTutorial: false,
 				progress: false,
-				transition: 'fade',
+				slideNumber: "c/t",
 				width: 1440,
 				height: 1080,
 				highlight: {
@@ -59,8 +67,7 @@
 					escapeHTML: false
 				},
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 
 			window.addEventListener("mousedown", handleClick, false);
