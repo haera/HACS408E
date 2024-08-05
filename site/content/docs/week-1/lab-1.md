@@ -23,37 +23,11 @@ coded `key`. It should exit if the file is larger than 4MB.
    - Choose either [`gcc`](https://gcc.gnu.org/) or
      [`llvm`](https://clang.llvm.org/) and follow the instructions on thier
      website to install it.
-   - In the text editor of your choice, create a new file named `xor.c`.
-   - Here is a template to get you started:
-     ```C
-     #include <stdbool.h> /* bool */
-     #include <stddef.h>  /* NULL, size_t */
-     #include <stdint.h>  /* uint8_t */
-     #include <stdio.h>   /* printf, fopen, fread, fwrite, fseek, ftell, rewind */
-     #include <stdlib.h>  /* EXIT_SUCCESS, EXIT_FAILURE, exit */
+   - In the text editor of your choice, create a new file named `xor_main.c`.
 
-     static const uint8_t KEY[] = "hacs480e";
-     static const long MAX_INPUT_SIZE = 4 * 1024 * 1024; // 4 Megabytes
-
-     // Function Declarations:
-     uint8_t *read_input_data(const char *file_path);
-     void write_output_data(const char *file_path, uint8_t *data);
-     void xor_data(uint8_t *data);
-
-     int main(int argc, char *argv[]) {
-       // Exit if arguments are incorrect:
-       if (3 != argc) {
-         printf("USAGE: %s <input_file> <output_file>\n", argv[0]);
-         return EXIT_FAILURE;
-       }
-
-       uint8_t *data = read_input_data(argv[1]);
-       xor_data(data);
-       write_output_data(argv[2], data);
-
-       return EXIT_SUCCESS;
-     }
-     ```
+1. **Importing Standard Library Modules:**
+   - Here are some suggested `#include`s to use: {{% code lang="C"
+     source="example-code/xor_main.c" start=1 end=5 options="linesnos=table" %}}
 
 1. **Define functions to read and write files:**
    - Write a function to read the contents of a file into a buffer. It should:

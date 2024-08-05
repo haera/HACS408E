@@ -1,0 +1,18 @@
+{{/* Based on: https://marcusolsson.dev/how-to-include-code-examples-from-file-with-hugo/ */}}
+
+{{ $language := .Get "language" }}
+{{ $source := .Get "source" }}
+{{ $startl := .Get "start" }}
+{{ $endl := .Get "end" }}
+{{ $options := .Get "options" }}
+
+{{ with $source | readFile }}
+  {{ $snippet := . }}
+  {{ $lines := split $snippet "\n" }}
+  {{ $snippetLen := sub $endl $startl }}
+  {{ $includedLines := first $snippetLen (after $startl $lines) }}
+  {{ $snippet = delimit $includedLines "\n" }}
+
+  {{ printf "```%s {linenostart=%d,filename=%s,%s} \n%s\n```" $language $startl $source $options $snippet | .RenderString }}
+
+{{ end }}
