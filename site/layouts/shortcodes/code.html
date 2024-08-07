@@ -1,18 +1,37 @@
-{{/* Based on: https://marcusolsson.dev/how-to-include-code-examples-from-file-with-hugo/ */}}
+{{/*
+   * References:
+   *  - https://marcusolsson.dev/how-to-include-code-examples-from-file-with-hugo/
+   *  - https://me.micahrl.com/blog/hugo-shortcode-importcode/
+   */}}
 
-{{ $language := .Get "language" }}
 {{ $source := .Get "source" }}
-{{ $startl := .Get "start" }}
-{{ $endl := .Get "end" }}
-{{ $options := .Get "options" }}
+{{ $lang := .Get "lang" | default "txt" }}
+{{ $options := .Get "options" | default "" }}
+{{ $startl := .Get "start" | default 0 }}
+{{ $endl := .Get "end" | default 0 }}
+{{ with .Get "len" }}
+  {{ $endl = add . $startl }}
+{{ end }}
 
-{{ with $source | readFile }}
+{{ with readFile $source }}
+  {{ $path := path.Split $source }} 
   {{ $snippet := . }}
   {{ $lines := split $snippet "\n" }}
   {{ $snippetLen := sub $endl $startl }}
   {{ $includedLines := first $snippetLen (after $startl $lines) }}
   {{ $snippet = delimit $includedLines "\n" }}
 
-  {{ printf "```%s {linenostart=%d,filename=%s,%s} \n%s\n```" $language $startl $source $options $snippet | .RenderString }}
-
+<div class="hextra-code-block hx-relative hx-mt-6 hx-first:mt-0 hx-group/code">
+  <div class="filename">{{ $path.File }}</div>
+  {{ if transform.CanHighlight $lang }}
+    <div id="code-block-{{ $.Ordinal }}">
+      {{ highlight $snippet $lang $options }} 
+      {{/*
+         * {{ $fixed := replace $code "<span class=\"cp\">\n</span>" "<span class=\"cp\"></span>" }}
+         * {{ $fixed | $.Page.RenderString }}
+         */}}
+    </div>
+  {{ end }}
+</div>
+  
 {{ end }}
