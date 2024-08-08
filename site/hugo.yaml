@@ -45,7 +45,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/aces.jpeg
+      path: images/aces.svg
       link: /
       width: 24
       height: 20
