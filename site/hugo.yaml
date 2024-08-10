@@ -45,7 +45,7 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/aces.jpeg
+      path: images/aces.svg
       link: /
       width: 24
       height: 20
@@ -57,3 +57,8 @@ params:
   editURL:
     enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+  highlight:
+    copy:
+      enable: true
+      display: always
