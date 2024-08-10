@@ -1,5 +1,5 @@
 ---
-title: "Week 07: Protocols"
+title: "Week 07: Cryptanalysis"
 type: docs
 prev: docs/week-6
 next: docs/week-8

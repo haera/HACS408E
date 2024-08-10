@@ -4,56 +4,63 @@ type: about
 toc: false
 ---
 
-[Template pdf is here](https://docs.google.com/document/d/19kvXKOAa_30IKmA7r7hkJypO0MX8OZNGJoBSPHToqb4/edit#heading=h.1lfwipumnuof)
+{{< downloadbutton file="https://docs.google.com/document/d/1Gwq-C608xry5H6HpRgKuU9XyvHVGbWYhtQdjMc1dI5o/edit#heading=h.3znysh7" text="Download PDF" >}}
 
-**Term:** *Fall of 2024*  
-**Instructors:** \#\#\#  
-**Email:** \#\#\#  
-**Office Hours:** \#\#\#
+**Term:** Fall 2024  
+**Instructors:** Chase Kanipe, Luke Mains  
+**Email:** [ckanipe@umd.edu](mailto:ckanipe@umd.edu), [lmains@umd.edu](mailto:lmains@umd.edu)  
+**Office Hours:** TBD
 
-**Credits:** \#\#\#  
-**Course Dates:** From Jan 1, 2023 \- May 1, 2023    
-**Course Times:** \#\#\#  
-**Classroom:** \#\#\#
 
-## Course Description
+## **Course Description**
 
-Consider a brief description of the course to give students a broad sense of what the course is all about.  Research indicates that writing in a welcoming tone can help students engage with a syllabus more deeply. You might provide some context for the course that helps students understand why they would take it and how it fits into a particular sequence or major requirement (if applicable). You could also explain how the course relates to future career paths, and whether there are any prerequisites for the course.
+This course will introduce students to the tools and techniques required to analyze the security properties of various systems. Topics covered will include assembly language, executable file formats, operating system internals, and the static/dynamic analysis of compiled binaries. Students will apply these concepts to real-world scenarios like malware analysis and vulnerability analysis with interactive labs, at-home assignments, and a final project.
 
-## Learning Outcomes 
+## **Learning Outcomes** 
 
 After successfully completing this course you will be able to:
 
-* State three to five outcomes that you expect your students will achieve as a result of this class.  
-* Outcomes should be clear and measurable and worded around what students do (e.g., define, contrast, apply, analyze, create, evaluate).  
-* If your course carries a [General Education designation, review the learning outcomes here](https://gened.umd.edu/faculty/general-education-learning-outcomes-and-assessment-rubrics) 
+* **Use a variety of popular reverse engineering tools**, including:  
+  * Ghidra  
+  * Binary Ninja  
+  * Wireshark  
+* **Reverse engineer a variety of binary executables**, including:  
+  * Malware binaries on an operating system  
+  * Malware served by webpages  
+  * Self-modifying code  
+  * Obfuscated code  
+* **Understand binary file formats and operating system internals**  
+  * ELF and PE file formats  
+  * Unix and Windows operating system APIs  
+* **Understand and interpret network packets**  
+  * Passively record web traffic  
+  * Analyze web traffic to find indicators of malicious activity  
+* **Present reverse engineering projects to a technical audience**
 
-## Required Resources 
+## **Required Resources** 
 
-* Course Website: [elms.umd.edu](http://www.elms.umd.edu/)
+* Course Website: [hacs408e.umd.edu](http://hacs408e.umd.edu)
 
-* Book: (Indicate that the book is required or recommended. Include ISBN number and estimated costs)
+* Book: None
 
-* Application/Software (Indicate that the product is required or recommended. Include the product link and estimated costs). If required and if the application/software has NOT been reviewed by the UMD IT to assess security compliance (accessibility and privacy), please provide an alternative solution for the students to equally succeed and meet the course requirements.
+* Application/Software: Students will have free access to open source tools such as Ghidra, Binary Ninja, Wireshark, Hexdump, Volatility, WinDbg, and various utilities included on the course virtual machine. Alternatively, students can run their own virtual machine using VMWare ([Download Instructions](https://terpware.umd.edu/Linux/Package/4469)).
 
-* Total Estimated costs of required course materials: $XX.XX
+* Total Estimated costs of required course materials: $0.00
 
-## Course Structure
+## **Course Structure**
 
-Explain the structure of the course here including elements of how the work outside and inside the class should be balanced. 
+Since this is an applied course, it will be very focused on labs modeled after real-world reverse engineering tasks. Students are expected to attend class and attempt the labs, which are used to introduce the skills necessary to complete the homeworks. The in-person nature of this class will push you to take an active role in the learning process. You will do this by engaging and collaborating with other students and the instructor on a regular basis both, in live sessions, as well as through group work and activities.
 
-Example: This course has 4 live-sessions via WebEx that are mandatory. The flexible framework does not require you to be in a specific location to participate; however, you must have access to a full-screen computer or tablet for each live session. (If you use a tablet for the live session, you must be comfortable typing responses on it.) The online nature of this class will push you to take an active role in the learning process. You will do this by engaging and collaborating with other students and the instructor on a regular basis both, in live sessions, as well as through group work and activities.
-
-## Tips for Success in an Online Course OR Tips for Success in this Course (if your course is not online \- Please edit the title of this section accordingly 
+## **Tips for Success in this Course**
 
 1. **Participate.** I invite you to engage deeply, ask questions, and talk about the course content with your classmates. You can learn a great deal from discussing ideas and perspectives with your peers and professor. Participation can also help you articulate your thoughts and develop critical thinking skills.  
-1. **Manage your time.** Students are often very busy, and I understand that you have obligations outside of this class. However, students do best when they plan adequate time that is devoted to course work. Block your schedule and set aside plenty of time to complete assignments including extra time to handle any technology related problems.  
-1. **Login regularly.** I recommend that you log in to ELMS-Canvas several times a week to view announcements, discussion posts and replies to your posts. You may need to log in multiple times a day when group submissions are due.  
-1. **Do not fall behind.** This class moves at a quick pace and each week builds on the previous content. If you feel you are starting to fall behind, check in with the instructor as soon as possible so we can troubleshoot together. It will be hard to keep up with the course content if you fall behind in the pre-work or post-work.  
-1. **Use ELMS-Canvas notification settings.** Pro tip\! Canvas ELMS-Canvas can ensure you receive timely notifications in your email or via text. Be sure to enable announcements to be sent instantly or daily.  
-1. **Ask for help if needed.** If you need help with ELMS-Canvas or other technology, IT Support. If you are struggling with a course concept, reach out to me and your classmates for support. 
+2. **Manage your time.** Students are often very busy, and I understand that you have obligations outside of this class. However, students do best when they plan adequate time that is devoted to course work. Block your schedule and set aside plenty of time to complete assignments including extra time to handle any technology related problems.  
+3. **Login regularly.** I recommend that you log in to ELMS-Canvas several times a week to view announcements, discussion posts and replies to your posts. You may need to log in multiple times a day when group submissions are due.  
+4. **Do not fall behind.** This class moves at a quick pace and each week builds on the previous content. If you feel you are starting to fall behind, check in with the instructor as soon as possible so we can troubleshoot together. It will be hard to keep up with the course content if you fall behind in the pre-work or post-work.  
+5. **Use ELMS-Canvas notification settings.** Pro tip\! Canvas ELMS-Canvas can ensure you receive timely notifications in your email or via text. Be sure to enable announcements to be sent instantly or daily.  
+6. **Ask for help if needed.** If you need help with ELMS-Canvas or other technology, IT Support. If you are struggling with a course concept, reach out to me and your classmates for support. 
 
-## Policies and Resources for Undergraduate Courses
+## **Policies and Resources for Undergraduate Courses**
 
 It is our shared responsibility to know and abide by the University of Maryland’s policies that relate to all courses, which include topics like:
 
@@ -64,70 +71,59 @@ It is our shared responsibility to know and abide by the University of Maryland�
 * Grades and appeals  
 * Copyright and intellectual property
 
-Please visit [www.ugst.umd.edu/courserelatedpolicies.html](http://www.ugst.umd.edu/courserelatedpolicies.html) for the Office of Undergraduate Studies’ full list of campus-wide policies and follow up with me if you have questions.
+Please visit [www.ugst.umd.edu/courserelatedpolicies.html](http://www.ugst.umd.edu/courserelatedpolicies.html) for the Office of Undergraduate Studies’ full list of campus-wide policies and follow up with me if you have questions.  
+ 
 
-## Course Guidelines
+## **Course Guidelines**
 
-### Names/Pronouns and Self-Identifications:
+### **Names/Pronouns and Self-Identifications:**
 
 The University of Maryland recognizes the importance of a diverse student body, and we are committed to fostering inclusive and equitable classroom environments. I invite you, if you wish, to tell us how you want to be referred to in this class, both in terms of your name and your pronouns (he/him, she/her, they/them, etc.). Keep in mind that the pronouns someone uses are not necessarily indicative of their gender identity. Visit [trans.umd.edu](http://trans.umd.edu/) to learn more.
 
  Additionally, it is your choice whether to disclose how you identify in terms of your gender, race, class, sexuality, religion, and dis/ability, among all aspects of your identity (e.g., should it come up in classroom conversation about our experiences and perspectives) and should be self-identified, not presumed or imposed.  I will do my best to address and refer to all students accordingly, and I ask you to do the same for all of your fellow Terps.
 
-### Communication with Instructor:
+### **Communication with Instructor:**
 
-Email: If you need to reach out and communicate with me, please email me at xxxxxxxxx@umd.edu. Please DO NOT email me with questions that are easily found in the syllabus or on ELMS (i.e. When is this assignment due? How much is it worth? etc.) but please DO reach out about personal, academic, and intellectual concerns/questions.  
-While I will do my best to respond to emails within 24 hours, you will more likely receive email responses from me on Mondays, Wednesdays and Fridays from 8:00am-10:00am EST
+Email: If you need to reach out and communicate with me, please email the instructors at [ckanipe@umd.edu](mailto:ckanipe@umd.edu), and [lmains@umd.edu](mailto:lmains@umd.edu). Please DO NOT email us with questions that are easily found in the syllabus or on ELMS (i.e. When is this assignment due? How much is it worth? etc.) but please DO reach out about personal, academic, and intellectual concerns/questions. While we will do our best to respond to emails within 24 hours, you will more likely receive email responses from us after 5:00 pm EST, weekdays or the next day.
 
 ELMS: I will send IMPORTANT announcements via ELMS messaging. You must make sure that your email & announcement notifications (including changes in assignments and/or due dates) are enabled in ELMS so you do not miss any messages.  You are responsible for checking your email and Canvas/ELMS inbox with regular frequency.
 
-### Communication with Peers:
+### **Communication with Peers:**
 
 With a diversity of perspectives and experience, we may find ourselves in disagreement and/or debate with one another. As such, it is important that we agree to conduct ourselves in a professional manner and that we work together to foster and preserve a virtual classroom environment in which we can respectfully discuss and deliberate controversial questions. I encourage you to confidently exercise your right to free speech—bearing in mind, of course, that you will be expected to craft and defend arguments that support your position. Keep in mind, that free speech has its limit and this course is NOT the space for hate speech, harassment, and derogatory language. I will make every reasonable attempt to create an atmosphere in which each student feels comfortable voicing their argument without fear of being personally attacked, mocked, demeaned, or devalued.
 
 Any behavior (including harassment, sexual harassment, and racially and/or culturally derogatory language) that threatens this atmosphere will not be tolerated. Please alert me immediately if you feel threatened, dismissed, or silenced at any point during our semester together and/or if your engagement in discussion has been in some way hindered by the learning environment.
 
-## Major Assignments 
+## **Major Assignments** 
 
-### Homework Assignments
+### **Homework Assignments**
 
-* Reading reflections, video questions and other assignments  
-* What is their purpose? How will they be conducted?
+* Every week students will be given a reverse engineering task that requires understanding the tools and techniques described in that week's lecture. Students must complete a write-up of their results, explaining their analysis methods and possibly answering some questions. This report will be due at the start of the following lecture.
 
-### Quizzes & Weekly Summaries
+### **Quizzes**
 
-* How many of these will there be  
-* What is their purpose? How will they be conducted?
+* There will be 4-5 quizzes spread throughout the semester. Each quiz will be announced the week before and will take place during the first 15-30 minutes of class a week from the announcement.
 
-### Participation & Engagement
+### **Participation & Engagement**
 
-* During live sessions  
-* During group discussion boards
+* During live sessions, students will work on multiple labs and are expected to submit documents with their answers to the questions for each lab at the end of class.
 
-### Team Project
+### **Final Project** 
 
-* What are the components of the team project  
-* What is the purpose? Where can they go to find more information? ELMS link
+* In lieu of a final exam students will work on the NSA Codebreaker Challenge during the last two weeks of class. 
 
-### Final Exam 
-
-* xxx  
-* Clarify what tools are needed and where to access study materials
-
-## Grading Structure
+## **Grading Structure**
 
 | Assignment | Percentage % |
 | :---- | :---- |
-| **Homework** | **30%** |
-| **Quizzes & Weekly Summaries** | **15%** |
-| **Participation/Engagement** | **15%** |
-| **Team Project/Paper/Presentation** | **20%** |
-| **Final Exam** | **20%** |
+| **Homework** | **50%** |
+| **Quizzes** | **10%** |
+| **Participation/Engagement** | **10%** |
+| **Team Presentation** | **10%** |
+| **Final Project** | **20%** |
 | **Total** | **100%** |
 
-## 
-
-## Academic Integrity
+## **Academic Integrity**
 
 For this course, some of your assignments will be collected via Turnitin on our course ELMS page.  I have chosen to use this tool because it can help you improve your scholarly writing and help me verify the integrity of student work.  For information about Turnitin, how it works, and the feedback reports you may have access to, visit [Turnitin Originality Checker for Students](https://umd.service-now.com/itsc?id=kb\_article\&sys\_id=c0116d8f0f7ef2007f232ca8b1050e63)
 
@@ -141,17 +137,12 @@ Finally, on each exam or assignment you must write out and sign the following pl
 
 |  | ![][image1] | ![][image2] | ![][image3] | ![][image4] | ![][image5] | ![][image6] |
 | :---- | ----- | ----- | ----- | ----- | ----- | ----- |
-| Homework Assignments | ✔ | ✔ | ✔ | \--- | \--- | \--- |
-| Quizzes & Weekly Summaries | ✔ | ✔ | ✔ | \--- | \--- | \--- |
+| In-Class Labs | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| Homework Assignments | ✔ | ✔ | ✔ | ✔ | \--- | \--- |
+| Quizzes | ✔ | ✔ | ✔ | \--- | \--- | \--- |
 | Team Project | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| Final Exam | ✔ | ✔ | \--- | \--- | \--- | \--- |
 
 ## **Grades**
-
-Campus Policy dictates that you must specify:
-
-* How final letter grades will be determined. This should include a breakdown of all graded assessments, their weight in the course, and whether final grades will include \+/- descriptors.  
-* How students will have access to their grades throughout the semester, and how they can review their work (including the final exam).
 
 All assessment scores will be posted on the course ELMS page.  If you would like to review any of your grades (including the exams), or have questions about how something was scored, please email me to schedule a time for us to meet and discuss.
 
@@ -167,39 +158,6 @@ It is essential that you articulate in your syllabus how final letter grades wil
 | \+ | 97.00% | \+ | 87.00% | \+ | 77.00% | \+ | 67.00% | \+ |  |
 | A | 94.00% | B | 84.00% | C | 74.00% | D | 64.00% | F | \<60.0% |
 | \- | 90.00% | \- | 80.00% | \- | 70.00% | \- | 60.00% | \- |  |
-
-## 
-
-## **Course Outline**
-
-The format of this section will vary based on the design of your course and the semester, but our guidance is to aim for a clear and concise table that maps out all of the assignment assessments and deadlines and gives students a sense of the course’s organization.  
-
-| Week \# | Topic | Deliverable |
-| ----: | :---- | :---- |
-| **1** |  |  |
-| **2** |  |  |
-| **3** |  |  |
-| **4** |  |  |
-| **5** |  |  |
-| **6** |  |  |
-| **7** |  |  |
-| **8** |  |  |
-| **9** |  |  |
-| **10** |  |  |
-| **11** |  |  |
-| **12** |  |  |
-| **13** |  |  |
-| **14** |  |  |
-
-Note: This is a tentative schedule, and subject to change as necessary – monitor the course ELMS page for current deadlines.  In the unlikely event of a prolonged university closing, or an extended absence from the university, adjustments to the course schedule, deadlines, and assignments will be made based on the duration of the closing and the specific dates missed.
-
-## **Note to Instructors About Updated Final Exam Policy** 
-
-**Note to Instructors:** All **undergraduate courses** **administering a final exam during finals week, the course syllabus** must include the final exam date. The date should either be the final exam date assigned to the course by the University or listed as "TBD" by the University. *Final exams may not be scheduled on the last day of class or any other date randomly selected by the instructor.* For the official final exam schedule, please refer to: [https://registrar.umd.edu/current/registration/exam.html](https://registrar.umd.edu/current/registration/exam.html).
-
-If your course includes an exam or alternative assessment during the last week of classes instead of a traditional final exam, you do not need to indicate a final exam date on the syllabus. However, please include the due date for the exam or alternative assessment.
-
-**Note to Instructors:** Per [University Policies amended in May 2024](https://policies.umd.edu/student-affairs/university-of-maryland-policy-on-the-conduct-of-undergraduate-courses-and-student-grievance-procedure), when a final examination is administered during finals week, no exams or alternative assessments worth more than 10% of the course grade may be due or administered during the last week of classes. Please see the policy (section IIA1c) for more details: [https://policies.umd.edu/student-affairs/university-of-maryland-policy-on-the-conduct-of-undergraduate-courses-and-student-grievance-procedure](https://policies.umd.edu/student-affairs/university-of-maryland-policy-on-the-conduct-of-undergraduate-courses-and-student-grievance-procedure)
 
 ## **Resources & Accommodations**  
 
@@ -217,8 +175,7 @@ In particular, everyone can use some help sharpening their communication skills 
 
 You should also know there are a wide range of resources to support you with whatever you might need ([**UMD’s Student Resources and Services website**](https://sph.umd.edu/content/student-resources-and-services) may help). If you feel it would be helpful to have someone to talk to, visit [**UMD’s Counseling Center**](https://www.counseling.umd.edu/) or [**one of the many other mental health resources on campus**](https://tltc.umd.edu/instructors/teaching-topics/supporting-whole-student).
 
-#### **Notice of Mandatory Reporting**
-
+**Notice of Mandatory Reporting**  
 Notice of mandatory reporting of sexual assault, sexual harassment, interpersonal violence, and stalking:  As a faculty member, I am designated as a “Responsible University Employee,” and I must report all disclosures of sexual assault, sexual harassment, interpersonal violence, and stalking to UMD’s Title IX Coordinator per University Policy on Sexual Harassment and Other Sexual Misconduct.
 
 If you wish to speak with someone confidentially, please contact one of UMD’s confidential resources, such as [CARE to Stop Violence](https://health.umd.edu/CARE)  (located on the Ground Floor of the Health Center) at 301-741-3442 or the [Counseling Center](https://counseling.umd.edu/) (located at the Shoemaker Building) at 301-314-7651.
@@ -234,10 +191,6 @@ If you have difficulty affording groceries or accessing sufficient food to eat e
 ### **Veteran Resources**
 
 UMD provides some additional supports to our student veterans. You can access those resources at the office of [Veteran Student life](https://stamp.umd.edu/engagement/veteran\_student\_life) and the [Counseling Center](https://www.counseling.umd.edu/aboutus/). Veterans and active duty military personnel with special circumstances (e.g., upcoming deployments, drill requirements, disabilities) are welcome and encouraged to communicate these, in advance if possible, to the instructor.
-
-## **Netiquette Policy \[Optional\]**
-
-Netiquette is the social code of online classes. Students share a responsibility for the course’s learning environment. Creating a cohesive online learning community requires learners to support and assist each other. To craft an open and interactive online learning environment, communication has to be conducted in a professional and courteous manner at all times, guided by common sense, collegiality and basic rules of etiquette.
 
 ## **Participation**
 

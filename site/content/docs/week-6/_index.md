@@ -1,5 +1,5 @@
 ---
-title: "Week 06: Cryptanalysis"
+title: "Week 06: Malware"
 type: docs
 prev: docs/week-5
 next: docs/week-7

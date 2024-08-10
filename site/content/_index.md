@@ -17,6 +17,10 @@ This course introduces students to the tools and techniques required to analyze 
   {{< card link="resources" title="Resources" icon="book-open" >}}
 {{< /cards >}}
 
+## Instructors
+
+Chase Kanipe, Luke Mains
+
 ## Contact
 
 For more information, contact the following people.

@@ -1,8 +1,8 @@
 ---
 title: "Week 05: Vuln Analysis"
 type: docs
-prev: docs/week-1
-next: docs/week-3
+prev: docs/week-4
+next: docs/week-6
 sidebar:
   open: false
 ---
