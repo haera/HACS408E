@@ -13,7 +13,7 @@ This course introduces students to the tools and techniques required to analyze 
 
 {{< cards >}}
   {{< card link="syllabus" title="Syllabus" icon="book-open" >}}
-  {{< card link="docs" title="Schedule" icon="user" >}}
+  {{< card link="schedule" title="Schedule" icon="user" >}}
   {{< card link="resources" title="Resources" icon="book-open" >}}
 {{< /cards >}}
 

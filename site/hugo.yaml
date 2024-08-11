@@ -4,7 +4,7 @@ title: HACS408E
 # import hextra as module
 module:
   imports:
-  - path: github.com/imfing/hextra
+    - path: github.com/imfing/hextra
 
 markup:
   # allow raw html
@@ -22,7 +22,7 @@ menu:
       pageRef: /syllabus
       weight: 1
     - name: Schedule
-      pageRef: /docs
+      pageRef: /schedule
       weight: 2
     - name: Resources
       pageRef: /resources
@@ -49,6 +49,8 @@ params:
       link: /
       width: 24
       height: 20
+  page:
+    width: wide
 
   footer:
     displayCopyright: false

@@ -1,6 +1,6 @@
 ---
-title: "" 
-type: docs 
+title: ""
+type: docs
 next: docs/
 ---
 
@@ -18,23 +18,23 @@ explaination
 
 {{< /callout >}}
 
-#### Steps:
+#### Steps
 
 1. step
 1. step
 1. step
 
-#### Example:
+#### Example
 
 example
 
-#### Tips:
+#### Tips
 
 - tip
 - tip
 - tip
 
-### Questions:
+### Questions
 
 {{< callout type="info" >}}
 
