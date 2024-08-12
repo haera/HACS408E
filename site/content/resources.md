@@ -43,3 +43,14 @@ type: about
 - [pwn.college](https://pwn.college/program-security/reverse-engineering)
 - [Compiler Explorer](https://godbolt.org/) |
   [Decompiler Explorer](https://dogbolt.org)
+
+## Assembly Language
+
+- [Intro to Computer Organization](https://nostarch.com/introcomporg)
+- [Intel vs. AT&T Assembly Syntax](https://imada.sdu.dk/u/kslarsen/dm546/Material/IntelnATT.htm)
+- [Learn X86 Assembly](https://patshaughnessy.net/2016/11/26/learning-to-read-x86-assembly-language)
+- [GNU `as` i386/x64 Manual](https://sourceware.org/binutils/docs/as/i386_002dDependent.html)
+- [GNU Assembler Examples](https://cs.lmu.edu/~ray/notes/gasexamples/)
+- [ARM Assembly By Example](https://armasm.com/docs/getting-to-hello-world/basics/)
+- [Amd64 Programmers Manual (Vol. 1)](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24592.pdf)
+- [Intel Programmers Manuals (Vol. 2)](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)

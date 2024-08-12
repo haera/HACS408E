@@ -18,27 +18,28 @@ explaination
 
 {{< /callout >}}
 
-#### Steps
+## Instructions
 
 1. step
 1. step
 1. step
 
-#### Example
+## Example
 
 example
 
-#### Tips
+## Tips
 
 - tip
 - tip
 - tip
 
-### Questions
+## Questions
 
 {{< callout type="info" >}}
 
-Submit a markdown file with answers to these questions somewhere? `TODO`
+Submit a markdown file with any code you wrote and the answers to the following
+questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments)?
 
 {{< /callout >}}
 

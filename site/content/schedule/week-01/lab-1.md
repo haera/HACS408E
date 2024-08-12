@@ -19,7 +19,10 @@ coded `key`. It should exit if the file is larger than 4MB.
 
 {{< /callout >}}
 
+## Instructions
+
 1. **Setup Your Environment:**
+
    - Choose either [`gcc`](https://gcc.gnu.org/) or
      [`clang`](https://clang.llvm.org/) and follow the instructions on thier
      website to install it. <br> (NOTE: `gcc` is already installed on your
@@ -76,7 +79,7 @@ coded `key`. It should exit if the file is larger than 4MB.
    gcc -Wall -Werror -o xor ./xor_main.c
    ```
 
-#### Example:
+## Example
 
 Here is an example usage of the program.
 
@@ -92,26 +95,28 @@ dd if=/dev/random of=test.bin bs=1M count=1
 diff out1 out2
 ```
 
-#### Tips:
+## Tips
 
 - This is not a programming class, handling errors doesn't mean it has to be
   pretty. If something fails, just exit and let the OS handle cleanup.
 - Test with different input files to validate your program, something over 4MB.
 - Don't forget to `free()` your buffer(s)!
 
-### Questions:
+## Questions
 
 {{< callout type="info" >}}
 
-Submit a markdown file with answers to these questions somewhere? `TODO`
+Submit a markdown file with any code you wrote and the answers to the following
+questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments)?
 
 {{< /callout >}}
 
 1. Explain in your own words what a
-   [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) is.
+   [pointer](<https://en.wikipedia.org/wiki/Pointer_(computer_programming)>) is.
 
 1. How many bytes do each of the following data types use? (Hint:
    [`sizeof()`](https://en.cppreference.com/w/c/language/sizeof))
+
    - `int`
    - `size_t`
    - `uint64_t`
