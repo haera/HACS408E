@@ -1,14 +1,10 @@
 ---
-title: assembly-lecture
 type: reveal
-hidden: true
 sidebar:
   exclude: true
 ---
 
-## Introduction To Assembly Langauge Syntax
-
-Date: TODO
+## Assembly Language 1: Syntax
 
 ---
 
