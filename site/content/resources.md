@@ -43,6 +43,7 @@ type: about
 - [pwn.college](https://pwn.college/program-security/reverse-engineering)
 - [Compiler Explorer](https://godbolt.org/) |
   [Decompiler Explorer](https://dogbolt.org)
+- [Trail of Bits - Intro to CTF](https://trailofbits.github.io/ctf/)
 
 ## Assembly Language
 
@@ -54,3 +55,11 @@ type: about
 - [ARM Assembly By Example](https://armasm.com/docs/getting-to-hello-world/basics/)
 - [Amd64 Programmers Manual (Vol. 1)](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24592.pdf)
 - [Intel Programmers Manuals (Vol. 2)](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+
+## Malware
+
+[@malwareunicorn Workshops](https://malwareunicorn.org/#/workshops)
+
+## Android
+
+[Maddie Stone's Android App RE 101](https://www.ragingrock.com/AndroidAppRE/)

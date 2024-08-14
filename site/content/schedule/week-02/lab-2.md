@@ -1,7 +1,7 @@
 ---
-title: "Lab 2: Disassembly 1"
+title: "Lab 2: ELF Info"
 type: docs
 weight: 2
 ---
 
-Introductory static analysis lab.
+Use `nm`, `objdump`, `readelf` to analyze the two ELF binaries from the previous lab.

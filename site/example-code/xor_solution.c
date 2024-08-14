@@ -22,6 +22,12 @@ int eprintf(const char *restrict fmt, ...);
  */
 void exit_if_true(bool condition, const char *err_msg);
 
+// Your Function Definitions
+
+size_t get_file_size(FILE *handle);
+size_t allocate_buf_and_read_data(FILE *handle, uint8_t **p_buffer);
+void write_data_and_free(FILE *handle, uint8_t **p_buffer, size_t buf_size);
+
 int main(int argc, char *argv[]) {
   // Exit if arguments are incorrect:
   if (3 != argc) {
@@ -35,36 +41,20 @@ int main(int argc, char *argv[]) {
   FILE *outfile = fopen(argv[2], "wb");
   exit_if_true(NULL == outfile, "Unable to open output file for writing.");
 
-  // Get file size, exit if larger than 4MB:
-  int fseek_res = fseek(infile, 0, SEEK_END);
-  exit_if_true(0 != fseek_res, "Couldn't seek to end of file.");
-
-  long file_size = ftell(infile);
-  exit_if_true(-1L == file_size, "ftell() failed.");
-
-  // Don't forget to rewind file!
-  rewind(infile);
-
-  if (MAX_INPUT_SIZE < file_size) {
-    eprintf("Input file was larger than 4MB!");
-    exit(EXIT_FAILURE);
-  }
-
-  // Create a buffer with the correct size and read the file contents into it
-  uint8_t *data = (uint8_t *)malloc(file_size);
-  unsigned long bytes = fread(data, 1, file_size, infile);
-  exit_if_true(bytes != file_size, "Did not read all data from input file!");
-
+  uint8_t *data = NULL;
+  size_t buf_size = allocate_buf_and_read_data(infile, &data);
+  
   // Loop through the data buffer, xor-ing every byte with the KEY:
-  for (size_t i = 0; i < file_size; i++) {
+  for (size_t i = 0; i < buf_size; i++) {
     data[i] = data[i] ^ KEY[i % sizeof(KEY)];
   }
 
-  bytes = fwrite(data, 1, file_size, outfile);
-  exit_if_true(bytes != file_size, "Did not write all data to output file!");
-
+  write_data_and_free(outfile, &data, buf_size);
+  
   return EXIT_SUCCESS;
 }
+
+// Helper Function Implementations
 
 int eprintf(const char *restrict fmt, ...) {
   va_list vl;
@@ -79,4 +69,52 @@ void exit_if_true(bool condition, const char *message) {
     eprintf(message);
     exit(EXIT_FAILURE);
   }
+}
+
+// Your Function Implementations
+size_t get_file_size(FILE *handle) {
+  // Get file size, exit if larger than 4MB:
+  int fseek_res = fseek(handle, 0, SEEK_END);
+  exit_if_true(0 != fseek_res, "Couldn't seek to end of file.");
+
+  size_t file_size = (size_t)ftell(handle);
+  exit_if_true(-1L == file_size, "ftell() failed.");
+
+  // Don't forget to rewind file!
+  rewind(handle);
+
+  if (MAX_INPUT_SIZE < file_size) {
+    eprintf("Input file was larger than 4MB!");
+    exit(EXIT_FAILURE);
+  }
+
+  return file_size;
+}
+
+size_t allocate_buf_and_read_data(FILE *handle, uint8_t **p_buffer) {
+  // Calculate size for malloc
+  size_t file_size = get_file_size(handle);
+ 
+  // Create a buffer with the correct size
+  uint8_t *ptr = (uint8_t *)malloc(file_size);
+
+  // Read the file contents into the allocated buffer
+  unsigned long num_bytes = fread(ptr, 1, file_size, handle);
+  exit_if_true(num_bytes != file_size, "Did not read all data from input file!");
+
+  // Assign passed in variable to point at allocated buffer
+  *p_buffer = ptr;
+  
+  return file_size;
+}
+
+void write_data_and_free(FILE *handle, uint8_t **p_buffer, size_t buf_size) {
+  uint8_t *buffer = *p_buffer;
+
+  unsigned long num_bytes = fwrite(buffer, 1, buf_size, handle);
+  exit_if_true(num_bytes != buf_size, "Did not write all data to output file!");
+
+  // Remember p_buffer, points to a buffer that was malloc-ed 
+  // so dereference before free-ing!
+  free(*p_buffer);
 }
