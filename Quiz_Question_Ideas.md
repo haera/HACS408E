@@ -43,3 +43,13 @@ func:
 ```
 
 Answer: memcpy
+
+---
+
+What is the [`.text`|`.data`|`.bss`] section of an ELF?
+
+---
+
+Same question for PE files.
+
+---

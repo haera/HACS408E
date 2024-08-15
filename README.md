@@ -10,24 +10,24 @@ project._
 
 ## Topics
 
-|        Date | Week | Section                   | Lectures | Labs | Homework |
-|------------:|-----:|:-------------------------:|:--------:|:----:|:--------:|
-| 28 Aug 2024 |    1 | C and Assembly            | [ ]      | [x]  | [x]      |
-| 04 Sep 2024 |    2 | Static Analysis           | [ ]      | [ ]  | [ ]      |
-| 11 Sep 2024 |    3 | Dynamic Analysis          | [ ]      | [ ]  | [ ]      |
-| 18 Sep 2024 |    4 | Ghidra                    | [ ]      | [ ]  | [ ]      |
-| 25 Sep 2024 |    5 | Vulnerability Analysis    | [ ]      | [ ]  | [ ]      |
-| 02 Oct 2024 |    7 | Networking + Protocols    | [ ]      | [ ]  | [ ]      |
-| 09 Oct 2024 |    8 | Malware                   | [ ]      | [ ]  | [ ]      |
-| 16 Oct 2024 |    6 | Cryptanalysis             | [ ]      | [ ]  | [ ]      |
-| 23 Oct 2024 |    9 | Rootkits                  | [ ]      | [ ]  | [ ]      |
-| 30 Oct 2024 |   10 | Firmware                  | [ ]      | [ ]  | [ ]      |
-| 06 Nov 2024 |   11 | Hardware                  | [ ]      | [ ]  | [ ]      |
-| 13 Nov 2024 |   12 |                           | [ ]      | [ ]  | [ ]      |
-| 20 Nov 2024 |   13 | Bonus: Android            | [ ]      | [ ]  | [ ]      |
-| 27 Nov 2024 |   14 | ------- Fall Break ------ | -        | -    | -        |
-| 04 Dec 2024 |   15 | Final Project Work Period | -        | -    | -        |
-| 11 Dec 2024 |   16 | -------- Finals --------- | -        | -    | -        |
+|        Date | Week |          Section          | Lectures | Labs | Homework |
+| ----------: | ---: | :-----------------------: | :------: | :--: | :------: |
+| 28 Aug 2024 |    1 |      C and Assembly       |   [ ]    | [x]  |   [x]    |
+| 04 Sep 2024 |    2 |      Static Analysis      |   [ ]    | [ ]  |   [ ]    |
+| 11 Sep 2024 |    3 |     Dynamic Analysis      |   [ ]    | [ ]  |   [ ]    |
+| 18 Sep 2024 |    4 |          Ghidra           |   [ ]    | [ ]  |   [ ]    |
+| 25 Sep 2024 |    5 |  Vulnerability Analysis   |   [ ]    | [ ]  |   [ ]    |
+| 02 Oct 2024 |    6 |  Networking + Protocols   |   [ ]    | [ ]  |   [ ]    |
+| 09 Oct 2024 |    7 |          Malware          |   [ ]    | [ ]  |   [ ]    |
+| 16 Oct 2024 |    8 |       Cryptanalysis       |   [ ]    | [ ]  |   [ ]    |
+| 23 Oct 2024 |    9 |         Rootkits          |   [ ]    | [ ]  |   [ ]    |
+| 30 Oct 2024 |   10 |         Firmware          |   [ ]    | [ ]  |   [ ]    |
+| 06 Nov 2024 |   11 |         Hardware          |   [ ]    | [ ]  |   [ ]    |
+| 13 Nov 2024 |   12 |      Bonus: Android       |   [ ]    | [ ]  |   [ ]    |
+| 20 Nov 2024 |   13 |                           |   [ ]    | [ ]  |   [ ]    |
+| 27 Nov 2024 |   14 |    --- Fall Break ---     |    -     |  -   |    -     |
+| 04 Dec 2024 |   15 | Final Project Work Period |    -     |  -   |    -     |
+| 11 Dec 2024 |   16 |      --- Finals ---       |    -     |  -   |    -     |
 
 **Notes:**
 

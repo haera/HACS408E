@@ -14,7 +14,7 @@ sidebar:
 - Class Resources
 - Instructors, How to reach us
 - Grades?
-- Poll about programming experience
+- Poll about programming experience, linux familiarity
 
 ---
 
