@@ -36,14 +36,11 @@ type: about
   [Introduction to Cyber-Warfare](https://www.amazon.com/Introduction-Cyber-Warfare-Multidisciplinary-Paulo-Shakarian/dp/0124078141),
   [The Ghidra Book](https://www.amazon.com/Ghidra-Book-Definitive-Guide/dp/1718501021)
 
-## Other Resources
+## Other Learning
 
 - [MalDev academy](https://maldevacademy.com/)
 - [Vx underground malware code](https://github.com/vxunderground/MalwareSourceCode)
 - [pwn.college](https://pwn.college/program-security/reverse-engineering)
-- [Compiler Explorer](https://godbolt.org/) |
-  [Decompiler Explorer](https://dogbolt.org)
-- [Trail of Bits - Intro to CTF](https://trailofbits.github.io/ctf/)
 
 ## Assembly Language
 
@@ -55,11 +52,29 @@ type: about
 - [ARM Assembly By Example](https://armasm.com/docs/getting-to-hello-world/basics/)
 - [Amd64 Programmers Manual (Vol. 1)](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24592.pdf)
 - [Intel Programmers Manuals (Vol. 2)](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+- [Compiler Explorer](https://godbolt.org/) | [Decompiler Explorer](https://dogbolt.org)
+
+## Dynamic Analysis
+
+- [`LD_PRELOAD` CTF Tools](https://github.com/zardus/preeny)
+- [`LD_PRELOAD` Tricks](https://rafalcieslak.wordpress.com/2013/04/02/dynamic-linker-tricks-using-ld_preload-to-cheat-inject-features-and-investigate-programs/)
+
+## Blogs
+
+- [Shared Libraries](https://amir.rachum.com/shared-libraries/)
+- [Parsing ELF Headers w/ Rust](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
+- [Exploring Mach-O](https://gpanders.com/blog/exploring-mach-o-part-1/)
+- [ELF Headers](https://medium.com/@allypetitt/reverse-engineering-analyzing-headers-23dc84075cd)
+
+## CTF Resources
+
+- [Google: "List of CTFs"](https://github.com/apsdehal/awesome-ctf)
+- [Trail of Bits](https://trailofbits.github.io/ctf/)
 
 ## Malware
 
-[@malwareunicorn Workshops](https://malwareunicorn.org/#/workshops)
+- [@malwareunicorn Workshops](https://malwareunicorn.org/#/workshops)
 
 ## Android
 
-[Maddie Stone's Android App RE 101](https://www.ragingrock.com/AndroidAppRE/)
+- [Maddie Stone's Android App RE 101](https://www.ragingrock.com/AndroidAppRE/)

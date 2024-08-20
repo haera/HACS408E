@@ -1,0 +1,2 @@
+file filter=lfs diff=lfs merge=lfs -text
+libmagic.so.1 filter=lfs diff=lfs merge=lfs -text

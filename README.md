@@ -13,7 +13,7 @@ project._
 |        Date | Week |          Section          | Lectures | Labs | Homework |
 | ----------: | ---: | :-----------------------: | :------: | :--: | :------: |
 | 28 Aug 2024 |    1 |      C and Assembly       |   [ ]    | [x]  |   [x]    |
-| 04 Sep 2024 |    2 |      Static Analysis      |   [ ]    | [ ]  |   [ ]    |
+| 04 Sep 2024 |    2 |      Static Analysis      |   [ ]    | [x]  |   [x]    |
 | 11 Sep 2024 |    3 |     Dynamic Analysis      |   [ ]    | [ ]  |   [ ]    |
 | 18 Sep 2024 |    4 |          Ghidra           |   [ ]    | [ ]  |   [ ]    |
 | 25 Sep 2024 |    5 |  Vulnerability Analysis   |   [ ]    | [ ]  |   [ ]    |

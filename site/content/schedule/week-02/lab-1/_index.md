@@ -70,3 +70,12 @@ For each of the Following files, complete the steps below and answer questions.
 1. Some of the files are from the
    [pico CTF practice page](https://play.picoctf.org/practice).
    If you find the flags, (i.e `picoCTF{########}`) add them to your lab write up.
+
+## Submission
+
+{{< callout type="info" >}}
+
+Submit a markdown file with a write up and answers to questions to
+[ELMS](https://umd.instructure.com/courses/1374508/assignments).
+
+{{< /callout >}}
