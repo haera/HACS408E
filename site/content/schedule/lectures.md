@@ -4,17 +4,15 @@ type: docs
 next: schedule/week-01/
 ---
 
-TODO: Description
-
 ### Lectures by Week
 
-[Class Introduction](/schedule/week-01/lecture-0)
+[Class Introduction](/lectures/week-01.html)
 
 #### Week 1
 
-- [C Programming Overview](/schedule/week-01/lecture-1)
-- [Assembly Language 1](/schedule/week-01/lecture-2/)
-- [Assembly Language 2](/schedule/week-01/lecture-3/)
+- [Intro to RE](/lectures/week-01.html#/3)
+- [C Programming Overview](/lectures/week-01.html#/4)
+- [Assembly Language](/lectures/week-01.html#/5)
 
 #### Week 2
 
@@ -57,3 +55,7 @@ TODO: Description
 - []()
 - []()
 - []()
+
+### Suplemental Lectures
+
+- [Assembly Syntax Intel vs AT&T](/schedule/week-01/lecture-2/)
