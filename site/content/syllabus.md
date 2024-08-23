@@ -1,16 +1,20 @@
 ---
-title: Syllabus
+title: Applied Reverse Engineering (HACS408E)
 type: about
-toc: false
 ---
 
-{{< downloadbutton file="https://docs.google.com/document/d/1Gwq-C608xry5H6HpRgKuU9XyvHVGbWYhtQdjMc1dI5o/edit#heading=h.3znysh7" text="Download PDF" >}}
+{{< downloadbutton file="https://umd.instructure.com/courses/1374508/files/79482977?wrap=1" text="Download PDF" >}}
 
 **Term:** Fall 2024  
 **Instructors:** Chase Kanipe, Luke Mains  
+**Pronouns:** he/him  
 **Email:** [ckanipe@umd.edu](mailto:ckanipe@umd.edu), [lmains@umd.edu](mailto:lmains@umd.edu)  
 **Office Hours:** TBD
 
+**Credits:** 3  
+**Course Dates:** Aug 26, 2024 \- Dec 17, 2024    
+**Course Times:** Wednesday 5:00 pm \- 7:45 pm  
+**Classroom:** PHY 4311B
 
 ## **Course Description**
 
@@ -41,11 +45,7 @@ After successfully completing this course you will be able to:
 
 * Course Website: [hacs408e.umd.edu](http://hacs408e.umd.edu)
 
-* Book: None
-
-* Application/Software: Students will have free access to open source tools such as Ghidra, Binary Ninja, Wireshark, Hexdump, Volatility, WinDbg, and various utilities included on the course virtual machine. Alternatively, students can run their own virtual machine using VMWare ([Download Instructions](https://terpware.umd.edu/Linux/Package/4469)).
-
-* Total Estimated costs of required course materials: $0.00
+* Application/Software: Students will have free access to open source tools such as Ghidra, Binary Ninja, Wireshark, Hexdump, GNU Debugger, WinDbg, and various utilities included on the course virtual machine. Alternatively, students can run their own virtual machine using VMWare ([Download Instructions](https://terpware.umd.edu/Linux/Package/4469)) or Virtualbox.
 
 ## **Course Structure**
 
@@ -98,25 +98,32 @@ Any behavior (including harassment, sexual harassment, and racially and/or cultu
 
 ### **Homework Assignments**
 
-* Every week students will be given a reverse engineering task that requires understanding the tools and techniques described in that week's lecture. Students must complete a write-up of their results, explaining their analysis methods and possibly answering some questions. This report will be due at the start of the following lecture.
+* Every week students will be given a reverse engineering task that requires understanding the tools and techniques described in that week's lecture. Students must complete a write-up of their results, explaining their analysis methods and possibly answering some questions. This report will be due at the start of the following lecture.  
+* There will be **12 Homework Assignments** out of the 14 weeks of actual lectures. Each homework will be announced and can be found in the corresponding week tab of the class website, or in ELMS.
 
 ### **Quizzes**
 
-* There will be 4-5 quizzes spread throughout the semester. Each quiz will be announced the week before and will take place during the first 15-30 minutes of class a week from the announcement.
+* There will be 4-5 small quizzes spread throughout the semester. Each quiz will be announced the week before and will take place during the first 15-30 minutes of class a week from the announcement.  
+* Quizzes may include questions from all course content covered, not just the information since the last quiz. However these will be biased towards more recent lectures.
 
 ### **Participation & Engagement**
 
-* During live sessions, students will work on multiple labs and are expected to submit documents with their answers to the questions for each lab at the end of class.
+* During live sessions, students will work on multiple labs and are expected to submit documents with their answers to the questions for each lab at the end of class. If you miss class, you can still complete the labs and submit them after. Please let both of the instructors know if you will not be able to make it to class.  
+* Labs are graded for completeness only. As long as you try to answer the questions, and submit, you’ll get full points.
+
+### **Team Presentation**
+
+* At the midpoint of the semester, students will be split into groups of 4 and given a malware sample to analyze. Each group will present the following week with an analysis of the software. The goal is not necessarily to gain a complete understanding of the malware, but to describe the methods you used to reverse engineer it and present your findings to a technical audience of your peers.
 
 ### **Final Project** 
 
-* In lieu of a final exam students will work on the NSA Codebreaker Challenge during the last two weeks of class. 
+* In lieu of a final exam students will work on the [NSA Codebreaker Challenge](https://nsa-codebreaker.org/home) during the last three weeks of the semester (two weeks of class). 
 
 ## **Grading Structure**
 
 | Assignment | Percentage % |
 | :---- | :---- |
-| **Homework** | **50%** |
+| **Homework** | **50% (Distributed Evenly)** |
 | **Quizzes** | **10%** |
 | **Participation/Engagement** | **10%** |
 | **Team Presentation** | **10%** |
@@ -127,13 +134,11 @@ Any behavior (including harassment, sexual harassment, and racially and/or cultu
 
 For this course, some of your assignments will be collected via Turnitin on our course ELMS page.  I have chosen to use this tool because it can help you improve your scholarly writing and help me verify the integrity of student work.  For information about Turnitin, how it works, and the feedback reports you may have access to, visit [Turnitin Originality Checker for Students](https://umd.service-now.com/itsc?id=kb\_article\&sys\_id=c0116d8f0f7ef2007f232ca8b1050e63)
 
-The University's Code of Academic Integrity is designed to ensure that the principles of academic honesty and integrity are upheld. In accordance with this code, the University of Maryland does not tolerate academic dishonesty. Please ensure that you fully understand this code and its implications because all acts of academic dishonesty will be dealt with in accordance with the provisions of this code. All students are expected to adhere to this Code. It is your responsibility to read it and know what it says, so you can start your professional life on the right path. **As future professionals, your commitment to high ethical standards and honesty begins with your time at the University of Maryland.** 
+The University's Code of Academic Integrity is designed to ensure that the principles of academic honesty and integrity are upheld. In accordance with this code, the University of Maryland does not tolerate academic dishonesty. Please ensure that you fully understand this code and its implications because all acts of academic dishonesty will be dealt with in accordance with the provisions of this code. All students are expected to adhere to this Code. It is your responsibility to read it and know what it says, so you can start your professional life on the right path. **As future professionals, your commitment to high ethical standards and honesty begins with your time at the University of Maryland.** 
 
 It is important to note that course assistance websites, such as CourseHero, or AI-generated content are not permitted sources unless the instructor explicitly gives permission. Material taken or copied from these sites can be deemed unauthorized material and a violation of academic integrity. These sites offer information that might be inaccurate or biased and most importantly, relying on restricted sources will hamper your learning process, particularly the critical thinking steps necessary for college-level assignments. 
 
-Additionally, students may naturally choose to use online forums for course-wide discussions (e.g., Group lists or chats) to discuss concepts in the course. However, collaboration on graded assignments is strictly prohibited unless otherwise stated. Examples of prohibited collaboration include: asking classmates for answers on quizzes or exams, asking for access codes to clicker polls, etc. Please visit the [**Office of Undergraduate Studies’ full list of campus-wide policies**](http://www.ugst.umd.edu/courserelatedpolicies.html) and reach out if you have questions.
-
-Finally, on each exam or assignment you must write out and sign the following pledge:  ***"I pledge on my honor that I have not given or received any unauthorized assistance on this exam/assignment."***  If you ever feel pressured to comply with someone else’s academic integrity violation, please reach out to me straight away. Also, ***if you are ever unclear*** about acceptable levels of collaboration, ***please ask***\!  To help you avoid unintentional violations, ***the following table*** lists levels of collaboration that are acceptable for each graded exercise. Each assignment will contain more specific information regarding acceptable levels of collaboration.
+Additionally, students may naturally choose to use online forums for course-wide discussions (e.g., Group lists or chats) to discuss concepts in the course. However, collaboration on graded assignments is strictly prohibited unless otherwise stated. Examples of prohibited collaboration include: asking classmates for answers on quizzes or exams, asking for access codes to clicker polls, etc. Please visit the [**Office of Undergraduate Studies’ full list of campus-wide policies**](http://www.ugst.umd.edu/courserelatedpolicies.html) and reach out if you have questions.
 
 |  | ![][image1] | ![][image2] | ![][image3] | ![][image4] | ![][image5] | ![][image6] |
 | :---- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -144,14 +149,9 @@ Finally, on each exam or assignment you must write out and sign the following pl
 
 ## **Grades**
 
-All assessment scores will be posted on the course ELMS page.  If you would like to review any of your grades (including the exams), or have questions about how something was scored, please email me to schedule a time for us to meet and discuss.
+All assessment scores will be posted on the course ELMS page.  If you would like to review any of your grades (including the final project), or have questions about how something was scored, please email the instructors to schedule a time for us to meet and discuss. We are happy to discuss any of your grades with you, and if we have made a mistake we will immediately correct it.  Any formal grade disputes must be submitted in writing and within one week of receiving the grade.
 
-Late work will not be accepted for course credit so please plan to have it submitted well before the scheduled deadline.  I am happy to discuss any of your grades with you, and if I have made a mistake I will immediately correct it.  Any formal grade disputes must be submitted in writing and within one week of receiving the grade.  
 Final letter grades are assigned based on the percentage of total assessment points earned.  To be fair to everyone I have to establish clear standards and apply them consistently, so please understand that being close to a cutoff is not the same as making the cut (89.99 ≠ 90.00).  It would be unethical to make exceptions for some and not others.
-
- A table of the assessments and point values can be a concise way to convey all of the graded elements and their relative weight in the course.  If you are using weighted percentages (e.g., exams \= 30%, paper \= 20%) be sure to clarify the number of assessments within each category… is there one exam worth 30% or are there three exams that are each worth 10\. 
-
-It is essential that you articulate in your syllabus how final letter grades will be assigned.  There is no campus policy on percentages and letter grades, nor is there a requirement that you utilize a points-based scheme.  Here is one sample, which you are welcome to use or edit to reflect your grading policies:
 
 | Final Grade Cutoffs |  |  |  |  |  |  |  |  |  |
 | ----- | :---- | :---: | :---- | :---: | :---- | :---: | :---- | :---: | :---- |
@@ -159,19 +159,52 @@ It is essential that you articulate in your syllabus how final letter grades wil
 | A | 94.00% | B | 84.00% | C | 74.00% | D | 64.00% | F | \<60.0% |
 | \- | 90.00% | \- | 80.00% | \- | 70.00% | \- | 60.00% | \- |  |
 
+### **Assignments By Point Value**
+
+| Type | Homework | Labs / Participation | Quizzes | Presentation | Final Project |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Point Value | 12 | 2 | 10 | 20 | 30 |
+| Number of Items | 12 | 24 | 5 | 1 | 1 |
+| Total | 144 | 48 | 50 | 20 | 30 |
+
+Your overall course grade will be calculated by multiplying the percentage of points for your assignments times the percentage value of the assignment type, summed together. For example, if you did not turn in two homework assignments, then 120/144 \* 50 \= 41.667 would be your final homework grade because homework is worth 50 percent of your total grade.
+
+## **Course Outline**
+
+| Date | Week \# | Topic | Deliverable |
+| ----: | ----: | :---- | :---- |
+| **28 Aug 2024** | **1** | **C \+ Assembly** | In class labs, homework |
+| **04 Sep 2024** | **2** | **Static Analysis** | In class labs, homework |
+| **11 Sep 2024** | **3** | **Dynamic Analysis** | In class labs, homework |
+| **18 Sep 2024** | **4** | **Ghidra** | In class labs, homework |
+| **25 Sep 2024** | **5** | **Vulnerability Analysis** | In class labs, homework |
+| **02 Oct 2024** | **6** | **Protocols** | In class labs, homework |
+| **09 Oct 2024** | **7** | **Malware** | In class labs, group malware analysis |
+| **16 Oct 2024** | **8** | **Group Presentation \+ Cryptanalysis** | In class labs, homework |
+| **23 Oct 2024** | **9** | **Rootkits** | In class labs, homework |
+| **30 Oct 2024** | **10** | **Firmware** | In class labs, homework |
+| **06 Nov 2024** | **11** | **Hardware** | In class labs, homework |
+| **13 Nov 2024** | **12** | **Mobile** | In class labs, homework |
+| **20 Nov 2024** | **13** | **Final Project** | Final project, homework |
+| **27 Nov 2024** | **14** | **— Fall Break —** | — |
+| **04 Dec 2024** | **15** | **Final Project** | **—** |
+| **11 Dec 2024** | **16** | **— Finals Week —** | **Final Project** |
+
+**Note:** This is a tentative schedule, and subject to change as necessary – monitor the course ELMS page for current deadlines.  In the unlikely event of a prolonged university closing, or an extended absence from the university, adjustments to the course schedule, deadlines, and assignments will be made based on the duration of the closing and the specific dates missed.
+
 ## **Resources & Accommodations**  
 
 ### **Accessibility and Disability Services** 
 
 The University of Maryland is committed to creating and maintaining a welcoming and inclusive educational, working, and living environment for people of all abilities. The University of Maryland is also committed to the principle that no qualified individual with a disability shall, on the basis of disability, be excluded from participation in or be denied the benefits of the services, programs, or activities of the University, or be subjected to discrimination. The [**Accessibility & Disability Service (ADS)**](https://www.counseling.umd.edu/ads/) provides reasonable accommodations to qualified individuals to provide equal access to services, programs and activities. ADS cannot assist retroactively, so it is generally best to request accommodations several weeks before the semester begins or as soon as a disability becomes known. Any student who needs accommodations should contact me as soon as possible so that I have sufficient time to make arrangements.
 
-For assistance in obtaining an accommodation, contact Accessibility and Disability Service at 301-314-7682, or email them at [**adsfrontdesk@umd.edu**](mailto:adsfrontdesk@umd.edu). Information about [**sharing your accommodations with instructors**, **note taking assistance**](https://www.counseling.umd.edu/ads/currentads/) and more is available from the [**Counseling Center**](http://counseling.umd.edu/ads/).
+For assistance in obtaining an accommodation, contact Accessibility and Disability Service at 301-314-7682, or email them at [**adsfrontdesk@umd.edu**](mailto:adsfrontdesk@umd.edu). Information about [**sharing your accommodations with instructors**, **note taking assistance**](https://www.counseling.umd.edu/ads/currentads/) and more is available from the [**Counseling Center**](http://counseling.umd.edu/ads/).
 
 ### **Student Resources and Services**
 
 Taking personal responsibility for your own learning means acknowledging when your performance does not match your goals and doing something about it.  I hope you will come talk to me so that I can help you find the right approach to success in this course, and I encourage you to visit [**UMD’s Student Academic Support Services website**](http://tutoring.umd.edu) to learn more about the wide range of campus resources available to you.
 
-In particular, everyone can use some help sharpening their communication skills (and improving their grade) by visiting [**UMD’s Writing Center**](http://www.english.umd.edu/academics/writingcenter/schedule) and schedule an appointment with the campus Writing Center. 
+In particular, everyone can use some help sharpening their communication skills (and improving their grade) by visiting [**UMD’s Writing Center**](http://www.english.umd.edu/academics/writingcenter/schedule) and schedule an appointment with the campus Writing Center. 
 
 You should also know there are a wide range of resources to support you with whatever you might need ([**UMD’s Student Resources and Services website**](https://sph.umd.edu/content/student-resources-and-services) may help). If you feel it would be helpful to have someone to talk to, visit [**UMD’s Counseling Center**](https://www.counseling.umd.edu/) or [**one of the many other mental health resources on campus**](https://tltc.umd.edu/instructors/teaching-topics/supporting-whole-student).
 
@@ -186,11 +219,11 @@ To view further information on the above, please visit the [Office of Civil Righ
 
 ### **Basic Needs Security**
 
-If you have difficulty affording groceries or accessing sufficient food to eat every day, or lack a safe and stable place to live, please visit [**UMD’s Division of Student Affairs website**](https://studentaffairs.umd.edu/basic-needs-security) for information about resources the campus offers you and let me know if I can help in any way.
+If you have difficulty affording groceries or accessing sufficient food to eat every day, or lack a safe and stable place to live, please visit [**UMD’s Division of Student Affairs website**](https://studentaffairs.umd.edu/basic-needs-security) for information about resources the campus offers you and let me know if I can help in any way.
 
 ### **Veteran Resources**
 
-UMD provides some additional supports to our student veterans. You can access those resources at the office of [Veteran Student life](https://stamp.umd.edu/engagement/veteran\_student\_life) and the [Counseling Center](https://www.counseling.umd.edu/aboutus/). Veterans and active duty military personnel with special circumstances (e.g., upcoming deployments, drill requirements, disabilities) are welcome and encouraged to communicate these, in advance if possible, to the instructor.
+UMD provides some additional support to our student veterans. You can access those resources at the office of [Veteran Student life](https://stamp.umd.edu/engagement/veteran\_student\_life) and the [Counseling Center](https://www.counseling.umd.edu/aboutus/). Veterans and active duty military personnel with special circumstances (e.g., upcoming deployments, drill requirements, disabilities) are welcome and encouraged to communicate these, in advance if possible, to the instructor.
 
 ## **Participation**
 

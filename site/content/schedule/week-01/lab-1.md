@@ -102,12 +102,12 @@ diff out1 out2
 - Test with different input files to validate your program, something over 4MB.
 - Don't forget to `free()` your buffer(s)!
 
-## Questions
+## Submission
 
 {{< callout type="info" >}}
 
 Submit a markdown file with any code you wrote and the answers to the following
-questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments)?
+questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments).
 
 {{< /callout >}}
 

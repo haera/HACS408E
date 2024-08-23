@@ -89,12 +89,12 @@ The value of $rsi is 0x########
 - Look at the documentation for your assembler if you're getting syntax errors!
 - Don't be afraid to google things.
 
-## Questions
+## Submission
 
 {{< callout type="info" >}}
 
 Submit a markdown file with any code you wrote and the answers to the following
-questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments)?
+questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments).
 
 {{< /callout >}}
 

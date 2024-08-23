@@ -4,7 +4,7 @@ sidebar:
   exclude: true
 ---
 
-## Assembly Language 1: Syntax
+## Assembly Language Syntax
 
 ---
 

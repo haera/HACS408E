@@ -58,4 +58,4 @@ next: schedule/week-01/
 
 ### Suplemental Lectures
 
-- [Assembly Syntax Intel vs AT&T](/schedule/week-01/lecture-2/)
+- [Assembly Syntax: Intel vs AT&T](supplemental/asm-syntax/)
