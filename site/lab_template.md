@@ -6,7 +6,7 @@ next: docs/
 
 {{< callout emoji="💡" >}}
 
-**Explaination:**
+**Overview:**
 
 explaination
 
@@ -20,13 +20,15 @@ explaination
 
 ## Instructions
 
-1. step
-1. step
-1. step
+{{% steps %}}
 
-## Example
+### Step1
 
-example
+### Step2
+
+### Step3
+
+{{% /steps %}}
 
 ## Tips
 
@@ -34,15 +36,11 @@ example
 - tip
 - tip
 
-## Questions
+## Submission
 
 {{< callout type="info" >}}
 
-Submit a markdown file with any code you wrote and the answers to the following
+Submit a markdown file with any code you wrote and the answers to
 questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments)?
 
 {{< /callout >}}
-
-1. Question?
-1. Question?
-1. Question?
