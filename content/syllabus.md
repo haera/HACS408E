@@ -1,6 +1,7 @@
 ---
 title: Applied Reverse Engineering (HACS408E)
 type: about
+toc: false
 ---
 
 {{< downloadbutton file="https://umd.instructure.com/courses/1374508/files/79482977?wrap=1" text="Download PDF" >}}
