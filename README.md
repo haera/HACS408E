@@ -12,8 +12,8 @@ project._
 
 |        Date | Week |          Section          | Lectures | Labs | Homework |
 | ----------: | ---: | :-----------------------: | :------: | :--: | :------: |
-| 28 Aug 2024 |    1 |      C and Assembly       |   [ ]    | [x]  |   [x]    |
-| 04 Sep 2024 |    2 |      Static Analysis      |   [ ]    | [x]  |   [x]    |
+| 28 Aug 2024 |    1 |      C and Assembly       |   [ ]    | [ ]  |   [ ]    |
+| 04 Sep 2024 |    2 |      Static Analysis      |   [ ]    | [ ]  |   [ ]    |
 | 11 Sep 2024 |    3 |     Dynamic Analysis      |   [ ]    | [ ]  |   [ ]    |
 | 18 Sep 2024 |    4 |          Ghidra           |   [ ]    | [ ]  |   [ ]    |
 | 25 Sep 2024 |    5 |  Vulnerability Analysis   |   [ ]    | [ ]  |   [ ]    |
@@ -24,22 +24,10 @@ project._
 | 30 Oct 2024 |   10 |         Firmware          |   [ ]    | [ ]  |   [ ]    |
 | 06 Nov 2024 |   11 |         Hardware          |   [ ]    | [ ]  |   [ ]    |
 | 13 Nov 2024 |   12 |      Bonus: Android       |   [ ]    | [ ]  |   [ ]    |
-| 20 Nov 2024 |   13 |                           |   [ ]    | [ ]  |   [ ]    |
+| 20 Nov 2024 |   13 | Final Project Work Period |   [ ]    | [ ]  |   [ ]    |
 | 27 Nov 2024 |   14 |    --- Fall Break ---     |    -     |  -   |    -     |
 | 04 Dec 2024 |   15 | Final Project Work Period |    -     |  -   |    -     |
 | 11 Dec 2024 |   16 |      --- Finals ---       |    -     |  -   |    -     |
-
-**Notes:**
-
-- TODO: Week 12 is missing content! Our original schedule had this as the
-  Android week and week 13 as final project but this leaves basically 4 weeks of
-  nothing at the end of the semester.
-- Week of fall break, maybe add an optional extra credit assignment?
-- Announce the final project at the end of the android lecture?
-
-### TODO: ?
-
-- Bootable USB sticks with locked-down Windows
 
 ## Miscellaneous Ideas
 
@@ -94,7 +82,6 @@ project._
 - Intro - What is a rootkit?
 - Write script that generates valid licenses to a checker
 - Toy heartbleed protocol
-- ???
 - Homework: Reverse engineer weak key, brute force
 - Intro - What is firmware? Embedded Systems...
 - `binwalk`, filesystems
