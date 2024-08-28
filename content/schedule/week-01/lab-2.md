@@ -24,46 +24,51 @@ will learn how to look up instructions and write assembly code.
 
 1. **Setup**:
 
-   - First install an assembler. Either [`as`](https://www.nasm.us) or [`nasm`](https://www.nasm.us) will do.
-     {{< callout type="info" >}}
-     **NOTE:** The syntax for the program you write will change based on the assembler you use. Make sure to consult the documentation for the assembler to see which format (AT&T vs Intel) it uses.
-     {{< /callout >}}
+   - First install an assembler. Either [`as`](https://www.nasm.us) or
+     [`nasm`](https://www.nasm.us) will do. {{< callout type="info" >}}
+     **NOTE:** The syntax for the program you write will change based on the
+     assembler you use. Make sure to consult the documentation for the assembler
+     to see which format (AT&T vs Intel) it uses. {{< /callout >}}
 
-   - Create a blank assembly file called `main.s`. See [the example](#example) for a template.
+   - Create a blank assembly file called `main.s`. See [the example](#example)
+     for a template.
 
 1. **Simple Arithmetic**:
 
-   - Store two `immediate` numbers of your choice in the general purpose registers `r8` and `r9`.
+   - Store two `immediate` numbers of your choice in the general purpose
+     registers `r8` and `r9`.
 
    - Search for the `add` and `imul` instructions in the x86 reference manual
      ([AMD](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24592.pdf),
      [Intel](https://cdrdv2.intel.com/v1/dl/getContent/671110))
 
-   - Calculate the pythagorean theorem `A^2 + B^2 = C^2` using the numbers you put
-     in `r8` and `r9`.
+   - Calculate the pythagorean theorem `A^2 + B^2 = C^2` using the numbers you
+     put in `r8` and `r9`.
 
 1. **Address and Memory**:
 
-   - Check to see that the answer is correct by placing the result in `rsi` and running
-     the program.
+   - Check to see that the answer is correct by placing the result in `rsi` and
+     running the program.
 
-   - Search for the `shr` (shift right) and `and` instructions in the reference manual.
+   - Search for the `shr` (shift right) and `and` instructions in the reference
+     manual.
 
    - Print the address of the `fmt_str` variable in the template (provided
      below).
-     - Print the value of the first byte of the string by `and`-ing it with
-       the byte `0xff`.
+     - Print the value of the first byte of the string by `and`-ing it with the
+       byte `0xff`.
      - Print the value of the eighth caracter in `fmt_str`. It is the
        [most significant byte](https://en.wikipedia.org/wiki/Endianness) so you
        will need to shift the byte down (using `shr`) before printing it out.
-     - You can check your work by using `echo -e '\x##'` to print the hex value as a
-       character. For example `echo -e '\x41'` prints the character `A`.
+     - You can check your work by using `echo -e '\x##'` to print the hex value
+       as a character. For example `echo -e '\x41'` prints the character `A`.
 
 1. **Control Flow - Loops**:
 
    - Search for the `lea`, `jne`, and `cmp` instructions.
 
-   - Calculate the length of `fmt_str` by incrementing a register by 1 until you reach the `NUL` byte.
+   - Calculate the length of `fmt_str` by incrementing a register by 1 until you
+     reach the `NUL` byte.
 
 ## Example
 

@@ -25,7 +25,7 @@ title: Schedule
 
 Each week we will dive into a new topic.
 
-- [Week 1](week-01): C Programming + Assembly Language
+- [Week 1](week-01/): C Programming + Assembly Language
 
 ### Midterm Presentation
 

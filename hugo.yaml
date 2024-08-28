@@ -19,13 +19,13 @@ markup:
 menu:
   main:
     - name: Syllabus
-      pageRef: /syllabus
+      pageRef: /syllabus/
       weight: 1
     - name: Schedule
-      pageRef: /schedule
+      pageRef: /schedule/
       weight: 2
     - name: Resources
-      pageRef: /resources
+      pageRef: /resources/
       weight: 3
     #- name: Contact ↗
     #  url: "https://github.com/imfing"

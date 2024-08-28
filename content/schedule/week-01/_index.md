@@ -11,9 +11,9 @@ next: schedule/week-02
 
 ### Labs
 
-- [Lab 1](lab-1): C Programming
-- [Lab 2](lab-2): Getting used to assembly
+- [Lab 1](lab-1/): C Programming
+- [Lab 2](lab-2/): Getting used to assembly
 
 ### Homework
 
-- [Homework 1](hw): Analyze some assembly code
+- [Homework 1](hw/): Analyze some assembly code

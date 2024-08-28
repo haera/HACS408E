@@ -18,11 +18,11 @@ interactive labs, at-home assignments, and a final project.
 
 {{< cards >}}
 
-{{< card link="syllabus" title="Syllabus" icon="book-open" >}}
+{{< card link="syllabus/" title="Syllabus" icon="book-open" >}}
 
-{{< card link="schedule" title="Schedule" icon="user" >}}
+{{< card link="schedule/" title="Schedule" icon="user" >}}
 
-{{< card link="resources" title="Resources" icon="book-open" >}}
+{{< card link="resources/" title="Resources" icon="book-open" >}}
 
 {{< /cards >}}
 
