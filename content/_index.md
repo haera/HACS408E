@@ -30,5 +30,5 @@ interactive labs, at-home assignments, and a final project.
 
 | Name         | Contact Info                                  |
 | :----------- | :-------------------------------------------- |
-| Chase Kanipe | [crkanipe@umd.edu](mailto://crkanipe@umd.edu) |
+| Chase Kanipe | [ckanipe@umd.edu](mailto://ckanipe@umd.edu) |
 | Luke Mains   | [lmains@umd.edu](mailto://lmains@umd.edu)     |
