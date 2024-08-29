@@ -92,7 +92,7 @@ dd if=/dev/random of=test.bin bs=1M count=1
 ./xor out1 out2
 
 # If your program works then this should return nothing
-diff out1 out2
+diff test.bin out2
 ```
 
 ## Tips
@@ -112,7 +112,7 @@ questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments).
 {{< /callout >}}
 
 1. Explain in your own words what a
-   [pointer](<https://en.wikipedia.org/wiki/Pointer_(computer_programming)>) is.
+   [pointer](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) is.
 
 1. How many bytes do each of the following data types use? (Hint:
    [`sizeof()`](https://en.cppreference.com/w/c/language/sizeof))
