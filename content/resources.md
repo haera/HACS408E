@@ -99,6 +99,7 @@ type: about
 - [Parsing ELF Headers w/ Rust](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
 - [Exploring Mach-O](https://gpanders.com/blog/exploring-mach-o-part-1/)
 - [ELF Headers](https://medium.com/@allypetitt/reverse-engineering-analyzing-headers-23dc84075cd)
+- [d10a pikabot analysis](https://d01a.github.io/pikabot/#dynamic-api-resolving)
 
 ## CTF Resources
 

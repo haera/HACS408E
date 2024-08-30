@@ -18,6 +18,12 @@ $ man peldd
 
 {{< downloadbutton file="winmine.exe" text="winmine.exe" >}}
 
+Write a paragraph or two describing what you found out about the binary.
+
+- What kind of file is it?
+- What shared libraries ([<library>.dll](https://en.wikipedia.org/wiki/Dynamic-link_library)) does it use?
+- Can you find any symbols/function names?
+
 ## Part 2:
 
 Complete the following `PicoCTF` challenges by finding the flag (

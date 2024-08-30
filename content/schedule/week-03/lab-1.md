@@ -41,7 +41,7 @@ Next install [`strace`](https://strace.io/) if you don't already have it.
 
 #### Questions
 
-1. What does the `openat`, and `execve`, syscalls do? Cite your sources.
+1. What do the `openat`, and `execve`, syscalls do? Cite your sources (HINT: Google/Type in a terminal `man <syscall-name>`.
 
 ```bash
 $ man strace
@@ -83,7 +83,7 @@ $ ltrace -o sshd.ltrace $(which sshd)
    - What functions stand out to you?
    - What does this tell you about the functionality of `sshd`?
 
-### `LD_PRELOAD`
+### Bonus/Optional: `LD_PRELOAD`
 
 Choose two `str*` functions in the ltrace and write your own version of them in C, but print
 out the string parameters while also performing the regular functionality.
