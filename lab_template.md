@@ -4,17 +4,19 @@ type: docs
 next: docs/
 ---
 
-{{< callout emoji="💡" >}}
+## Overview
 
-**Overview:**
+{{< callout emoji="💡" >}}
 
 explaination
 
-<u>Goals:</u>
+**Goals:**
 
 - goal
 - goal
 - goal
+
+**Estimated Time:** `45 Minutes`
 
 {{< /callout >}}
 
@@ -38,9 +40,9 @@ explaination
 
 ## Submission
 
-{{< callout type="info" >}}
+{{< callout emoji="📝" >}}
 
-Submit a markdown file with any code you wrote and the answers to
-questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments)?
+Submit a markdown file with any code you wrote and the answers to questions to
+[ELMS](https://umd.instructure.com/courses/1374508/assignments)?
 
 {{< /callout >}}

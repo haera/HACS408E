@@ -57,6 +57,13 @@ type: about
 
 - [Introduction to Cyber-Warfare](https://www.amazon.com/Introduction-Cyber-Warfare-Multidisciplinary-Paulo-Shakarian/dp/0124078141)
 - [The Ghidra Book](https://www.amazon.com/Ghidra-Book-Definitive-Guide/dp/1718501021)
+- [Julia Evans' Comics](https://wizardzines.com/comics/)
+- [Crackme Challenges](https://crackmes.one)
+
+## More Links
+
+- [Paul Veillard (Github)](https://github.com/paulveillard)
+  - [Ethical Hacking Links](https://github.com/paulveillard/cybersecurity-ethical-hacking/blob/main/README.md)
 
 ## Other Learning
 
@@ -74,12 +81,15 @@ type: about
 - [ARM Assembly By Example](https://armasm.com/docs/getting-to-hello-world/basics/)
 - [Amd64 Programmers Manual (Vol. 1)](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24592.pdf)
 - [Intel Programmers Manuals (Vol. 2)](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
-- [Compiler Explorer](https://godbolt.org/) | [Decompiler Explorer](https://dogbolt.org)
+- [Compiler Explorer](https://godbolt.org/) |
+  [Decompiler Explorer](https://dogbolt.org)
 
 ## Static Analysis
 
 - [Linux Executables (readelf/GNU binutils)](http://www.gnu.org/software/binutils/)
 - [Windows Executables (petools)](https://petoolse.github.io/petools/)
+- [Ghidra](https://ghidra-sre.org)
+- [Binaryninja](https://binary.ninja)
 
 ## Dynamic Analysis
 
@@ -87,9 +97,19 @@ type: about
 - [`LD_PRELOAD` Tricks](https://rafalcieslak.wordpress.com/2013/04/02/dynamic-linker-tricks-using-ld_preload-to-cheat-inject-features-and-investigate-programs/)
 - [More `LD_PRELOAD` Tricks](https://www.goldsborough.me/c/low-level/kernel/2016/08/29/16-48-53-the_-ld_preload-_trick/)
 
-- GDB UI Improvements
-  - [pwndbg](https://pwndbg.re/)
-  - [gef](https://hugsy.github.io/gef)
+## GDB UI Improvements
+
+- [pwndbg](https://pwndbg.re/)
+- [gef](https://hugsy.github.io/gef)
+
+## Vulnerability Analysis
+
+- [Insecure Programming](https://web.archive.org/web/20071022095147/http://community.core-sdi.com/~gera/InsecureProgramming/)
+
+## Windows
+
+- [Zimmerman Tools](https://ericzimmerman.github.io/#!index.md)
+- [PEBear](https://hshrzd.wordpress.com/pe-bear/)
 - [Windows Sysinternals](https://learn.microsoft.com/en-us/sysinternals/)
   - [Process Monitor (procmon)](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 
@@ -108,6 +128,7 @@ type: about
 
 ## Malware
 
+- [Virus Total](https://www.virustotal.com)
 - [@malwareunicorn Workshops](https://malwareunicorn.org/#/workshops)
 
 ## Android
