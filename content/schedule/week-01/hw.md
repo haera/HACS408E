@@ -6,7 +6,8 @@ weight: 4
 
 ## Description
 
-Analyze the assembly code in [this Godbolt example](https://godbolt.org/z/YhxW1MEon).
+Analyze the assembly code in
+[this Godbolt example](https://godbolt.org/z/YhxW1MEon).
 
 {{% details title="Details" closed="true" %}}
 
@@ -27,15 +28,25 @@ questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments).
 
 {{< /callout >}}
 
-1. Explain what a function `prologue` and `epilogue` are used for in assembly language.
+### Part 1
+
+1. Explain what a function `prologue` and `epilogue` are used for in assembly
+   language.
 
 1. Explain in full sentences what is different between each of the functions.
 
-1. For each function, which line of the output corresponds to reading the arguments `a`, `b`, `c`, `d`.
+1. For each function, which line of the output corresponds to reading the
+   arguments `a`, `b`, `c`, `d`.
 
-1. What happens when you change the `-O0` option to `-O2`? What does the `-O` argument to `gcc` (or `clang`) mean?
+1. What happens when you change the `-O0` option to `-O2`? What does the `-O`
+   argument to `gcc` (or `clang`) mean?
 
-1. Paste your code from `Lab 1` in to [godbolt.org](https://www.godbolt.org).
-   - What is the size of the stack in each function? How did you come up with this number?
-   - In which line does each string get used?
+### Part 2
+
+1. Paste the
+   [solution code](https://umd.instructure.com/files/79647538/download?download_frd=1)
+   from lab 1 in to [godbolt.org](https://www.godbolt.org).
+   - What is the size of the stack in each function? How did you come up with
+     this number? (It is fine to google things.)
+   - What line of assembly references the `"USAGE: ..."` string get used?
    - Which lines correspond to the loop where data is `xor`-ed with the key?
