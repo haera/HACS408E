@@ -1,8 +1,8 @@
 ---
 title: "Week 01: C + Assembly"
 type: docs
-prev: schedule/lectures/
-next: schedule/week-02/
+prev: /schedule/lectures/
+next: /schedule/week-02/
 ---
 
 ### Slides
