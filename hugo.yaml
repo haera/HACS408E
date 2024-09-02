@@ -27,9 +27,6 @@ menu:
     - name: Resources
       pageRef: /resources/
       weight: 3
-    #- name: Contact ↗
-    #  url: "https://github.com/imfing"
-    #  weight: 4
     - name: Search
       weight: 5
       params:

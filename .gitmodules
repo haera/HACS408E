@@ -1,6 +1,0 @@
-[submodule "site/assets/highlightjs-x86asmatt"]
-	path = site/assets/highlightjs-x86asmatt
-	url = https://github.com/gondow/highlightjs-x86asmatt.git
-[submodule "site/assets/reveal.js"]
-	path = site/assets/reveal
-	url = https://github.com/hakimel/reveal.js.git

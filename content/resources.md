@@ -134,3 +134,7 @@ type: about
 ## Android
 
 - [Maddie Stone's Android App RE 101](https://www.ragingrock.com/AndroidAppRE/)
+
+## Supplemental Lectures
+
+- [AT&T vs. Intel Assembly](/schedule/lectures/supplemental/asm-syntax/)
