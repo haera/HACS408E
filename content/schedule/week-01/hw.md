@@ -35,8 +35,8 @@ questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments).
 
 1. Explain in full sentences what is different between each of the functions.
 
-1. For each function, which line of the output corresponds to reading the
-   arguments `a`, `b`, `c`, `d`.
+<!-- 1. For each function, which line of the output corresponds to reading the
+   arguments `a`, `b`, `c`, `d`. -->
 
 1. What happens when you change the `-O0` option to `-O2`? What does the `-O`
    argument to `gcc` (or `clang`) mean?

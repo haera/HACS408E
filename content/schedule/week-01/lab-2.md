@@ -27,16 +27,21 @@ will learn how to look up instructions and write assembly code.
 ### Setup
 
 - First install an assembler. Either [`as`](https://www.nasm.us) or
-  [`nasm`](https://www.nasm.us) will do. {{< callout type="info" >}} **NOTE:**
-  The syntax for the program you write will change based on the assembler you
-  use. Make sure to consult the documentation for the assembler to see which
-  format (AT&T vs Intel) it uses. {{< /callout >}}
+  [`nasm`](https://www.nasm.us) will do.
+
+{{< callout type="info" >}}
+
+The syntax for the program you write will change based on the assembler you use.
+Make sure to consult the documentation for the assembler to see which format
+(AT&T vs Intel) it uses.
+
+{{< /callout >}}
 
 - Download a template file to start writing assembly code:
 
-  {{< downloadbutton file=../gas-template.s text="GAS" >}}
+{{< downloadbutton file=../gas-template.s text="GAS" >}}
 
-  {{< downloadbutton file=../nasm-template.s text="NASM" >}}
+{{< downloadbutton file=../nasm-template.s text="NASM" >}}
 
 ### Simple Arithmetic
 
@@ -71,7 +76,7 @@ will learn how to look up instructions and write assembly code.
     a character. For example `echo -e '\x41'` prints the character `A`.
   - Alternatively use `man ascii` to find the hex value of `'a'`.
 
-## Control Flow - Loops
+### Control Flow - Loops
 
 - Search for the `jne`, and `cmp` instructions.
 
@@ -89,9 +94,9 @@ will learn how to look up instructions and write assembly code.
 To compile, run:
 
 ```{filename=Bash}
-$ as -o main.o gas-template.s
-$ gcc -static -o main main.o
-$ ./main
+as -o main.o gas-template.s
+gcc -static -o main main.o
+./main
 ```
 
 ### Netwide Assembler
@@ -99,9 +104,9 @@ $ ./main
 To compile, run:
 
 ```{filename=Bash}
-$ nasm -f elf64 -o main.o nasm-template.s
-$ gcc -static -o main main.o
-$ ./main
+nasm -f elf64 -o main.o nasm-template.s
+gcc -static -o main main.o
+./main
 ```
 
 ## Tips
@@ -111,7 +116,7 @@ $ ./main
 
 ## Submission
 
-{{% callout emoji="📝" %}}
+{{< callout emoji="📝" >}}
 
 Submit a markdown file with any code you wrote and the answers to the following
 questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments).
