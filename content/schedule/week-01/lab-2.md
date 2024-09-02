@@ -4,14 +4,14 @@ type: docs
 weight: 2
 ---
 
-{{< callout emoji="💡" >}}
+## Overview
 
-**Explaination:**
+{{< callout emoji="💡" >}}
 
 This lab is meant to get you comfortable interacting with assembly language. You
 will learn how to look up instructions and write assembly code.
 
-<u>Goals:</u>
+**Goals:**
 
 - Download and install tools needed to build/run assembly code.
 - Lookup assembly instructions in a programmers manual.
@@ -22,71 +22,86 @@ will learn how to look up instructions and write assembly code.
 
 ## Instructions
 
-1. **Setup**:
+{{% steps %}}
 
-   - First install an assembler. Either [`as`](https://www.nasm.us) or
-     [`nasm`](https://www.nasm.us) will do. {{< callout type="info" >}}
-     **NOTE:** The syntax for the program you write will change based on the
-     assembler you use. Make sure to consult the documentation for the assembler
-     to see which format (AT&T vs Intel) it uses. {{< /callout >}}
+### Setup
 
-   - Create a blank assembly file called `main.s`. See [the example](#example)
-     for a template.
+- First install an assembler. Either [`as`](https://www.nasm.us) or
+  [`nasm`](https://www.nasm.us) will do. {{< callout type="info" >}} **NOTE:**
+  The syntax for the program you write will change based on the assembler you
+  use. Make sure to consult the documentation for the assembler to see which
+  format (AT&T vs Intel) it uses. {{< /callout >}}
 
-1. **Simple Arithmetic**:
+- Download a template file to start writing assembly code:
 
-   - Store two `immediate` numbers of your choice in the general purpose
-     registers `r8` and `r9`.
+  {{< downloadbutton file=../gas-template.s text="GAS" >}}
 
-   - Search for the `add` and `imul` instructions in the x86 reference manual
-     ([AMD](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24592.pdf),
-     [Intel](https://cdrdv2.intel.com/v1/dl/getContent/671110))
+  {{< downloadbutton file=../nasm-template.s text="NASM" >}}
 
-   - Calculate the pythagorean theorem `A^2 + B^2 = C^2` using the numbers you
-     put in `r8` and `r9`.
+### Simple Arithmetic
 
-1. **Address and Memory**:
+- Store two `immediate` numbers of your choice in the general purpose registers
+  `r8` and `r9`.
 
-   - Check to see that the answer is correct by placing the result in `rsi` and
-     running the program.
+- Search for the `add` and `imul` instructions in the x86 reference manual
+  ([AMD](https://www.amd.com/content/dam/amd/en/documents/processor-tech-docs/programmer-references/24592.pdf),
+  [Intel](https://cdrdv2.intel.com/v1/dl/getContent/671110))
 
-   - Search for the `shr` (shift right) and `and` instructions in the reference
-     manual.
+- Calculate the sum of two squares (`A^2 + B^2`) using the numbers you put in
+  `r8` and `r9`.
 
-   - Print the address of the `fmt_str` variable in the template (provided
-     below).
-     - Print the value of the first byte of the string by `and`-ing it with the
-       byte `0xff`.
-     - Print the value of the eighth caracter in `fmt_str`. It is the
-       [most significant byte](https://en.wikipedia.org/wiki/Endianness) so you
-       will need to shift the byte down (using `shr`) before printing it out.
-     - You can check your work by using `echo -e '\x##'` to print the hex value
-       as a character. For example `echo -e '\x41'` prints the character `A`.
+- Check to see that the answer is correct by placing the result in `rsi` and
+  running the program.
 
-1. **Control Flow - Loops**:
+### Addresses and Memory
 
-   - Search for the `lea`, `jne`, and `cmp` instructions.
+- Search for the `shr` (shift right) and `and` instructions in the reference
+  manual.
 
-   - Calculate the length of `fmt_str` by incrementing a register by 1 until you
-     reach the `NUL` byte.
+- Print the address of the `fmt_str` variable.
 
-## Example
+- Print the value of the first byte of the string
 
-{{< code source=/example-code/gas-template.s lang=GAS len=20 >}}
+  1. Load the first chunk of the string into a register.
+  2. Get the first byte by `and`-ing the register with the byte `0xff`.
 
-To compile, run: `$ as -o main.o gas-template.s`
+- Print the value of the first lowercase `'a'` caracter in `fmt_str`.
 
-{{< code source=/example-code/nasm-template.s lang=NASM len=20 >}}
+  - You can check your work by using `echo -e '\x##'` to print the hex value as
+    a character. For example `echo -e '\x41'` prints the character `A`.
+  - Alternatively use `man ascii` to find the hex value of `'a'`.
 
-To compile, run: `$ nasm -f elf64 -o main.o nasm-template.s`
+## Control Flow - Loops
 
-### Test
+- Search for the `jne`, and `cmp` instructions.
 
-```bash
-# Compile your code (see above)
+- Calculate the length of `fmt_str` by incrementing a register by 1 until you
+  reach the `NUL` byte.
+
+- Your answer should print the hex value for `27`.
+
+{{% /steps %}}
+
+## Testing
+
+### GNU Assembler
+
+To compile, run:
+
+```{filename=Bash}
+$ as -o main.o gas-template.s
 $ gcc -static -o main main.o
 $ ./main
-The value of $rsi is 0x########
+```
+
+### Netwide Assembler
+
+To compile, run:
+
+```{filename=Bash}
+$ nasm -f elf64 -o main.o nasm-template.s
+$ gcc -static -o main main.o
+$ ./main
 ```
 
 ## Tips
@@ -96,7 +111,7 @@ The value of $rsi is 0x########
 
 ## Submission
 
-{{< callout type="info" >}}
+{{% callout emoji="📝" %}}
 
 Submit a markdown file with any code you wrote and the answers to the following
 questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments).
