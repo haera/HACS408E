@@ -28,7 +28,7 @@ interactive labs, at-home assignments, and a final project.
 
 ## Instructors
 
-| Name         | Contact Info                                  |
-| :----------- | :-------------------------------------------- |
-| Chase Kanipe | [ckanipe@umd.edu](mailto://ckanipe@umd.edu) |
-| Luke Mains   | [lmains@umd.edu](mailto://lmains@umd.edu)     |
+| Name         | Contact Info                                | Office Hours                                                                                             |
+| :----------- | :------------------------------------------ | :------------------------------------------------------------------------------------------------------- |
+| Chase Kanipe | [ckanipe@umd.edu](mailto://ckanipe@umd.edu) | Mondays 6:00-7:00 PM, on [Discord](https://discord.com/channels/1271844535538024489/1271844535781031989) |
+| Luke Mains   | [lmains@umd.edu](mailto://lmains@umd.edu)   | Fridays 6:00-8:00 PM, on [Discord](https://discord.com/channels/1271844535538024489/1271844535781031989) |
