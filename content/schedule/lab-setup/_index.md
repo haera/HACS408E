@@ -3,7 +3,29 @@ title: "Lab Infrastructure Setup"
 type: docs
 ---
 
-## Copying VM Disk Images
+## Update:
+
+IT got back to us and VM's have been set up for you. Please delete any
+infrastructure you created already. This includes:
+
+- SDI
+- VM template
+- Disk Images
+
+We'll go over this at the start of lecture on Wednesday, September 4th.
+
+{{% callout type=error %}}
+
+**UPDATE:** The following information is out of date. You should have a vm
+already set up for you now. Thank you everyone who followed the steps early!
+
+{{% /callout %}}
+
+---
+
+---
+
+## ~~Copying VM Disk Images~~
 
 {{% steps %}}
 
@@ -47,6 +69,10 @@ NOTE: These are big images, so it will take a while for them to copy.
 
 {{% /steps %}}
 
+---
+
+---
+
 ## Creating VM Templates
 
 {{% steps %}}
@@ -81,7 +107,7 @@ NOTE: These are big images, so it will take a while for them to copy.
 
 ---
 
-## Setting up an SDI
+## ~~Setting up an SDI~~
 
 {{% steps %}}
 
