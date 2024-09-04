@@ -7,7 +7,7 @@ next: /schedule/week-03/
 
 ### Slides
 
-<iframe src="/404.html" width="576" height="420" title="Week 1" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://slides.com/chasekanipe/week-1/embed" width="576" height="420" title="Week 2" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Labs
 
