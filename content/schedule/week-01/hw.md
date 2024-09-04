@@ -2,6 +2,7 @@
 title: "HW: Assembly Language"
 type: docs
 weight: 4
+draft: true
 ---
 
 ## Description
