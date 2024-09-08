@@ -10,8 +10,7 @@ next: /schedule/week-02/hw/
 
 **Explaination:**
 
-Use `nm`, `objdump`, `readelf` to analyze the `file`
-and `libmagic.so.1`.
+Use `nm`, `objdump`, `readelf` to analyze the `file` and `libmagic.so.1`.
 
 <u>Goals:</u>
 
@@ -43,7 +42,8 @@ $ diff --color=always readelf_file.txt readelf_libmagic.txt | less -SR
 
 1. Choose 2 sections not covered in class, and describe what they are used for.
 1. Are there any sections in one but not the other?
-1. What is the difference between a `section` and a `segment` in the ELF format specification?
+
+<!-- 1. What is the difference between a `section` and a `segment` in the ELF format specification? -->
 
 ### `nm`
 
@@ -56,7 +56,8 @@ $ man nm
 1. Do you see any patterns in the output?
 
    - Are symbols named the same?
-   - Are common symbols in the same section? If so which section?
+   - Are common symbols in the same section? If so which section? (Hint:
+     `man nm`)
 
 1. Do you see any similarities between the symbols?
 
@@ -78,8 +79,10 @@ $ objdump --visualize-jumps=color  -M intel --disassemble=<func_name> | less --S
 
 ## Tips
 
-- When looking at a function with objdump, don't worry if its too big. Just try another one.
-- Use common linux utilities like `grep`, `sort`, `uniq`, `less` to search through large ammounts of text..
+- When looking at a function with objdump, don't worry if its too big. Just try
+  another one.
+- Use common linux utilities like `grep`, `sort`, `uniq`, `less` to search
+  through large ammounts of text..
 
 ## Submission
 

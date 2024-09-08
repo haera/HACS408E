@@ -59,11 +59,14 @@ type: about
 - [The Ghidra Book](https://www.amazon.com/Ghidra-Book-Definitive-Guide/dp/1718501021)
 - [Julia Evans' Comics](https://wizardzines.com/comics/)
 - [Crackme Challenges](https://crackmes.one)
+- [SEED Labs](https://seedsecuritylabs.org/labs.html)
 
 ## More Links
 
 - [Paul Veillard (Github)](https://github.com/paulveillard)
   - [Ethical Hacking Links](https://github.com/paulveillard/cybersecurity-ethical-hacking/blob/main/README.md)
+- [Awesome InfoSec](https://github.com/onlurking/awesome-infosec)
+- [CSIRT-MU](https://github.com/CSIRT-MU/edu-resources?tab=readme-ov-file)
 
 ## Other Learning
 
@@ -105,6 +108,7 @@ type: about
 ## Vulnerability Analysis
 
 - [Insecure Programming](https://web.archive.org/web/20071022095147/http://community.core-sdi.com/~gera/InsecureProgramming/)
+- [Hacksplaining](https://www.hacksplaining.com/lessons)
 
 ## Windows
 
@@ -112,14 +116,17 @@ type: about
 - [PEBear](https://hshrzd.wordpress.com/pe-bear/)
 - [Windows Sysinternals](https://learn.microsoft.com/en-us/sysinternals/)
   - [Process Monitor (procmon)](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
+- [DLLSpy](https://github.com/cyberark/DLLSpy)
 
 ## Blogs
 
 - [Shared Libraries](https://amir.rachum.com/shared-libraries/)
 - [Parsing ELF Headers w/ Rust](https://fasterthanli.me/series/making-our-own-executable-packer/part-1)
 - [Exploring Mach-O](https://gpanders.com/blog/exploring-mach-o-part-1/)
-- [ELF Headers](https://medium.com/@allypetitt/reverse-engineering-analyzing-headers-23dc84075cd)
+- [Analyzing ELF Headers](https://medium.com/@allypetitt/reverse-engineering-analyzing-headers-23dc84075cd)
+- [ELF Segments & Sections](https://web.archive.org/web/20171129031316/http://nairobi-embedded.org/040_elf_sec_seg_vma_mappings.html)
 - [d10a pikabot analysis](https://d01a.github.io/pikabot/#dynamic-api-resolving)
+- [Advanced Malware Analysis](https://darungrim.com/research/2020-07-10-windows-malware-analysis-process-artifacts.html)
 
 ## CTF Resources
 
