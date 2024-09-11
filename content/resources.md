@@ -118,6 +118,12 @@ type: about
   - [Process Monitor (procmon)](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 - [DLLSpy](https://github.com/cyberark/DLLSpy)
 
+## Networking
+
+- [Wireshark](https://www.wireshark.org/)
+- [NetworkMiner](https://www.netresec.com/?page=NetworkMiner)
+- [PacketTotal](https://lab.dynamite.ai/)
+
 ## Blogs
 
 - [Shared Libraries](https://amir.rachum.com/shared-libraries/)
@@ -127,6 +133,7 @@ type: about
 - [ELF Segments & Sections](https://web.archive.org/web/20171129031316/http://nairobi-embedded.org/040_elf_sec_seg_vma_mappings.html)
 - [d10a pikabot analysis](https://d01a.github.io/pikabot/#dynamic-api-resolving)
 - [Advanced Malware Analysis](https://darungrim.com/research/2020-07-10-windows-malware-analysis-process-artifacts.html)
+- [Shell Storm](https://shell-storm.org)
 
 ## CTF Resources
 
@@ -137,6 +144,7 @@ type: about
 
 - [Virus Total](https://www.virustotal.com)
 - [@malwareunicorn Workshops](https://malwareunicorn.org/#/workshops)
+- [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
 
 ## Android
 
