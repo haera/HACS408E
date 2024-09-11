@@ -1,14 +1,14 @@
 ---
-title: "HW: CMU Binary Bomb (Phases 1-3)"
+title: "HW: Solve Binary Challenges (Phases 1-3)"
 type: docs
 weight: 4
 ---
 
 This homework will be to use the dynamic tools learned in this lecture to
-complete the first three phases of the CMU binary bomb challenge. The goal is
-for you to practice interacting with a program dynamically.
+complete the first three phases of the bomb challenge. The goal is for you to
+practice interacting with a program dynamically.
 
-{{< downloadbutton file="../bomb.tar" text="CMU Binary Bomb" >}}
+{{< downloadbutton file="../bomb.tar" text="Binary" >}}
 
 ## Submission
 
