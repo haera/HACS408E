@@ -14,7 +14,12 @@ practice interacting with a program dynamically.
 
 {{< callout type="info" >}}
 
-Submit text file with your answer for each phase to
-[ELMS](https://umd.instructure.com/courses/1374508/assignments).
+Submit a `.pdf` file with a description of how you solved each phase to
+[ELMS](https://umd.instructure.com/courses/1374508/assignments). You should
+include any information relevant to your thought process:
+
+- screenshots of gdb
+- diagrams
+- etc..
 
 {{< /callout >}}
