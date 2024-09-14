@@ -99,6 +99,7 @@ type: about
 - [`LD_PRELOAD` CTF Tools](https://github.com/zardus/preeny)
 - [`LD_PRELOAD` Tricks](https://rafalcieslak.wordpress.com/2013/04/02/dynamic-linker-tricks-using-ld_preload-to-cheat-inject-features-and-investigate-programs/)
 - [More `LD_PRELOAD` Tricks](https://www.goldsborough.me/c/low-level/kernel/2016/08/29/16-48-53-the_-ld_preload-_trick/)
+- [Calling Convention / ABI](https://wiki.osdev.org/System_V_ABI)
 
 ## GDB UI Improvements
 
