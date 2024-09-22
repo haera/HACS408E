@@ -1,14 +1,7 @@
-# Latex
-_region_.tex
-*.aux
-*.out
-*.pdf
-**/auto/
-*.prv/
-
 # Generic
 *.log
 
+# Website Build Artifacts
 public/
 resources/_gen/
 assets/jsconfig.json
