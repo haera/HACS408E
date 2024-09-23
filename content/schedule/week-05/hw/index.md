@@ -10,10 +10,10 @@ Ignore any mention of `arm` shellcode. You will be writing x86_64 assembly code
 that will execute on your Kali Linux VM.
 
 - **Task 1:** Writing Assembly Code
-- **Task 2:** Writing Shellcode | NOTE: you only need to complete sub-tasks up
-  to an including `task 2.b`
-  - **Task 2.a.** Understand the code
-  - **Task 2.b.** Eliminate zeros from the code
+- **Task 2:** Writing Shellcode (NOTE: you only need to complete sub-tasks up)
+  to an including `task 2.B`
+  - **Task 2.A** Understand the code
+  - **Task 2.B** Eliminate zeros from the code
 
 You may find the lectures on [Buffer Overflows](Buffer_Overflow_Slides.pdf) and
 [Shellcode](Shellcode_Slides.pdf) helpful as well.
@@ -24,7 +24,7 @@ shellcode on to the stack and then overwrite the return address correctly so the
 program counter points to your shellcode when the vulnerable function returns.
 
 - Success is not determined by whether or not your exploit works. Debug it with
-  `gdb` and explain what went write or wrong.
+  `gdb` and explain what went right or wrong.
 
 ## Submission
 
