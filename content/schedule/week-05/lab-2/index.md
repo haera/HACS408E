@@ -70,7 +70,7 @@ Append to your buffer a large number of `nop` (no operation) instructions. See i
 
 #### <u>Task 3: Include your shellcode</u>
 
-Use google to find some example shellcode that does something interesting like spawn `/bin/sh`. Craft an exploit so the `challenge` binary runs it. Submit a writeup that includes your final script.
+Use google to find some example shellcode that does something interesting like spawn `/bin/sh`. Craft an exploit so the `challenge` binary runs it.
 
 {{% /steps %}}
 
