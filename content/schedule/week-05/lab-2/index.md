@@ -25,6 +25,12 @@ In this lab you will learn to craft an input that hijacks the control flow of a 
 
 ### Redirect execution to the secret function:
 
+Before starting this lab, run the following command. This disables ASLR, a security measure that makes solving this challenge more complicated.
+
+```
+echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
+```
+
 We can use our buffer overflow to overwrite more than just the password buffer. By overwriting the return address, we can redirect execution to an address of our choosing. Write a script that demonstrates this, by redirecting execution to the `secret_function`. In your writeup, explain the purpose of the return address and include the script you use build a buffer that overwrites it. You may start with a similar script template like the previous lab.
 
 ```python
