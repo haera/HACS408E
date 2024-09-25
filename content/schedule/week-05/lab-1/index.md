@@ -8,7 +8,7 @@ weight: 1
 
 {{< callout emoji="💡" >}}
 
-In this lab you will exploit some basic buffer overflows. You will need to
+In this lab you will exploit a basic buffer overflow. You will need to
 analyze the software to find the vulnerability in order to understand how to
 solve the challenge.
 
@@ -27,30 +27,49 @@ solve the challenge.
 
 {{% steps %}}
 
-### Download Challenge Binaries
+### Download Challenge Binary
 
-{{< downloadbutton file="challenge_1.bin" text="challenge_1" >}}
+{{< downloadbutton file="challenge" text="challenge" >}}
 
-{{< downloadbutton file="challenge_2.bin" text="challenge_2" >}}
+### Reverse Engineer the Program
 
-{{< downloadbutton file="challenge_3.bin" text="challenge_3" >}}
+Use the tools we've learned so far in class to analyze this program. Identify the file type and gather any information about what its functionality using static and dynamic analysis. In your writeup, answer the following questions.
 
-### The `checksec` Program
+1. What kind of file is it?
+2. Does it link or import any recognizable cryptographic libraries?
+3. How is the password being checked?
+4. Can the password be extracted from the executable?
 
-Run the `checksec` program on each of the individual binaries, for example:
-`checksec --file=challenge_1.bin`. (You may have to install `checksec`).
+### Bypass the Password
 
-1. Explain what the sections `STACK CANARY`, `NX`, and `PIE` mean.
+This binary contains a buffer overflow vulnerability that allows us to overwrite the stored hash with one we choose. We'll write a script that prints the output needed to exploit it. A starter template is below.
 
-1. Which of the above protections do each of the binaries have enabled.
+```python
+import sys
 
-### Solve the challenges
+buffer_size = 8
 
-Open the binaries in ghidra to understand how they work. Save the inputs that
-you used to solve the challenges to individual files and submit a text file with
-a hex dump of each of your inputs.
+# Construct the buffer
+new_hash = b"\xde\xad\xbe\xef"
+buffer = b"A" * buffer_size + new_hash
 
-`cat <input_file> | xxd >> submission.txt`
+# Output the buffer
+sys.stdout.buffer.write(buffer + b"\n")
+```
+
+If you run the script, it will print a the output buffer needed to exploit the binary. To test it, you can pipe the output of the script in into the challenge binary's standard input.
+
+```
+python3 solution.py | ./challenge
+```
+
+Since you don't know the password that corresponds to the hash in the executable, to solve this challenge you'll need to overwrite the hash with one you generate from a password you know.
+
+```
+echo <password> | md5sum
+```
+
+In your writeup, explain the vulnerability and include the script you used to solve it.
 
 {{% /steps %}}
 
