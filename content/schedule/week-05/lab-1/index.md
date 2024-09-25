@@ -8,9 +8,9 @@ weight: 1
 
 {{< callout emoji="💡" >}}
 
-In this lab you will exploit a basic buffer overflow. You will need to
-analyze the software to find the vulnerability in order to understand how to
-solve the challenge.
+In this lab you will exploit a basic buffer overflow. You will need to analyze
+the software to find the vulnerability in order to understand how to solve the
+challenge.
 
 **Goals:**
 
@@ -33,7 +33,9 @@ solve the challenge.
 
 ### Reverse Engineer the Program
 
-Use the tools we've learned so far in class to analyze this program. Identify the file type and gather any information about what its functionality using static and dynamic analysis. In your writeup, answer the following questions.
+Use the tools we've learned so far in class to analyze this program. Identify
+the file type and gather any information about what its functionality using
+static and dynamic analysis. In your writeup, answer the following questions.
 
 1. What kind of file is it?
 2. Does it link or import any recognizable cryptographic libraries?
@@ -42,9 +44,11 @@ Use the tools we've learned so far in class to analyze this program. Identify th
 
 ### Bypass the Password
 
-This binary contains a buffer overflow vulnerability that allows us to overwrite the stored hash with one we choose. We'll write a script that prints the output needed to exploit it. A starter template is below.
+This binary contains a buffer overflow vulnerability that allows us to overwrite
+the stored hash with one we choose. We'll write a script that prints the output
+needed to exploit it. A starter template is below.
 
-```python
+```python {filename=solution.py}
 import sys
 
 buffer_size = 8
@@ -57,19 +61,24 @@ buffer = b"A" * buffer_size + new_hash
 sys.stdout.buffer.write(buffer + b"\n")
 ```
 
-If you run the script, it will print a the output buffer needed to exploit the binary. To test it, you can pipe the output of the script in into the challenge binary's standard input.
+If you run the script, it will print a the output buffer needed to exploit the
+binary. To test it, you can pipe the output of the script in into the challenge
+binary's standard input.
 
 ```
 python3 solution.py | ./challenge
 ```
 
-Since you don't know the password that corresponds to the hash in the executable, to solve this challenge you'll need to overwrite the hash with one you generate from a password you know.
+Since you don't know the password that corresponds to the hash in the
+executable, to solve this challenge you'll need to overwrite the hash with one
+you generate from a password you know.
 
 ```
 echo <password> | md5sum
 ```
 
-In your writeup, explain the vulnerability and include the script you used to solve it.
+In your writeup, explain the vulnerability and include the script you used to
+solve it.
 
 {{% /steps %}}
 
@@ -85,6 +94,6 @@ In your writeup, explain the vulnerability and include the script you used to so
 {{< callout emoji="📝" >}}
 
 Submit a markdown file with any code you wrote and the answers to questions to
-[ELMS](https://umd.instructure.com/courses/1374508/assignments)?
+[ELMS](https://umd.instructure.com/courses/1374508/assignments).
 
 {{< /callout >}}

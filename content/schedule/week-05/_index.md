@@ -7,7 +7,7 @@ next: schedule/week-06
 
 ### Slides
 
-<iframe src="/404.html" width="576" height="420" title="Week 1" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://slides.com/chasekanipe/week-4/embed?byline=hidden&share=hidden" width="576" height="420" title="Week 5" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Labs
 

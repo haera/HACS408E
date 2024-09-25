@@ -156,6 +156,10 @@ type: about
 - [Understanding Filesystems](https://www.kingston.com/en/blog/personal-storage/understanding-file-systems)
 - [FreeBSD Docs on ZFS](https://docs.freebsd.org/en/books/handbook/zfs/)
 
+## Return-Oriented-Programming
+
+- [ROPemporium Beginners Guide](https://ropemporium.com/guide.html)
+
 ## Supplemental Lectures
 
 - [AT&T vs. Intel Assembly](/schedule/lectures/supplemental/asm-syntax/)
