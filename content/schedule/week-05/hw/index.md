@@ -39,7 +39,7 @@ If you need a certain gadget but can't find it in the homework binary, remember 
 
 - Remember that each gadget should end with a `ret` instruction.
 - Be sure to disable ASLR with `sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'`
-- Do ask questions in the #homework channel of the Discord
+- Do ask questions in the `#homework` channel of the Discord
 
 ## Submission
 
