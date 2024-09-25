@@ -151,6 +151,11 @@ type: about
 
 - [Maddie Stone's Android App RE 101](https://www.ragingrock.com/AndroidAppRE/)
 
+## Filesystems
+
+- [Understanding Filesystems](https://www.kingston.com/en/blog/personal-storage/understanding-file-systems)
+- [FreeBSD Docs on ZFS](https://docs.freebsd.org/en/books/handbook/zfs/)
+
 ## Supplemental Lectures
 
 - [AT&T vs. Intel Assembly](/schedule/lectures/supplemental/asm-syntax/)
