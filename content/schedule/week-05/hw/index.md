@@ -4,7 +4,15 @@ type: docs
 weight: 4
 ---
 
+### Introduction
+
 In the previous lab, we exploited a buffer overflow to achieve arbitrary code execution. We did this by overwriting the return address with the address of shellcode we included in our input buffer. This caused the program execution to be redirected to the stack, where we placed our malicious shellcode. One of the mitigations implemented by modern operating systems for attack is known as Data Execution Prevention (DEP), which disables execution of memory allocated to the stack. When DEP is enabled and execution is redirected to the stack, it will cause a crash, so for the lab challenge binary an executable stack was manually enabled with the compiler flag `-z execstack`. For your homework, you will extend the exploit you developed during the labs to work on a version of the challenge binary that has a non-executable stack.
+
+### Download the Homework Binary
+
+{{< downloadbutton file="homework" text="homework" >}}
+
+### Background
 
 To execute arbitrary code when the stack is non-executable, hackers developed a technique called [return oriented programming](https://en.wikipedia.org/wiki/Return-oriented_programming) (ROP). The basic idea is to locate many small assembly snippets *already in the program's address space* (where each one ends in a `ret` instruction), figure out a combination of them that accomplishes the desired malicious functionality, and then put a chain of return addresses on the stack. When the program returns from each snippet, it will pop the next return address in the chain of the stack and execute it until it has executed every snippet in your chain. Each of these assembly snippets is known as a ROP gadget and the ordered list of addresses to them is called a ROP chain. This attack is possible because most programs contain hundreds of thousands or millions of assembly instructions, so you can usually combinations of gadgets that accomplish almost anything.
 
