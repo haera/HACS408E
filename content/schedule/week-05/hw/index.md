@@ -10,13 +10,14 @@ In the previous lab, we exploited a buffer overflow to achieve arbitrary code
 execution. We did this by overwriting the return address with the address of
 shellcode we included in our input buffer. This caused the program execution to
 be redirected to the stack, where we placed our malicious shellcode. One of the
-mitigations implemented by modern operating systems for attack is known as Data
-Execution Prevention (DEP), which disables execution of memory allocated to the
-stack. When DEP is enabled and execution is redirected to the stack, it will
-cause a crash, so for the lab challenge binary an executable stack was manually
-enabled with the compiler flag `-z execstack`. For your homework, you will
-extend the exploit you developed during the labs to work on a version of the
-challenge binary that has a non-executable stack.
+mitigations for buffer overflows implemented by modern operating systems is
+known as Data Execution Prevention (DEP), which disables execution of memory if
+it is located in the stack region. When DEP is enabled and execution is
+redirected to the stack, it will cause a crash (segmentation fault). In order to
+allow you to complete the shellcode lab an executable stack was manually enabled
+with the compiler flag `-z execstack`. For your homework, you will extend the
+exploit you developed during the labs to work on a version of the challenge
+binary that has a non-executable stack.
 
 ### Download the Homework Binary
 
@@ -28,19 +29,23 @@ To execute arbitrary code when the stack is non-executable, hackers developed a
 technique called
 [return oriented programming](https://en.wikipedia.org/wiki/Return-oriented_programming)
 (ROP). The basic idea is to locate many small assembly snippets _already in the
-program's address space_ (where each one ends in a `ret` instruction), figure
-out a combination of them that accomplishes the desired malicious functionality,
-and then put a chain of return addresses on the stack. When the program returns
-from each snippet, it will pop the next return address in the chain of the stack
-and execute it until it has executed every snippet in your chain. Each of these
-assembly snippets is known as a ROP gadget and the ordered list of addresses to
-them is called a ROP chain. This attack is possible because most programs
-contain hundreds of thousands or millions of assembly instructions, so you can
-usually combinations of gadgets that accomplish almost anything.
+program's executable address space_ (where each one ends in a `ret`
+instruction). These small bits of code ending in `ret` instructions are called
+'ROP gadgets'. To write shellcode, all one has to do is figure out a combination
+of them that accomplishes the desired malicious functionality, and then put the
+addresses of each gadget to return to on the stack sequentially. This group of
+gadgets is called a 'ROP chain'.
+
+When the program returns from each snippet, it will pop the next return address
+in the chain of the stack and execute it until it gets to a value on the stack
+which is not a valid return address. This attack is possible because most
+programs contain hundreds of thousands to millions of assembly instructions, so
+you can usually find combinations of gadgets that accomplish almost anything.
 
 Though you could search for these gadgets manually with Ghidra, it is usually
 best to use a tool that automatically searches for them. One of the most popular
 ones is called `ROPgadget`, a python utility that can be installed with `pip`.
+Another option is `ropper`, also a python utility.
 
 ```
 pip3 install ropgadget
@@ -92,7 +97,7 @@ one of these shared objects.
 - Remember that each gadget should end with a `ret` instruction.
 - Be sure to disable ASLR with
   `sudo bash -c 'echo 0 > /proc/sys/kernel/randomize_va_space'`
-- Do ask questions in the `#homework` channel of the Discord
+- Ask questions in the `#homework` channel of the Discord
 
 ## Submission
 
