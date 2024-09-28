@@ -3,7 +3,6 @@ title: "Week 06: Protocols"
 type: docs
 prev: schedule/week-05
 next: schedule/week-07
-draft: true
 ---
 
 ### Slides
@@ -14,6 +13,7 @@ draft: true
 
 - [Lab 1](lab-1/)
 - [Lab 2](lab-2/)
+- [Demo Pcap](http_with_jpeg.pcap)
 
 ### Homework
 

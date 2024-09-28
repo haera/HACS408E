@@ -22,7 +22,7 @@ machine has been exploited.
 
 {{< /callout >}}
 
-## Part 1 - Changing Wireshark Columns
+## Part 1 - Walkthrough: Changing Wireshark Columns
 
 {{% steps %}}
 
@@ -42,15 +42,30 @@ The slides can be downloaded from
 
 ### Don't hide any of the columns after you've set them up, just skip to the `Search Filter Expressions` section.
 
-Save the search filters:
+You'll only need to save the first display filter:
 
 - `basic`
-- `basic+`
-- `basic+dns`
 
 {{% /steps %}}
 
 ## Part 2 - Pcap Analysis
+
+For this exercise you will become a network analyst for `Large Corporation™`.
+There have been news reports and bulletins from CISA that the `lokibot` malware
+incidents have been on the rise. An employee at your work has reported
+suspicious behavior to the security team and they've given you (as the resident
+networking expert) some packet captures to look over.
+
+{{< callout type=info >}}
+
+Here is a list of known indicators of the `lokibot` malware:
+
+- HTTP requests to urls ending in `fre.php`
+- A User Agent string of `Mozilla/4.08`
+- The string `ckav.ru` as well as the `victim Host Name` in the content of the
+  HTTP request.
+
+{{< /callout >}}
 
 {{% steps %}}
 
@@ -64,19 +79,65 @@ Save the search filters:
 
 {{< /callout >}}
 
+### Victim Machine Info - Open the first pcap and filter to `dhcp` traffic
+
+DHCP is how a host requests an ip address when joining a network.
+
+Look at the first frame and find the `Requested IP Address` option in the `DHCP`
+drop down.
+
+1. **What is the victim machine's IP address?**
+1. **What is the victim machine's Host Name?**
+
+### Victim Machine Info - Next, filter for `nbns` traffic
+
+Find a frame where the `source IP` matches the address you found above and the
+`info` column contains the correct `Host Name`.
+
+This traffic is common in enterprise networks and can be seen from both Windows
+and MacOS machines. Looking at the ethernet dropdown of the frame details:
+
+1. **What is the mac address of the victim machine?**
+
+The first two bytes of a MAC address indicate the manufacturer of the machine
+and wireshark will fill in the name for you.
+
+### Finding IOCs - Click the `basic` label you created in Part 1 to filter for web traffic
+
+Look for unencrypted http traffic (this will be on `port 80`, colored `green`).
+
+1. **What hostnames do you see?**
+
+Follow the tcp stream of the frames sent to the `parisyoungerfashion.com` host.
+
+1. Do you see any indicators of the `lokibot` malware mentioned above?
+
+### ---------------------------------------------------------------------------
+
+### Malware Artifacts - Open the second pcap, now and click the `basic` label to filter for web traffic.
+
+The person who reported the incident mentioned that they clicked a link in thier
+email to download an invoice document before their computer started acting
+weird. Look for any web requests to download an invoice document.
+
+1. What is the hostname for the site the document was downloaded from?
+1. Are there any other files downloaded from this site?
+1. Export the two files you found and list their names with `MD5` hashes in your
+   report.
+
 {{% /steps %}}
 
 ## Tips
 
-- tip
-- tip
-- tip
+- If you get stuck, ask for help!
+- The real skill of using wireshark is to filter the information down so your
+  not overwhelmed.
 
 ## Submission
 
 {{< callout emoji="📝" >}}
 
 Submit a markdown file with any code you wrote and the answers to questions to
-[ELMS](https://umd.instructure.com/courses/1374508/assignments)?
+[ELMS](https://umd.instructure.com/courses/1374508/assignments).
 
 {{< /callout >}}
