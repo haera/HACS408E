@@ -1,4 +1,5 @@
 build:
+  git pull
   mkdir -p public
   rm -rf public/*
   hugo
