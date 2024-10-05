@@ -1,6 +1,6 @@
 # Quiz Questions
 
-The following is a superset of your quiz questions.
+The following is a superset of your quiz questions. The quiz itself will be multiple-choice.
 
 ## TCP and UDP
 
