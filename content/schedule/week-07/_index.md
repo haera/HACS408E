@@ -15,6 +15,6 @@ draft: false
 - [Lab 1](lab-1/)
 - [Lab 2](lab-2/)
 
-### Homework
+### Midterm
 
-- No homework this week. See the [Midterm Presentation](/schedule/midterm)
+- No homework this week. See the [Midterm Presentation](midterm/)
