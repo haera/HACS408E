@@ -17,4 +17,4 @@ draft: false
 
 ### Homework
 
-- [Homework](hw/)
+- No homework this week. See the [Midterm Presentation](/schedule/midterm)
