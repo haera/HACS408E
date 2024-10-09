@@ -37,7 +37,7 @@ When dealing with malware we want to be able to revert our system to a blank sta
 
 ### Download the malware sample
 
-{{< downloadbutton file="infected.zip" text="infected.zip" >}}
+{{< downloadbutton file="infected.zip" text="/week-07/infected.zip" >}}
 
 The malware is compressed into an encrypted zip file. The password is `infected`. After extracting it you should have an `.exe` file.
 
