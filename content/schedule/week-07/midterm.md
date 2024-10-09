@@ -6,12 +6,12 @@ weight: 4
 
 ## Description
 
-This week you will form groups to reverse engineer real-world malware samples. Your group will be expected to prepare a short (~10 minute) presentation to be given next class. The presentation will be your midterm. To be assigned your sample, first form a group of 3-5 students. Feel free to use the Discord to find group members. Then send a Discord message or email to the instructors with the names of your group members. We will respond with a sample for your group to analyze.
+This week you will form groups to reverse engineer real-world malware samples. Your group will be expected to prepare a short (~10 minute) presentation to be given in two weeks during class (next week we'll be covering more malware topics). The presentation will be your midterm. To be assigned your sample, first form a group of 3-5 students. Feel free to use the Discord to find group members. Then send a Discord message or email to the instructors with the names of your group members. We will respond with a sample for your group to analyze.
 
 ## Tips
 
 - Use Ghidra to inspect your sample in depth
-- Use x64dbg to assist with static analysis
+- Use x64dbg to assist with static analysis (covered in more depth next class)
 - Use the [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/) to triage your sample
 
 ## Assignment

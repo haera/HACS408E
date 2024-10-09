@@ -27,6 +27,10 @@ weight: 1
 
 Install the [ExeSpy](https://ajsmith.org/projects/exespy/) utility, which can be used to view basic information about an Portable Executable file.
 
+### Install x64dbg
+
+Install [x64dbg](https://x64dbg.com/). This application can be used to debug your sample. 
+
 ### Snapshot your Windows VM
 
 When dealing with malware we want to be able to revert our system to a blank state, to ensure the malware hasn't persisted without our knowledge.
