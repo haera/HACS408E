@@ -23,6 +23,10 @@ weight: 1
 
 {{% steps %}}
 
+### Download ExeSpy
+
+Install the [ExeSpy](https://ajsmith.org/projects/exespy/) utility, which can be used to view basic information about an Portable Executable file.
+
 ### Snapshot your Windows VM
 
 When dealing with malware we want to be able to revert our system to a blank state, to ensure the malware hasn't persisted without our knowledge.
@@ -43,6 +47,13 @@ The malware is compressed into an encrypted zip file. The password is `infected`
 
 Does Virus Total detect it as malicious? Does it reveal any other useful information?
 
+### Open the sample in ExeSpy
+
+Try opening the sample in ExeSpy, an open source utility that parse the PE headers. We won't attempt an in-depth analysis yet. Instead, you should look for hints of what the malware might be capable of.
+
+1. What are the programs imports and exports? What do they imply about the malware's functionality?
+2. What strings does the binary contain? Might any of them serve as signatures?
+
 ### Run the sample
 
 Try running the sample inside of your Windows VM. What can you infer about it from its overt behavior? What kind of other behavior might we look for?
@@ -53,13 +64,6 @@ Process monitor will attempt to intercept various call the sample might make to 
 
 1. Try to filter the process monitor output for just the sample
 2. What else can be inferred about its behavior?
-
-### Open the sample in Ghidra
-
-Try opening the sample in Ghidra. We won't attempt an in-depth analysis yet. Instead, you should look for hints of what the malware might be doing without examining the decompilation.
-
-1. What are the programs imports and exports? What do they imply about the malware's functionality?
-2. What strings does the binary contain? Might any of them serve as signatures?
 
 {{% /steps %}}
 
