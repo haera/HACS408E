@@ -8,7 +8,7 @@ draft: false
 
 ### Slides
 
-<iframe src="/404.html" width="576" height="420"></iframe>
+<iframe src="https://slides.com/chasekanipe/week-6/embed" width="576" height="420" title="Week 7" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Labs
 
