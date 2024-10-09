@@ -11,8 +11,8 @@ title: Schedule
 | **25 Sep 2024** |   **5** | **Vulnerability Analysis**              | In class labs, homework               |
 | **02 Oct 2024** |   **6** | **Protocols**                           | In class labs, homework               |
 | **09 Oct 2024** |   **7** | **Malware**                             | In class labs, group malware analysis |
-| **16 Oct 2024** |   **8** | **Group Presentation \+ Cryptanalysis** | In class labs, homework               |
-| **23 Oct 2024** |   **9** | **Rootkits**                            | In class labs, homework               |
+| **16 Oct 2024** |   **8** | **Malware II**                          | In class labs,                        |
+| **23 Oct 2024** |   **9** | **Group Presentation \+ Cryptanalysis** | In class labs, homework               |
 | **30 Oct 2024** |  **10** | **Firmware**                            | In class labs, homework               |
 | **06 Nov 2024** |  **11** | **Hardware**                            | In class labs, homework               |
 | **13 Nov 2024** |  **12** | **Mobile**                              | In class labs, homework               |
@@ -32,6 +32,8 @@ Each week we will dive into a new topic.
 
 In lieu of a midterm exam students will present their reverse engineering
 efforts against malware samples assigned to each group.
+
+See [the midterm presentaion page](/schedule/week-07/midterm/).
 
 ### Final Project
 
