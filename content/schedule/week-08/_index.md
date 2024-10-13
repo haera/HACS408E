@@ -1,5 +1,5 @@
 ---
-title: "Week 08: Cryptanalysis"
+title: "Week 08: Malware II"
 type: docs
 prev: schedule/week-07
 next: schedule/week-09
@@ -17,4 +17,5 @@ draft: true
 
 ### Homework
 
-- [Homework](hw/)
+- No homework again, keep working on the
+  [midterm presentation](/schedule/week-07/midterm).

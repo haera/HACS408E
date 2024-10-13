@@ -1,5 +1,5 @@
 ---
-title: "Week 09: Rootkits"
+title: "Week 09: Cryptography"
 type: docs
 prev: schedule/week-08
 next: schedule/week-10
@@ -13,7 +13,6 @@ draft: true
 ### Labs
 
 - [Lab 1](lab-1/)
-- [Lab 2](lab-2/)
 
 ### Homework
 

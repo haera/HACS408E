@@ -118,6 +118,11 @@ type: about
 - [Windows Sysinternals](https://learn.microsoft.com/en-us/sysinternals/)
   - [Process Monitor (procmon)](https://learn.microsoft.com/en-us/sysinternals/downloads/procmon)
 - [DLLSpy](https://github.com/cyberark/DLLSpy)
+- [NTcore](https://ntcore.com/download/)
+- [PEstudio](https://www.winitor.com)
+  - Usage blogs:
+  - [Varonis](https://www.varonis.com/blog/pestudio)
+  - [SANS]() (TODO)
 
 ## Networking
 
@@ -140,12 +145,17 @@ type: about
 
 - [Google: "List of CTFs"](https://github.com/apsdehal/awesome-ctf)
 - [Trail of Bits](https://trailofbits.github.io/ctf/)
+- [CTF Time Writups](https://ctftime.org/writeups)
+- [Google CTF Beginners Intro](https://jhalon.github.io/2018-google-ctf-beginners-intro/)
 
 ## Malware
 
 - [Virus Total](https://www.virustotal.com)
 - [@malwareunicorn Workshops](https://malwareunicorn.org/#/workshops)
 - [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
+- [Windows API Calls]() (TODO)
+- [Run-Time Dynamic Linking](https://learn.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking)
+- [Windows API Hashing](https://www.ired.team/offensive-security/defense-evasion/windows-api-hashing-in-malware)
 
 ## Android
 
