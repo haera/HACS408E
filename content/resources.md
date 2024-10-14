@@ -142,6 +142,9 @@ type: about
 - [Shell Storm](https://shell-storm.org)
 - [Geoff Chappel, Software Analyst](https://www.geoffchappell.com/index.htm)
 - [Dll Injection Using LoadLibrary](https://arvanaghi.com/blog/dll-injection-using-loadlibrary-in-C/)
+- [Varonis: How to use Ghidra](https://www.varonis.com/blog/how-to-use-ghidra)
+- [Varonis: How to use x64dbg](https://www.varonis.com/blog/how-to-use-x64dbg)
+- [Varonis: Unpack malware w/ x64dbg](https://www.varonis.com/blog/x64dbg-unpack-malware)
 
 ## CTF Resources
 
