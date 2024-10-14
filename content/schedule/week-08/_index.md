@@ -3,7 +3,6 @@ title: "Week 08: Malware II"
 type: docs
 prev: schedule/week-07
 next: schedule/week-09
-draft: true
 ---
 
 ### Slides

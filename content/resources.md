@@ -141,6 +141,7 @@ type: about
 - [Advanced Malware Analysis](https://darungrim.com/research/2020-07-10-windows-malware-analysis-process-artifacts.html)
 - [Shell Storm](https://shell-storm.org)
 - [Geoff Chappel, Software Analyst](https://www.geoffchappell.com/index.htm)
+- [Dll Injection Using LoadLibrary](https://arvanaghi.com/blog/dll-injection-using-loadlibrary-in-C/)
 
 ## CTF Resources
 
