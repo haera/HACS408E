@@ -140,6 +140,7 @@ type: about
 - [d10a pikabot analysis](https://d01a.github.io/pikabot/#dynamic-api-resolving)
 - [Advanced Malware Analysis](https://darungrim.com/research/2020-07-10-windows-malware-analysis-process-artifacts.html)
 - [Shell Storm](https://shell-storm.org)
+- [Geoff Chappel, Software Analyst](https://www.geoffchappell.com/index.htm)
 
 ## CTF Resources
 
