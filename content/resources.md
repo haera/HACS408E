@@ -122,7 +122,7 @@ type: about
 - [PEstudio](https://www.winitor.com)
   - Usage blogs:
   - [Varonis](https://www.varonis.com/blog/pestudio)
-  - [SANS]() (TODO)
+  - [SANS](https://isc.sans.edu/diary/Triaging+suspicious+files+with+pestudio/22706)
 
 ## Networking
 
@@ -158,7 +158,7 @@ type: about
 - [Virus Total](https://www.virustotal.com)
 - [@malwareunicorn Workshops](https://malwareunicorn.org/#/workshops)
 - [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
-- [Windows API Calls]() (TODO)
+- [Windows API Calls](https://sensei-infosec.netlify.app/forensics/windows/api-calls/2020/04/29/win-api-calls-1.html)
 - [Run-Time Dynamic Linking](https://learn.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking)
 - [Windows API Hashing](https://www.ired.team/offensive-security/defense-evasion/windows-api-hashing-in-malware)
 
