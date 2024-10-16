@@ -7,7 +7,7 @@ next: schedule/week-09
 
 ### Slides
 
-<iframe src="/404.html" width="576" height="420"></iframe>
+<iframe src="https://slides.com/chasekanipe/week-7/embed" width="576" height="420" title="Week 8" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Labs
 
