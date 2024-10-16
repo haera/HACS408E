@@ -52,7 +52,7 @@ where the string gets used.
 
 ### Download the shared library
 
-{{< downloadbutton file="MyPusts.dll" text="MyPuts.dll" >}}
+{{< downloadbutton file="MyPuts.dll" text="MyPuts.dll" >}}
 
 1. **What functions does it export? Was this what you were expecting?**
 
