@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: Todo"
+title: "Lab 1: Man-In-The-Middle"
 type: docs
 weight: 1
 ---

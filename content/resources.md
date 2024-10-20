@@ -145,6 +145,8 @@ type: about
 - [Varonis: How to use Ghidra](https://www.varonis.com/blog/how-to-use-ghidra)
 - [Varonis: How to use x64dbg](https://www.varonis.com/blog/how-to-use-x64dbg)
 - [Varonis: Unpack malware w/ x64dbg](https://www.varonis.com/blog/x64dbg-unpack-malware)
+- [devttys0's blog](https://web.archive.org/web/20210421104904/http://www.devttys0.com/blog/)
+- [Quarkslab](https://blog.quarkslab.com/)
 
 ## CTF Resources
 

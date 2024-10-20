@@ -2,24 +2,24 @@
 title: Schedule
 ---
 
-|            Date | Week \# | Topic                                   | Deliverable                           |
-| --------------: | ------: | :-------------------------------------- | :------------------------------------ |
-| **28 Aug 2024** |   **1** | **C \+ Assembly**                       | In class labs, homework               |
-| **04 Sep 2024** |   **2** | **Static Analysis**                     | In class labs, homework               |
-| **11 Sep 2024** |   **3** | **Dynamic Analysis**                    | In class labs, homework               |
-| **18 Sep 2024** |   **4** | **Ghidra**                              | In class labs, homework               |
-| **25 Sep 2024** |   **5** | **Vulnerability Analysis**              | In class labs, homework               |
-| **02 Oct 2024** |   **6** | **Protocols**                           | In class labs, homework               |
-| **09 Oct 2024** |   **7** | **Malware**                             | In class labs, group malware analysis |
-| **16 Oct 2024** |   **8** | **Malware II**                          | In class labs,                        |
-| **23 Oct 2024** |   **9** | **Group Presentation \+ Cryptanalysis** | In class labs, homework               |
-| **30 Oct 2024** |  **10** | **Firmware**                            | In class labs, homework               |
-| **06 Nov 2024** |  **11** | **Hardware**                            | In class labs, homework               |
-| **13 Nov 2024** |  **12** | **Mobile**                              | In class labs, homework               |
-| **20 Nov 2024** |  **13** | **Final Project**                       | Final project, homework               |
-| **27 Nov 2024** |  **14** | **— Fall Break —**                      | —                                     |
-| **04 Dec 2024** |  **15** | **Final Project**                       | **—**                                 |
-| **11 Dec 2024** |  **16** | **— Finals Week —**                     | **Final Project**                     |
+|            Date | Week \# | Topic                                   | Deliverable                 |
+| --------------: | ------: | :-------------------------------------- | :-------------------------- |
+| **28 Aug 2024** |   **1** | **C \+ Assembly**                       | In class labs, ~~homework~~ |
+| **04 Sep 2024** |   **2** | **Static Analysis**                     | In class labs, homework     |
+| **11 Sep 2024** |   **3** | **Dynamic Analysis**                    | In class labs, homework     |
+| **18 Sep 2024** |   **4** | **Ghidra**                              | In class labs, homework     |
+| **25 Sep 2024** |   **5** | **Vulnerability Analysis**              | In class labs, homework     |
+| **02 Oct 2024** |   **6** | **Protocols**                           | In class labs, homework     |
+| **09 Oct 2024** |   **7** | **Malware**                             | In class labs, midterm      |
+| **16 Oct 2024** |   **8** | **Malware II**                          | In class labs, midterm      |
+| **23 Oct 2024** |   **9** | **Group Presentation \+ Cryptanalysis** | In class labs, homework     |
+| **30 Oct 2024** |  **10** | **Firmware**                            | In class labs, homework     |
+| **06 Nov 2024** |  **11** | **Hardware**                            | In class labs, homework     |
+| **13 Nov 2024** |  **12** | **Mobile**                              | In class labs, homework     |
+| **20 Nov 2024** |  **13** | **Final Project**                       | Final project, homework     |
+| **27 Nov 2024** |  **14** | **— Fall Break —**                      | —                           |
+| **04 Dec 2024** |  **15** | **Final Project**                       | **—**                       |
+| **11 Dec 2024** |  **16** | **— Finals Week —**                     | **Final Project**           |
 
 ### Modules
 
