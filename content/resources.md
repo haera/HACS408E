@@ -155,6 +155,10 @@ type: about
 - [CTF Time Writups](https://ctftime.org/writeups)
 - [Google CTF Beginners Intro](https://jhalon.github.io/2018-google-ctf-beginners-intro/)
 
+## Cryptography
+
+- [CryptoPals Challenges](https://cryptopals.com/)
+
 ## Malware
 
 - [Virus Total](https://www.virustotal.com)
@@ -176,6 +180,10 @@ type: about
 ## Return-Oriented-Programming
 
 - [ROPemporium Beginners Guide](https://ropemporium.com/guide.html)
+
+## Golang Reversing
+
+- [Ghostrings](https://github.com/nccgroup/ghostrings)
 
 ## Supplemental Lectures
 
