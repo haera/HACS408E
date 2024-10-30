@@ -64,6 +64,7 @@ Find and examine the file system, answering the following questions in your repo
   - When was this firmware built?
   - What SSH client does it run?
 - Does this firmware contain a web server? If so, where are the files in the file system?
+- Is the `shadow` file included in the file system?
 
 {{% /steps %}}
 
