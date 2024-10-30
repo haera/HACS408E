@@ -12,10 +12,7 @@ weight: 4
 
 ## Description
 
-For this homework you will triage a router firmware. 
-For this homework your task will be to decrypt a file that was encrypted with
-the binary which you analyzed from last weeks homework. You should have all the
-information you need below.
+For this homework you will triage a router firmware, which can be downloaded in three parts.
 
 {{< downloadbutton file=FW_WRT1900ACSV2_2.0.3.201002_prod.zip text="Part 1" >}}
 
