@@ -4,6 +4,17 @@ type: docs
 weight: 4
 ---
 
+{{% callout type=info %}}
+
+**Side Note:** <br> Please complete the following form before Monday November
+4th.
+
+<!-- deno-fmt-ignore-start -->
+{{< downloadbutton file="https://forms.gle/GDu6BRePhmKpoypw5" text="Review Week Form" >}}
+<!-- deno-fmt-ignore-end -->
+
+{{% /callout %}}
+
 ## Description
 
 For this homework your task will be to decrypt a file that was encrypted with

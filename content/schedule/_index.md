@@ -14,7 +14,7 @@ title: Schedule
 | **16 Oct 2024** |   **8** | **Malware II**                          | In class labs, midterm      |
 | **23 Oct 2024** |   **9** | **Group Presentation \+ Cryptanalysis** | In class labs, homework     |
 | **30 Oct 2024** |  **10** | **Firmware**                            | In class labs, homework     |
-| **06 Nov 2024** |  **11** | **Hardware**                            | In class labs, homework     |
+| **06 Nov 2024** |  **11** | **Review / Go Reversing**               | In class labs, homework     |
 | **13 Nov 2024** |  **12** | **Mobile**                              | In class labs, homework     |
 | **20 Nov 2024** |  **13** | **Final Project**                       | Final project, homework     |
 | **27 Nov 2024** |  **14** | **— Fall Break —**                      | —                           |
