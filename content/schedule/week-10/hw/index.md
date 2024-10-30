@@ -17,7 +17,7 @@ For this homework your task will be to decrypt a file that was encrypted with
 the binary which you analyzed from last weeks homework. You should have all the
 information you need below.
 
-{{< downloadbutton file=FW_WRT1900ACSV2_2.0.3.201002_prod.img text="Part 1" >}}
+{{< downloadbutton file=FW_WRT1900ACSV2_2.0.3.201002_prod.zip text="Part 1" >}}
 
 {{< downloadbutton file=FW_WRT1900ACSV2_2.0.3.201002_prod.z01 text="Part 2" >}}
 
