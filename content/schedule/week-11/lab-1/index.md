@@ -4,21 +4,8 @@ type: docs
 weight: 1
 ---
 
-install `jadx`
-
-```sh {filename=Bash}
-sudo apt install jadx
-```
-
-Install `apktool` and `jadx`
-
-Steps:
-
-1. Naieve analysis
-   - unzip apk file
-   - can you read the andoid manifest file? no, but try `xxd` or `strings -b`
-   - What are the most common file extensions in the assets folder?
-     - `for file in $(find -type f); do tmp=$(basename -- "$file"); extension="${tmp##*.}"; echo $extension; done | sort | uniq -c | sort -n -r`
+- can you read the andoid manifest file? no, but try `xxd` or `strings -b`
+- ## What are the most common file extensions in the assets folder?
 
 2. Apktool
    - Apktools main use case is for reassembly but you can also use it to reverse
@@ -62,3 +49,70 @@ Steps:
          - What are the 3 functions where it is called?
          - Which function requests a permission that is related to the SMS fraud
            we think the app is doing?
+
+## Overview
+
+{{< callout emoji="💡" >}}
+
+explaination
+
+**Goals:**
+
+- goal
+- goal
+- goal
+
+**Estimated Time:** `45 Minutes`
+
+{{< /callout >}}
+
+## Instructions
+
+{{% steps %}}
+
+### Install Dependencies
+
+Install `apktool` and `jadx`.
+
+```sh {filename=Bash}
+sudo apt install jadx apktool
+```
+
+### Naieve Analysis
+
+Android packages are also zip files so you can just run `unzip` to extract the
+contents. Extract the contents to answer the following questions:
+
+1. **What type of file is the Manifest.xml file?**
+
+At this stage you won't be able to read the file but you can still get
+information from the file. Try using `xxd` or `strings -b`.
+
+Looking at the resources folder, use the following script to print the count of
+each file extension.
+
+````bash {filename=Bash}
+for file in $(find -type f); do tmp=$(basename -- "$file"); extension="${tmp##*.}"; echo $extension; done | sort | uniq -c | sort -n -r
+```
+
+2. **
+
+### Step3
+
+{{% /steps %}}
+
+## Tips
+
+- tip
+- tip
+- tip
+
+## Submission
+
+{{< callout emoji="📝" >}}
+
+Submit a markdown file with any code you wrote and the answers to questions to
+[ELMS](https://umd.instructure.com/courses/1374508/assignments).
+
+{{< /callout >}}
+````
