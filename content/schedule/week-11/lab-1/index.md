@@ -54,7 +54,7 @@ Install `apktool` and `jadx`.
 sudo apt install jadx apktool
 ```
 
-### Naieve Analysis
+### Naive Analysis
 
 Android packages are also zip files so you can just run `unzip` to extract the
 contents. Extract the contents to answer the following questions:
