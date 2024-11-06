@@ -1,10 +1,15 @@
 ---
-title: "HW: Todo"
+title: "HW: Android App CTF"
 type: docs
 weight: 4
 ---
 
 ## Description
+
+In this homework you are trying to figure out what the flag is by reverse
+engineering an android app. The flag will be in the form of `cygym3{...}`.
+
+TODO
 
 {{% steps %}}
 
