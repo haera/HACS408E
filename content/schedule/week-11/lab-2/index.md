@@ -71,7 +71,7 @@ linux commands on a phone.
 
 ### Look for vulnerable code
 
-Start by searching for uses of `Runtime.exec()`
+Start by searching for uses of `getRuntime()`
 
 4. **Explain what command gets executed.**
 

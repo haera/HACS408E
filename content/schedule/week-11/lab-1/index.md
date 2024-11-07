@@ -62,7 +62,7 @@ contents. Extract the contents to answer the following questions:
 1. **What type of file is the Manifest.xml file?**
 
 At this stage you won't be able to read the file but you can still get
-information from the file. Try using `xxd` or `strings -b`.
+information from the file. Try using `xxd` or `strings -eb`.
 
 Looking at the resources folder, use the following script to print the count of
 each file extension.
