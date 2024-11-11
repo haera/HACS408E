@@ -60,6 +60,7 @@ type: about
 - [Julia Evans' Comics](https://wizardzines.com/comics/)
 - [Crackme Challenges](https://crackmes.one)
 - [SEED Labs](https://seedsecuritylabs.org/labs.html)
+- [HTML Preview](https://htmlpreview.github.io/)
 
 ## More Links
 
@@ -188,3 +189,4 @@ type: about
 ## Supplemental Lectures
 
 - [AT&T vs. Intel Assembly](/schedule/lectures/supplemental/asm-syntax/)
+- [Reversing Tips + Golang](/schedule/lectures/supplemental/reversing_tips/)
