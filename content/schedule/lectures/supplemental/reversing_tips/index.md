@@ -114,3 +114,10 @@ Jesus Espino |
 - Strings are not stored the same way as C.
 
 - [CUJO Blog Post](https://cujo.com/blog/reverse-engineering-go-binaries-with-ghidra/)
+
+---
+
+### Ghidra Support
+
+- See the
+  [Ghidra Change Log](https://htmlpreview.github.io/?https://github.com/NationalSecurityAgency/ghidra/blob/Ghidra_11.2.1_build/Ghidra/Configurations/Public_Release/src/global/docs/ChangeHistory.html)
