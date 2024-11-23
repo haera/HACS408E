@@ -61,7 +61,7 @@ about the progress you make on `Task 3`. Your report should explain what you
 learned about the program, the methods you used and explainations of why you
 used each method.
 
-### Report Structure
+### Report Structure (`30 pts`)
 
 1. Triage (`3 pts`):
    - Give an overview of the program.
