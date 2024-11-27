@@ -65,11 +65,11 @@ used each method.
 
 1. Triage (`3 pts`):
    - Give an overview of the program.
-1. Static Analysis (`9 pts`):
+1. Static Analysis (`12 pts`):
    - `6 pts` - Give a high level overview of what you think the program is
      trying to do. Use supporting evidence from Ghidra and explain your process
      for analyzing the software.
-   - `3 pts` - Document the library used for client/server communications.
+   - `6 pts` - Document the library used for client/server communications.
      - Do some research to figure out what this library is and provide and
        overview of the protocol.
      - Cite your sources.
@@ -79,12 +79,12 @@ used each method.
    - `6 pts` - Demonstrate usage of wireshark to view and decode network
      traffic. Explain what filters you used and why. Does wireshark support the
      communications protocol you researched during static analysis?
-1. Interacting with the Target Program (`6 pts`):
+1. Interacting with the Target Program (`3 pts`):
    - Write some code to respond to the server in the way that it expects. We
      recommend using `go` for this but you will be able to complete this using
      other languages.
-   - `3 pts` - Get the target program past the first error message.
-   - `3 pts` - Demonstrate the ability to interact with the target program. This
+   - `1 pts` - Get the target program past the first error message.
+   - `2 pts` - Demonstrate the ability to interact with the target program. This
      means sending a message and getting a response back.
 
 ## Submission
