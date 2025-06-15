@@ -188,5 +188,5 @@ type: about
 
 ## Supplemental Lectures
 
-- [AT&T vs. Intel Assembly](/schedule/lectures/supplemental/asm-syntax/)
-- [Reversing Tips + Golang](/schedule/lectures/supplemental/reversing_tips/)
+- [AT&T vs. Intel Assembly](/lectures/supplemental/asm-syntax/)
+- [Reversing Tips + Golang](/lectures/supplemental/reversing_tips/)

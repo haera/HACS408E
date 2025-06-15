@@ -22,6 +22,8 @@ interactive labs, at-home assignments, and a final project.
 
 {{< card link="schedule/" title="Schedule" icon="user" >}}
 
+{{< card link="lectures/" title="Lectures" icon="book-open" >}}
+
 {{< card link="resources/" title="Resources" icon="book-open" >}}
 
 {{< /cards >}}

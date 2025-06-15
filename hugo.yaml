@@ -24,9 +24,12 @@ menu:
     - name: Schedule
       pageRef: /schedule/
       weight: 2
+    - name: Lectures
+      pageRef: /lectures/
+      weight: 3
     - name: Resources
       pageRef: /resources/
-      weight: 3
+      weight: 4
     - name: Search
       weight: 5
       params:
