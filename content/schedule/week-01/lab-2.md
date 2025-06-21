@@ -1,12 +1,11 @@
 ---
 title: "Lab 2: Assembly Language - Basics"
-type: docs
 weight: 2
 ---
 
-## Overview
-
 {{< callout emoji="💡" >}}
+
+**Explaination:**
 
 This lab is meant to get you comfortable interacting with assembly language. You
 will learn how to look up instructions and write assembly code.
@@ -20,30 +19,60 @@ will learn how to look up instructions and write assembly code.
 
 {{< /callout >}}
 
+## Demo
+
+First, follow along with the demo at https://thlorenz.com/visulator/
+
 ## Instructions
 
 {{% steps %}}
 
-### Setup
+### Install Assembler + Grab Template Code
 
-- First install an assembler. Either [`as`](https://www.nasm.us) or
-  [`nasm`](https://www.nasm.us) will do.
+- First install an assembler. We will be using [`nasm`](https://www.nasm.us) for
+  this lab. If you are using the class VM, it is already installed.
 
-{{< callout type="info" >}}
+> [!NOTE]
+> There are two common syntaxes for assembly language: AT&T and Intel. You may
+> see both based on which reverse engineering tool you're using. We'll only be
+> using Intel syntax in this class but check
+> [the assembly syntax supplemental lecture](/supplemental/asm-syntax) for more
+> details.
 
-The syntax for the program you write will change based on the assembler you use.
-Make sure to consult the documentation for the assembler to see which format
-(AT&T vs Intel) it uses.
+{{% details title="Template Code" closed="true" %}}
 
-{{< /callout >}}
+```NASM
+extern printf
+section .text
 
-- Download a template file to start writing assembly code:
+global main
 
-{{< downloadbutton file=../gas-template.s text="GAS" >}}
+main:
+    ; START: your code
 
-{{< downloadbutton file=../nasm-template.s text="NASM" >}}
+    ; END: your code
+
+    mov rdi, $fmt_str
+    xor al, al
+    call printf
+    ret 0
+
+section .data
+
+fmt_str:
+    db  "The value of $rsi is 0x%zX",10,0
+```
+
+{{% /details %}}
 
 ### Simple Arithmetic
+
+> [!TIP]
+>
+> - The
+>   [NASM Documentation](https://www.nasm.us/xdoc/2.16.03/html/nasmdo12.html) is
+>   excellent.
+> - Don't be afraid to google things.
 
 - Store two `immediate` numbers of your choice in the general purpose registers
   `r8` and `r9`.
@@ -89,30 +118,16 @@ Make sure to consult the documentation for the assembler to see which format
 
 ## Testing
 
-### GNU Assembler
-
 To compile, run:
 
-```{filename=Bash}
-as -o main.o gas-template.s
-gcc -static -o main main.o
-./main
-```
-
-### Netwide Assembler
-
-To compile, run:
-
-```{filename=Bash}
+```bash {filename=Bash}
+# Generate an object file
 nasm -f elf64 -o main.o nasm-template.s
+# Link the object into an actual executable
 gcc -static -o main main.o
+# Run it!
 ./main
 ```
-
-## Tips
-
-- Look at the documentation for your assembler if you're getting syntax errors!
-- Don't be afraid to google things.
 
 ## Submission
 
@@ -121,8 +136,8 @@ gcc -static -o main main.o
 Submit a markdown file with any code you wrote and the answers to the following
 questions to [ELMS](https://umd.instructure.com/courses/1374508/assignments).
 
-{{< /callout >}}
-
 1. What are the `rip`, `rsp`, and `rbp` registers?
 
 1. What does `xor %eax %eax` do?
+
+{{< /callout >}}
