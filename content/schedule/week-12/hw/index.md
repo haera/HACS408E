@@ -1,6 +1,5 @@
 ---
 title: "HW: NSA Codebreaker 1-2"
-type: docs
 weight: 4
 ---
 

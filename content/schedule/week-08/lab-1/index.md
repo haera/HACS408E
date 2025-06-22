@@ -1,6 +1,5 @@
 ---
 title: "Lab 1: Anti-Reversing - Packing"
-type: docs
 weight: 1
 ---
 
@@ -57,7 +56,7 @@ In the `program trees` window, double click on the `.text` section.
 
 Next double click on the `.data` section.
 
-5. **What does the `.data` section contain?
+5. \*\*What does the `.data` section contain?
 6. **What entropy value(s) do you see?**
 
 ### Now examine a mystery packed file

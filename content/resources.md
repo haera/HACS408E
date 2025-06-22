@@ -1,6 +1,8 @@
 ---
 title: Resources
-type: about
+sidebar:
+  exclude: true
+type: default
 ---
 
 ## Reference Texts
@@ -62,18 +64,25 @@ type: about
 - [SEED Labs](https://seedsecuritylabs.org/labs.html)
 - [HTML Preview](https://htmlpreview.github.io/)
 
-## More Links
+## Pages with More Links
 
 - [Paul Veillard (Github)](https://github.com/paulveillard)
   - [Ethical Hacking Links](https://github.com/paulveillard/cybersecurity-ethical-hacking/blob/main/README.md)
 - [Awesome InfoSec](https://github.com/onlurking/awesome-infosec)
 - [CSIRT-MU](https://github.com/CSIRT-MU/edu-resources?tab=readme-ov-file)
+- [Untrusted Network Resources](https://untrustednetwork.net/en/csirt/)
+- [Awesome Malware Analysis](https://github.com/rshipp/awesome-malware-analysis)
 
-## Other Learning
+## Other Learning Platforms
 
 - [MalDev academy](https://maldevacademy.com/)
 - [Vx underground malware code](https://github.com/vxunderground/MalwareSourceCode)
 - [pwn.college](https://pwn.college/program-security/reverse-engineering)
+
+## Reverse Engineering
+
+- [learning-reverse-engineering (Github)](https://github.com/jstrosch/learning-reverse-engineering)
+  by [thecyberyeti](https://thecyberyeti.com/)
 
 ## Assembly Language
 
@@ -87,6 +96,8 @@ type: about
 - [Intel Programmers Manuals (Vol. 2)](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
 - [Compiler Explorer](https://godbolt.org/) |
   [Decompiler Explorer](https://dogbolt.org)
+- [Visual ARM Emulator](https://salmanarif.bitbucket.io/visual/)
+- [x86_64 Playground](https://x64.halb.it/)
 
 ## Static Analysis
 
@@ -148,6 +159,10 @@ type: about
 - [Varonis: Unpack malware w/ x64dbg](https://www.varonis.com/blog/x64dbg-unpack-malware)
 - [devttys0's blog](https://web.archive.org/web/20210421104904/http://www.devttys0.com/blog/)
 - [Quarkslab](https://blog.quarkslab.com/)
+- [Malware Tech (Marcus Hutchins)](https://malwaretech.com/)
+- [Untrusted Network](https://untrustednetwork.net/)
+- [SANS Institute](https://www.sans.org/blog)
+  - [Start Learning Malware Analysis](https://www.sans.org/blog/how-you-can-start-learning-malware-analysis/)
 
 ## CTF Resources
 
@@ -168,6 +183,14 @@ type: about
 - [Windows API Calls](https://sensei-infosec.netlify.app/forensics/windows/api-calls/2020/04/29/win-api-calls-1.html)
 - [Run-Time Dynamic Linking](https://learn.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking)
 - [Windows API Hashing](https://www.ired.team/offensive-security/defense-evasion/windows-api-hashing-in-malware)
+- [Remnux](https://docs.remnux.org/): A linux toolkit for malware analysis
+- Commonly Used by Malware:
+  - [File Extensions](https://filesec.io/)
+  - [Api Calls](https://malapi.io/)
+  - [Trusted Domain Names](https://lots-project.com/)
+- [Living Off The Land techniques](https://lolbas-project.github.io/)
+- [GTFOBins](https://gtfobins.github.io/)
+- [Historical Malware Information](http://virus.wikidot.com/)
 
 ## Android
 

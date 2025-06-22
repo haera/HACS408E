@@ -1,6 +1,5 @@
 ---
 title: "HW: 'Ransomware' Reversing"
-type: docs
 weight: 4
 ---
 

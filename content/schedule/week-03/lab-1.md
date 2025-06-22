@@ -1,6 +1,5 @@
 ---
 title: "Lab 1: Tracing and LD_PRELOAD"
-type: docs
 weight: 1
 ---
 

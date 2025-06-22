@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: Hijacking Control Flow"
-type: docs
 weight: 2
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: Malware Traffic Analysis"
-type: docs
 weight: 2
 ---
 

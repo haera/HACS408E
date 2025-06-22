@@ -1,6 +1,5 @@
 ---
 title: "Kali: Setting Up SSH"
-type: docs
 ---
 
 {{% callout type=warning %}}

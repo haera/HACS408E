@@ -1,6 +1,5 @@
 ---
 title: "Lab 1: Premium SMS Fraud"
-type: docs
 weight: 1
 ---
 

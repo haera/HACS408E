@@ -1,6 +1,5 @@
 ---
 title: "Lab 1: Unpacking"
-type: docs
 weight: 1
 ---
 
@@ -94,7 +93,7 @@ First we'll extract the bootloader (`u-boot image`) using the `dd` command.
 
 ```bash {filename=Bash}
 $ export BOOT_OFFSET=23728
-$ export BOOT_LENGTH=$((63976 - 23728)) 
+$ export BOOT_LENGTH=$((63976 - 23728))
 $ dd if=firmware.bin of=bootloader.bin bs=1 skip=$BOOT_OFFSET count=$BOOT_LENGTH
 ```
 

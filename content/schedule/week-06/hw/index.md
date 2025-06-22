@@ -1,6 +1,5 @@
 ---
 title: "HW: Pcap Analysis"
-type: docs
 weight: 4
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: Demo - Ghidra Structure Editor"
-type: docs
 weight: 2
 ---
 
@@ -92,8 +91,11 @@ int main() {
 - Graph View
 - Function caller/callee references
 
-{{< downloadbutton file="/schedule/week-02/lab-2/libmagic.so.1" text="libmagic"
->}}
+<!-- deno-fmt-ignore-start -->
+
+{{< downloadbutton file="/schedule/week-02/lab-2/libmagic.so.1" text="libmagic" >}}
+
+<!-- deno-fmt-ignore-end -->
 
 {{% /steps %}}
 

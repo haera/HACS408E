@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: Analyzing Executables"
-type: docs
 weight: 2
 prev: /schedule/week-02/lab-1/
 next: /schedule/week-02/hw/

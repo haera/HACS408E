@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: System Analysis"
-type: docs
 weight: 2
 ---
 

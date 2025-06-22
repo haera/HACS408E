@@ -1,6 +1,5 @@
 ---
 title: "Lab 1: Buffer Overflows"
-type: docs
 weight: 1
 ---
 

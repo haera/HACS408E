@@ -1,6 +1,5 @@
 ---
 title: "Lab-2: Go Reversing Example"
-type: docs
 weight: 1
 ---
 

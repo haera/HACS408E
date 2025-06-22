@@ -1,6 +1,5 @@
 ---
 title: "HW: Firmware Triage"
-type: docs
 weight: 4
 ---
 

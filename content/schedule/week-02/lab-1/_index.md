@@ -1,6 +1,5 @@
 ---
 title: "Lab 1: Triage"
-type: docs
 weight: 1
 next: /schedule/week-02/lab-2/
 ---
@@ -41,6 +40,7 @@ For each of the Following files, complete the steps below and answer questions.
 ### First look at the bytes of the file using a hex viewer.
 
 - For example:
+
   ```{filename=Bash}
   sudo apt install hexyl
   hexyl <file_##> | less -R

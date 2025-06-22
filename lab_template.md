@@ -1,6 +1,5 @@
 ---
 title: ""
-type: docs
 next: docs/
 ---
 

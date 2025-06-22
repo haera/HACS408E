@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: Command Execution Vulnerability"
-type: docs
 weight: 2
 ---
 

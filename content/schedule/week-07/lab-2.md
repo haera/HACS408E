@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: Malware Analysis"
-type: docs
 weight: 2
 ---
 
@@ -8,7 +7,9 @@ weight: 2
 
 {{< callout emoji="💡" >}}
 
-In this lab you will perform an in-depth analysis of our malware sample. You may use all of the tools we previously covered, though it's expected that this portion is easiest to complete with Ghidra.
+In this lab you will perform an in-depth analysis of our malware sample. You may
+use all of the tools we previously covered, though it's expected that this
+portion is easiest to complete with Ghidra.
 
 **Goals:**
 
@@ -22,7 +23,8 @@ In this lab you will perform an in-depth analysis of our malware sample. You may
 
 ## Questions
 
-Since this is a malware sample, there are some key questions you should address in your writeup.
+Since this is a malware sample, there are some key questions you should address
+in your writeup.
 
 - Does this sample connect to the internet?
 - Is there a way to disable this sample on infected machines?
@@ -33,8 +35,10 @@ Since this is a malware sample, there are some key questions you should address 
 
 ## Hints
 
-- Real-world malware can be bloated and complicated. Don't try to understand what every function does.
-- Look for key functions using information identified in the previous lab and focus on those
+- Real-world malware can be bloated and complicated. Don't try to understand
+  what every function does.
+- Look for key functions using information identified in the previous lab and
+  focus on those
 - Look at the cross-references to important strings, imports, and functions
 
 ## Submission
@@ -45,4 +49,3 @@ Submit a markdown file with your answers to the questions above to
 [ELMS](https://umd.instructure.com/courses/1374508/assignments).
 
 {{< /callout >}}
-

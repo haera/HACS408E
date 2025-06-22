@@ -1,6 +1,5 @@
 ---
 title: "HW: Reversing Go Malware"
-type: docs
 weight: 4
 draft: true
 ---

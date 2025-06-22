@@ -9,3 +9,6 @@ dev:
 
 install_deps:
   git submodule init && git submodule update
+
+format:
+  deno fmt --ext md $(fd --exclude assets/ '\.md$')

@@ -1,6 +1,5 @@
 ---
 title: "Lab 1: Wireshark"
-type: docs
 weight: 1
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: Dynamic Function Calls"
-type: docs
 weight: 2
 ---
 

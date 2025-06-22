@@ -1,6 +1,7 @@
 ---
 title: "Lab Infrastructure Setup"
-type: docs
+sidebar:
+  exclude: true
 ---
 
 ## Update:

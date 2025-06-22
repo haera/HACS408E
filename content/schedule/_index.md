@@ -2,24 +2,24 @@
 title: Schedule
 ---
 
-|            Date |   Week | Topic                                   | Deliverable                      |
-| --------------: | -----: | :-------------------------------------- | :------------------------------- |
-| **28 Aug 2024** |  **1** | **C \+ Assembly**                       | In class labs, ~~homework~~      |
-| **04 Sep 2024** |  **2** | **Static Analysis**                     | In class labs, homework          |
-| **11 Sep 2024** |  **3** | **Dynamic Analysis**                    | In class labs, homework          |
-| **18 Sep 2024** |  **4** | **Ghidra**                              | In class labs, homework          |
-| **25 Sep 2024** |  **5** | **Vulnerability Analysis**              | In class labs, homework          |
-| **02 Oct 2024** |  **6** | **Protocols**                           | In class labs, homework          |
-| **09 Oct 2024** |  **7** | **Malware**                             | In class labs, midterm           |
-| **16 Oct 2024** |  **8** | **Malware II**                          | In class labs, midterm           |
-| **23 Oct 2024** |  **9** | **Group Presentation \+ Cryptanalysis** | In class labs, homework          |
-| **30 Oct 2024** | **10** | **Firmware**                            | In class labs, homework          |
-| **06 Nov 2024** | **11** | **Mobile**                              | In class labs, homework          |
-| **13 Nov 2024** | **12** | **Review && Go + Rust Reversing**       | In class labs, homework          |
-| **20 Nov 2024** | **13** | **Final Project**                       | Final project (Due by 8 of Dec.) |
-| **27 Nov 2024** | **14** | **— Fall Break —**                      | —                                |
-| **04 Dec 2024** | **15** | **Final Project**                       | Final project (Due by 8 of Dec.) |
-| **11 Dec 2024** | **16** | **— Finals Week —**                     | Good luck on your other finals!  |
+|   Week |               Date | Topic                                      | Deliverable                                                                                                 |
+| -----: | -----------------: | :----------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
+|  **1** |    **03 Sep 2025** | **C Programming \+ Assembly**              | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}}                                           |
+|  **2** |    **10 Sep 2025** | **Triage \+ Static Analysis**              | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}}                                           |
+|  **3** |    **17 Sep 2025** | **Dynamic Analysis**                       | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}}                                           |
+|  **4** |    **24 Sep 2025** | **Ghidra**                                 | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}} {{< badge content="Quiz" type="error" >}} |
+|  **5** |    **01 Oct 2025** | **Protocols**                              | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}}                                           |
+|  **6** |    **08 Oct 2025** | **Vulnerability Analysis**                 | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}}                                           |
+|  **7** |    **15 Oct 2025** | **Malware**                                | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}} {{< badge content="Quiz" type="error" >}} |
+|  **8** |    **22 Oct 2025** | **Malware II**                             | {{< badge "Labs" >}}                                                                                        |
+|  **9** |    **29 Oct 2025** | **Group Presentation \+ Cryptanalysis**    | {{< badge "Labs" >}} {{< badge content="Midterm" type="warning" >}}                                         |
+| **10** |    **05 Nov 2025** | **Embedded Firmware Analysis**             | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}}                                           |
+| **11** |    **12 Nov 2025** | **Android App Reversing**                  | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}} {{< badge content="Quiz" type="error" >}} |
+| **12** |    **19 Nov 2025** | **Reversing Modern Languages (Go + Rust)** | {{< badge "Labs" >}} {{< badge content="Homework" type="info" >}}                                           |
+| **13** |    **26 Nov 2025** | — Thanksgiving —                           |                                                                                                             |
+| **14** |    **03 Dec 2025** | **TBD**                                    | {{< badge content="Quiz" type="error" >}}                                                                   |
+| **15** |    **10 Dec 2025** | **TBD**                                    | {{< badge content="Final" type="warning" >}}                                                                |
+| **16** | **16-20 Dec 2025** | — Finals Week —                            |                                                                                                             |
 
 ### Modules
 
@@ -37,7 +37,4 @@ See [the midterm presentaion page](/schedule/week-07/midterm/).
 
 ### Final Project
 
-In lieu of a final exam students will work on
-[the NSA Codebreaker Challenge](https://nsa-codebreaker.org/) during the last
-two weeks of class. You will submit a write up of your analysis of each challege
-that you complete. You must complete the first 3 challenges for full credit.
+TODO

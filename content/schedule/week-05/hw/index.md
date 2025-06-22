@@ -1,6 +1,5 @@
 ---
 title: "HW: Return Oriented Programming"
-type: docs
 weight: 4
 ---
 

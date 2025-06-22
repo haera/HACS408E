@@ -1,6 +1,9 @@
 ---
 title: "Applied Reverse Engineering"
 toc: false
+type: default
+cascade:
+  type: docs
 ---
 
 <img src="images/graph-view.png" style="height: 200px;width:100%;object-fit:cover"></img>

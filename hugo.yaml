@@ -39,6 +39,23 @@ menu:
       url: "https://github.com/0xchase/HACS408E"
       params:
         icon: github
+  sidebar:
+    - name: More
+      params:
+        type: separator
+      weight: 1
+    - name: VM - SSH Setup
+      pageRef: /schedule/lab-setup/ssh-connection
+      weight: 3
+    - name: VM - RDP Setup
+      pageRef: /schedule/lab-setup/rdp-connection
+      weight: 3
+    - name: Midterm Malware Samples
+      pageRef: /schedule/midterm-malware-samples
+      weight: 4
+    - name: Lectures Overview
+      pageRef: /lectures
+      weight: 5
 
 params:
   navbar:

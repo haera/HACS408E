@@ -1,6 +1,7 @@
 # Quiz Questions
 
-The following is a superset of your quiz questions. The quiz itself will be multiple-choice.
+The following is a superset of your quiz questions. The quiz itself will be
+multiple-choice.
 
 ## TCP and UDP
 
@@ -22,7 +23,8 @@ The following is a superset of your quiz questions. The quiz itself will be mult
 
 8. Which OSI layer is responsible for error detection and correction?
 
-9. Which OSI layer is responsible for converting data into electrical signals or bits for transmission?
+9. Which OSI layer is responsible for converting data into electrical signals or
+   bits for transmission?
 
 10. Which OSI layer is responsible for data segmentation and reassembly?
 
@@ -38,14 +40,18 @@ The following is a superset of your quiz questions. The quiz itself will be mult
 
 ### TCP Handshake
 
-15. Which of the following best describes the three-way handshake used in TCP connections?
+15. Which of the following best describes the three-way handshake used in TCP
+    connections?
 
 ## Wireshark
 
 16. Which Wireshark filter would you use to display only incoming HTTP requests?
 
-17. In Wireshark capture filters, which syntax correctly captures all traffic only to the IP address 192.168.0.1?
+17. In Wireshark capture filters, which syntax correctly captures all traffic
+    only to the IP address 192.168.0.1?
 
 ## Port Numbers
 
-There will be a matching question, asking you to match common procols with their port numbers. Review the ports used for the following protocols discussed in class: HTTP, HTTPS, FTP, SSH, DNS, RDP, and QUIC.
+There will be a matching question, asking you to match common procols with their
+port numbers. Review the ports used for the following protocols discussed in
+class: HTTP, HTTPS, FTP, SSH, DNS, RDP, and QUIC.

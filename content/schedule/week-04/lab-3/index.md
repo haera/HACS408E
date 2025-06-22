@@ -1,6 +1,5 @@
 ---
 title: "Lab 3: ReverseMe.exe"
-type: docs
 weight: 3
 ---
 

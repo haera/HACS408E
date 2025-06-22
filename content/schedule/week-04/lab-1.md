@@ -1,6 +1,5 @@
 ---
 title: "Lab 1: Ghidra Intro"
-type: docs
 weight: 1
 ---
 

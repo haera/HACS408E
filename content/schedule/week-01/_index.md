@@ -1,7 +1,6 @@
 ---
 title: "Week 01: C + Assembly"
-type: docs
-prev: /schedule/lectures/
+prev: /schedule/
 next: /schedule/week-02/
 ---
 

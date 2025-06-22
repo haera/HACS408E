@@ -1,6 +1,5 @@
 ---
 title: "HW: Android App CTF"
-type: docs
 weight: 4
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Midterm: Real-World Malware"
-type: docs
 weight: 4
 ---
 

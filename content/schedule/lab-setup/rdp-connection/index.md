@@ -1,6 +1,5 @@
 ---
 title: "Windows: Setting Up RDP"
-type: docs
 ---
 
 {{% callout type=warning %}}

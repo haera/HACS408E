@@ -1,6 +1,5 @@
 ---
 title: "Lab 3: Binaryninja"
-type: docs
 weight: 3
 draft: true
 ---

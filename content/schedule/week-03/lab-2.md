@@ -1,6 +1,5 @@
 ---
 title: "Lab 2: GDB"
-type: docs
 weight: 2
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: "Week 12: Golang Reversing"
-type: docs
 prev: schedule/week-11
 next: schedule/final-project
 ---

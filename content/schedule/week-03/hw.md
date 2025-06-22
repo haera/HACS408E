@@ -1,6 +1,5 @@
 ---
 title: "HW: Solve Binary Challenges (Phases 1-3)"
-type: docs
 weight: 4
 ---
 
