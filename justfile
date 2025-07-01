@@ -1,4 +1,5 @@
 build:
+  just install_deps
   git pull
   mkdir -p public
   rm -rf public/*
